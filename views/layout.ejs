@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %> - Wholesale Education</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/premium-design.css">
+    <link rel="stylesheet" href="/css/premium-ads.css">
+    <link rel="stylesheet" href="/css/global-styles.css">
+    <meta name="description" content="The world's largest wholesale education platform. Learn to buy, sell, and run wholesale businesses across every industry and product category.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-top-content">
+                    <div class="contact-info">
+                        <span class="contact-item">
+                            <i class="icon">📧</i>
+                            <span>support@wholesale.education</span>
+                        </span>
+                        <span class="contact-item">
+                            <i class="icon">📞</i>
+                            <span>1-800-WHOLESALE</span>
+                        </span>
+                    </div>
+                    <div class="header-actions">
+                        <a href="/login" class="btn-login">Login</a>
+                        <a href="/register" class="btn-register">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="header-main">
+            <div class="container">
+                <div class="header-content">
+                    <div class="logo">
+                        <a href="/" class="logo-link">
+                            <div class="logo-icon">🏭</div>
+                            <div class="logo-text">
+                                <h1>wholesale.education</h1>
+                                <span class="tagline">Educating the World on Wholesale Business</span>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <nav class="nav">
+                        <ul class="nav-links">
+                            <li class="nav-item">
+                                <a href="/" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="/category/learn-wholesale" class="nav-link">Learn Wholesale</a>
+                                <div class="dropdown-menu">
+                                    <a href="/page/what-is-wholesale-complete-beginner-guide">What is Wholesale?</a>
+                                    <a href="/page/types-of-wholesale-business-models">Business Models</a>
+                                    <a href="/page/wholesale-vs-retail-key-differences">Wholesale vs Retail</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="/category/industries" class="nav-link">Industries</a>
+                                <div class="dropdown-menu">
+                                    <a href="/page/wholesale-coffee-beans-by-the-container">Food & Beverage</a>
+                                    <a href="/page/bulk-electronics-wholesale-guide">Electronics</a>
+                                    <a href="/page/wholesale-fashion-apparel-sourcing">Fashion</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="/category/buying-formats" class="nav-link">Buying Formats</a>
+                                <div class="dropdown-menu">
+                                    <a href="/page/case-vs-pallet-vs-container-which-to-choose">Case vs Pallet vs Container</a>
+                                    <a href="/page/wholesale-auctions-closeouts-guide">Auctions & Closeouts</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="/category/suppliers" class="nav-link">Suppliers</a>
+                                <div class="dropdown-menu">
+                                    <a href="/page/how-to-find-and-vet-wholesale-suppliers">Find & Vet Suppliers</a>
+                                    <a href="/page/china-wholesale-suppliers-complete-guide">China Suppliers</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="/category/business" class="nav-link">Business</a>
+                                <div class="dropdown-menu">
+                                    <a href="/page/wholesale-business-accounting-finance">Accounting & Finance</a>
+                                    <a href="/page/marketing-your-wholesale-business">Marketing</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="/category/tools" class="nav-link">Tools</a>
+                                <div class="dropdown-menu">
+                                    <a href="/page/wholesale-profit-margin-calculator">Profit Calculator</a>
+                                    <a href="/page/wholesale-business-templates-contracts">Templates</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                    
+                    <div class="header-actions-main">
+                        <div class="search-box">
+                            <form action="/search" method="GET" class="search-form">
+                                <div class="search-input-group">
+                                    <input type="text" name="q" placeholder="Search wholesale products, suppliers, guides..." value="<%= typeof query !== 'undefined' ? query : '' %>" class="search-input">
+                                    <button type="submit" class="search-btn">
+                                        <i class="icon">🔍</i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                        <button class="mobile-menu-toggle">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <%- body %>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-main">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section footer-brand">
+                        <div class="footer-logo">
+                            <div class="logo-icon">🏭</div>
+                            <div class="logo-text">
+                                <h3>wholesale.education</h3>
+                                <span class="tagline">Educating the World on Wholesale Business</span>
+                            </div>
+                        </div>
+                        <p class="footer-description">
+                            The world's largest wholesale education platform. Learn to buy, sell, and run wholesale businesses across every industry and product category. Join millions of entrepreneurs building successful wholesale operations.
+                        </p>
+                        <div class="social-links">
+                            <a href="#" class="social-link" title="Facebook">
+                                <i class="icon">📘</i>
+                            </a>
+                            <a href="#" class="social-link" title="Twitter">
+                                <i class="icon">🐦</i>
+                            </a>
+                            <a href="#" class="social-link" title="LinkedIn">
+                                <i class="icon">💼</i>
+                            </a>
+                            <a href="#" class="social-link" title="YouTube">
+                                <i class="icon">📺</i>
+                            </a>
+                            <a href="#" class="social-link" title="Instagram">
+                                <i class="icon">📷</i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4>Learn Wholesale</h4>
+                        <ul class="footer-links">
+                            <li><a href="/page/what-is-wholesale-complete-beginner-guide">What is Wholesale?</a></li>
+                            <li><a href="/page/types-of-wholesale-business-models">Business Models</a></li>
+                            <li><a href="/page/wholesale-vs-retail-key-differences">Wholesale vs Retail</a></li>
+                            <li><a href="/category/learn-wholesale">All Beginner Guides</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4>Industries</h4>
+                        <ul class="footer-links">
+                            <li><a href="/page/wholesale-coffee-beans-by-the-container">Food & Beverage</a></li>
+                            <li><a href="/page/bulk-electronics-wholesale-guide">Electronics</a></li>
+                            <li><a href="/page/wholesale-fashion-apparel-sourcing">Fashion & Apparel</a></li>
+                            <li><a href="/category/industries">All Industries</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4>Business Tools</h4>
+                        <ul class="footer-links">
+                            <li><a href="/page/wholesale-profit-margin-calculator">Profit Calculator</a></li>
+                            <li><a href="/page/wholesale-business-templates-contracts">Templates & Contracts</a></li>
+                            <li><a href="/page/how-to-find-and-vet-wholesale-suppliers">Supplier Directory</a></li>
+                            <li><a href="/category/tools">All Tools</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4>Resources</h4>
+                        <ul class="footer-links">
+                            <li><a href="/category/suppliers">Find Suppliers</a></li>
+                            <li><a href="/category/buying-formats">Buying Formats</a></li>
+                            <li><a href="/category/business">Running Business</a></li>
+                            <li><a href="/search">Search All Content</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4>Company</h4>
+                        <ul class="footer-links">
+                            <li><a href="/about">About Us</a></li>
+                            <li><a href="/contact">Contact</a></li>
+                            <li><a href="/privacy">Privacy Policy</a></li>
+                            <li><a href="/terms">Terms of Service</a></li>
+                            <li><a href="/admin">Admin Panel</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <div class="footer-bottom-left">
+                        <p>&copy; 2024 wholesale.education. All rights reserved.</p>
+                        <p class="footer-mission">Educating the World on Wholesale Business</p>
+                    </div>
+                    <div class="footer-bottom-right">
+                        <div class="footer-stats">
+                            <span class="stat">
+                                <strong>1M+</strong> Product Pages
+                            </span>
+                            <span class="stat">
+                                <strong>100+</strong> Industries
+                            </span>
+                            <span class="stat">
+                                <strong>∞</strong> Opportunities
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/main.js"></script>
+    <script src="/js/advertising-system.js"></script>
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+    
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX" crossorigin="anonymous"></script>
+</body>
+</html>

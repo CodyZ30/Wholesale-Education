@@ -1,0 +1,5852 @@
+[
+    {
+        "ts": "2025-09-05T20:23:34+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/checkout.php",
+        "path": "/checkout.php",
+        "referrer": "http://gotta.fish/product/the-bucket-station",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:23:41+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/checkout.php",
+        "path": "/checkout.php",
+        "referrer": "http://gotta.fish/product/the-bucket-station",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:23:51+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/checkout.php",
+        "path": "/checkout.php",
+        "referrer": "http://gotta.fish/product/the-bucket-station",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:27:03+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/checkout.php",
+        "path": "/checkout.php",
+        "referrer": "http://gotta.fish/product/the-bucket-station",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:27:06+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/checkout.php",
+        "path": "/checkout.php",
+        "referrer": "http://gotta.fish/product/the-bucket-station",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:32:07+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/checkout.php",
+        "path": "/checkout.php",
+        "referrer": "http://gotta.fish/product/the-bucket-station",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:32:54+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/checkout.php",
+        "path": "/checkout.php",
+        "referrer": "http://gotta.fish/product/the-bucket-station",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:32:59+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/checkout.php",
+        "path": "/checkout.php",
+        "referrer": "http://gotta.fish/product/the-bucket-station",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:34:42+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/checkout.php",
+        "path": "/checkout.php",
+        "referrer": "http://gotta.fish/product/the-bucket-station",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:34:44+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/home#stickers-products",
+        "path": "/home",
+        "referrer": "http://gotta.fish/checkout.php",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:37:17+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/home#stickers-products",
+        "path": "/home",
+        "referrer": "http://gotta.fish/checkout.php",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:37:24+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/cart",
+        "path": "/cart",
+        "referrer": "http://gotta.fish/home",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:37:29+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/cart",
+        "path": "/cart",
+        "referrer": "http://gotta.fish/home",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:37:30+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/home#stickers-products",
+        "path": "/home",
+        "referrer": "http://gotta.fish/cart",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:37:44+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/home#stickers-products",
+        "path": "/home",
+        "referrer": "http://gotta.fish/cart",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:37:57+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/checkout",
+        "path": "/checkout",
+        "referrer": "http://gotta.fish/home",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:38:04+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/cart",
+        "path": "/cart",
+        "referrer": "http://gotta.fish/checkout",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:39:07+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/shop",
+        "path": "/shop",
+        "referrer": "http://gotta.fish/cart",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:39:12+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/product/the-bucket-station",
+        "path": "/product/the-bucket-station",
+        "referrer": "http://gotta.fish/shop",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:39:14+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/checkout.php",
+        "path": "/checkout.php",
+        "referrer": "http://gotta.fish/product/the-bucket-station",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:40:36+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/checkout.php",
+        "path": "/checkout.php",
+        "referrer": "http://gotta.fish/product/the-bucket-station",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:40:40+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/checkout.php",
+        "path": "/checkout.php",
+        "referrer": "http://gotta.fish/product/the-bucket-station",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:41:08+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "https://gotta.fish/shop",
+        "path": "/shop",
+        "referrer": "https://gotta.fish/home",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate, br, zstd",
+        "connection": "",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:41:31+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "https://gotta.fish/product/monthly-sticker-subscription",
+        "path": "/product/monthly-sticker-subscription",
+        "referrer": "https://gotta.fish/shop",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate, br, zstd",
+        "connection": "",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:41:37+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "https://gotta.fish/home#stickers-products",
+        "path": "/home",
+        "referrer": "https://gotta.fish/product/monthly-sticker-subscription",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate, br, zstd",
+        "connection": "",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:41:55+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "https://gotta.fish/shop",
+        "path": "/shop",
+        "referrer": "https://gotta.fish/home",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate, br, zstd",
+        "connection": "",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:45:59+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/checkout.php",
+        "path": "/checkout.php",
+        "referrer": "http://gotta.fish/product/the-bucket-station",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:46:02+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/home#stickers-products",
+        "path": "/home",
+        "referrer": "http://gotta.fish/checkout.php",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:46:11+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/stickers",
+        "path": "/stickers",
+        "referrer": "",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:48:16+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/stickers",
+        "path": "/stickers",
+        "referrer": "",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:48:19+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/shop",
+        "path": "/shop",
+        "referrer": "http://gotta.fish/stickers",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:48:22+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/product/the-bucket-station",
+        "path": "/product/the-bucket-station",
+        "referrer": "http://gotta.fish/shop",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:48:24+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/checkout.php",
+        "path": "/checkout.php",
+        "referrer": "http://gotta.fish/product/the-bucket-station",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:48:49+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/checkout.php",
+        "path": "/checkout.php",
+        "referrer": "http://gotta.fish/product/the-bucket-station",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:50:56+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/checkout.php",
+        "path": "/checkout.php",
+        "referrer": "http://gotta.fish/product/the-bucket-station",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:51:49+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/checkout.php",
+        "path": "/checkout.php",
+        "referrer": "http://gotta.fish/product/the-bucket-station",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:51:50+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/product/the-bucket-station",
+        "path": "/product/the-bucket-station",
+        "referrer": "http://gotta.fish/shop",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:51:53+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/home#stickers-products",
+        "path": "/home",
+        "referrer": "http://gotta.fish/product/the-bucket-station",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:51:59+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/stickers",
+        "path": "/stickers",
+        "referrer": "",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:52:08+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/checkout",
+        "path": "/checkout",
+        "referrer": "http://gotta.fish/stickers",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:53:22+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/checkout",
+        "path": "/checkout",
+        "referrer": "http://gotta.fish/stickers",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:53:25+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/stickers",
+        "path": "/stickers",
+        "referrer": "http://gotta.fish/checkout",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:53:29+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/category/stickers",
+        "path": "/category/stickers",
+        "referrer": "http://gotta.fish/stickers",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:53:34+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/guides",
+        "path": "/guides",
+        "referrer": "http://gotta.fish/category/stickers",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:53:36+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/guides/redfish-on-the-flats-sight-fishing-basics",
+        "path": "/guides/redfish-on-the-flats-sight-fishing-basics",
+        "referrer": "http://gotta.fish/guides",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:57:38+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "https://gotta.fish/shop",
+        "path": "/shop",
+        "referrer": "",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate, br, zstd",
+        "connection": "",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:57:42+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "https://gotta.fish/product/the-bucket-station",
+        "path": "/product/the-bucket-station",
+        "referrer": "https://gotta.fish/shop",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate, br, zstd",
+        "connection": "",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:57:50+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "https://gotta.fish/cart",
+        "path": "/cart",
+        "referrer": "",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate, br, zstd",
+        "connection": "",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:57:53+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "https://gotta.fish/checkout",
+        "path": "/checkout",
+        "referrer": "https://gotta.fish/cart",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate, br, zstd",
+        "connection": "",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:58:20+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "https://gotta.fish/shop",
+        "path": "/shop",
+        "referrer": "https://gotta.fish/checkout",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate, br, zstd",
+        "connection": "",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:58:26+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "https://gotta.fish/shop",
+        "path": "/shop",
+        "referrer": "https://gotta.fish/checkout",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate, br, zstd",
+        "connection": "",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T20:58:50+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "https://gotta.fish/shop",
+        "path": "/shop",
+        "referrer": "https://gotta.fish/checkout",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate, br, zstd",
+        "connection": "",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T21:01:32+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/shop",
+        "path": "/shop",
+        "referrer": "http://gotta.fish/guides/redfish-on-the-flats-sight-fishing-basics",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T21:01:34+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/stickers",
+        "path": "/stickers",
+        "referrer": "http://gotta.fish/shop",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T21:01:41+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/guides",
+        "path": "/guides",
+        "referrer": "http://gotta.fish/stickers",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T21:01:42+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/guides/sheepshead-on-pilings-fiddler-crab-rigs",
+        "path": "/guides/sheepshead-on-pilings-fiddler-crab-rigs",
+        "referrer": "http://gotta.fish/guides",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T21:01:45+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/about",
+        "path": "/about",
+        "referrer": "http://gotta.fish/guides/sheepshead-on-pilings-fiddler-crab-rigs",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T21:02:10+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/about",
+        "path": "/about",
+        "referrer": "http://gotta.fish/about",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T21:02:35+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/stickers",
+        "path": "/stickers",
+        "referrer": "http://gotta.fish/about",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T21:02:48+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/stickers",
+        "path": "/stickers",
+        "referrer": "http://gotta.fish/about",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T21:09:47+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support",
+        "path": "/support",
+        "referrer": "http://gotta.fish/stickers",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T21:09:59+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/home",
+        "path": "/home",
+        "referrer": "",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T21:10:06+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support",
+        "path": "/support",
+        "referrer": "http://gotta.fish/home",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T21:14:37+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support",
+        "path": "/support",
+        "referrer": "http://gotta.fish/home",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T21:14:50+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support",
+        "path": "/support",
+        "referrer": "http://gotta.fish/support",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T21:16:36+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/about",
+        "path": "/about",
+        "referrer": "http://gotta.fish/support",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T21:16:37+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/guides",
+        "path": "/guides",
+        "referrer": "http://gotta.fish/about",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T21:16:38+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/stickers",
+        "path": "/stickers",
+        "referrer": "http://gotta.fish/guides",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T21:16:39+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/shop",
+        "path": "/shop",
+        "referrer": "http://gotta.fish/stickers",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T21:16:43+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/shop",
+        "path": "/shop",
+        "referrer": "http://gotta.fish/stickers",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T21:16:48+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/guides",
+        "path": "/guides",
+        "referrer": "http://gotta.fish/shop",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T21:35:11+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/guides",
+        "path": "/guides",
+        "referrer": "http://gotta.fish/shop",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T21:35:16+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support",
+        "path": "/support",
+        "referrer": "http://gotta.fish/guides",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T21:35:22+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/shop",
+        "path": "/shop",
+        "referrer": "http://gotta.fish/support",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T21:35:26+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/home",
+        "path": "/home",
+        "referrer": "",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T21:36:07+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/home#featured-products",
+        "path": "/home",
+        "referrer": "",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T21:36:57+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/guides",
+        "path": "/guides",
+        "referrer": "http://gotta.fish/home",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T21:37:23+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/guides/yellowfin-tuna-chunking",
+        "path": "/guides/yellowfin-tuna-chunking",
+        "referrer": "http://gotta.fish/guides",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T21:38:41+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/stickers",
+        "path": "/stickers",
+        "referrer": "http://gotta.fish/guides/yellowfin-tuna-chunking",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T21:38:47+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support",
+        "path": "/support",
+        "referrer": "http://gotta.fish/stickers",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T21:42:32+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support",
+        "path": "/support",
+        "referrer": "http://gotta.fish/stickers",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T21:42:42+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/stickers",
+        "path": "/stickers",
+        "referrer": "http://gotta.fish/support",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T21:43:55+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/contact",
+        "path": "/contact",
+        "referrer": "http://gotta.fish/stickers",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T21:44:33+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/about",
+        "path": "/about",
+        "referrer": "http://gotta.fish/contact",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T21:44:57+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/guides",
+        "path": "/guides",
+        "referrer": "http://gotta.fish/about",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T22:03:39+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/guides",
+        "path": "/guides",
+        "referrer": "http://gotta.fish/about",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T22:03:40+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support",
+        "path": "/support",
+        "referrer": "http://gotta.fish/guides",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T22:06:29+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/stickers",
+        "path": "/stickers",
+        "referrer": "http://gotta.fish/support",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T22:06:40+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support",
+        "path": "/support",
+        "referrer": "http://gotta.fish/stickers",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T22:12:53+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/stickers",
+        "path": "/stickers",
+        "referrer": "http://gotta.fish/support",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T22:13:02+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support",
+        "path": "/support",
+        "referrer": "http://gotta.fish/stickers",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T22:14:53+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/guides",
+        "path": "/guides",
+        "referrer": "http://gotta.fish/support",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T22:15:46+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support",
+        "path": "/support",
+        "referrer": "http://gotta.fish/guides",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T22:15:53+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support?search=return",
+        "path": "/support",
+        "referrer": "http://gotta.fish/support",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T22:16:10+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support?search=",
+        "path": "/support",
+        "referrer": "http://gotta.fish/support?search=return",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T22:19:05+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support",
+        "path": "/support",
+        "referrer": "http://gotta.fish/support?search=",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T22:19:37+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/guides",
+        "path": "/guides",
+        "referrer": "http://gotta.fish/support",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T22:19:49+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/guides/wahoo-high-speed-trolling",
+        "path": "/guides/wahoo-high-speed-trolling",
+        "referrer": "http://gotta.fish/guides",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T22:19:56+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support",
+        "path": "/support",
+        "referrer": "http://gotta.fish/guides/wahoo-high-speed-trolling",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T23:12:44+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support.php#knowledge-base",
+        "path": "/support.php",
+        "referrer": "http://gotta.fish/admin/kb_bulk_seed.php",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T23:19:58+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support",
+        "path": "/support",
+        "referrer": "",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T23:20:13+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support",
+        "path": "/support",
+        "referrer": "http://gotta.fish/support",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T23:22:24+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "https://gotta.fish/shop",
+        "path": "/shop",
+        "referrer": "https://gotta.fish/shop",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate, br, zstd",
+        "connection": "",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T23:22:26+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "https://gotta.fish/stickers",
+        "path": "/stickers",
+        "referrer": "https://gotta.fish/shop",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate, br, zstd",
+        "connection": "",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T23:26:25+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support",
+        "path": "/support",
+        "referrer": "http://gotta.fish/support",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T23:38:08+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "https://gotta.fish/stickers",
+        "path": "/stickers",
+        "referrer": "https://gotta.fish/stickers",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate, br, zstd",
+        "connection": "",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T23:39:57+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support",
+        "path": "/support",
+        "referrer": "http://gotta.fish/support",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T23:41:59+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support",
+        "path": "/support",
+        "referrer": "http://gotta.fish/support",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T23:42:07+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support",
+        "path": "/support",
+        "referrer": "http://gotta.fish/support",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T23:49:08+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support",
+        "path": "/support",
+        "referrer": "http://gotta.fish/support",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T23:51:40+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/kb.php?slug=how-to-place-an-order-kb051",
+        "path": "/kb.php",
+        "referrer": "http://gotta.fish/support",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T23:51:45+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support",
+        "path": "/support",
+        "referrer": "http://gotta.fish/support",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T23:51:46+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/kb.php?slug=do-i-need-an-account-to-order--kb052",
+        "path": "/kb.php",
+        "referrer": "http://gotta.fish/support",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T23:51:50+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support",
+        "path": "/support",
+        "referrer": "http://gotta.fish/support",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T23:51:52+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/kb.php?slug=do-i-need-an-account-to-order--kb052",
+        "path": "/kb.php",
+        "referrer": "http://gotta.fish/support",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-05T23:51:54+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support",
+        "path": "/support",
+        "referrer": "http://gotta.fish/support",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-06T00:19:29+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support/index.php",
+        "path": "/support/index.php",
+        "referrer": "",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-06T00:19:33+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support/index.php",
+        "path": "/support/index.php",
+        "referrer": "",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-06T00:19:37+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support/",
+        "path": "/support/",
+        "referrer": "http://gotta.fish/support/index.php",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-06T00:19:55+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support/",
+        "path": "/support/",
+        "referrer": "http://gotta.fish/support/index.php",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-06T00:20:52+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support/",
+        "path": "/support/",
+        "referrer": "http://gotta.fish/support/index.php",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-06T00:21:04+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support/",
+        "path": "/support/",
+        "referrer": "http://gotta.fish/support/index.php",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-06T00:31:34+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support/",
+        "path": "/support/",
+        "referrer": "http://gotta.fish/support/index.php",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-06T00:31:58+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support/",
+        "path": "/support/",
+        "referrer": "http://gotta.fish/support/index.php",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-06T00:32:26+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/kb.php?slug=pausing-or-skipping-a-subscription-month-kb032",
+        "path": "/kb.php",
+        "referrer": "http://gotta.fish/support/",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-06T00:32:28+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support/",
+        "path": "/support/",
+        "referrer": "http://gotta.fish/support/index.php",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-06T00:32:32+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/kb.php?slug=can-i-choose-my-shipping-carrier--kb055",
+        "path": "/kb.php",
+        "referrer": "http://gotta.fish/support/",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-06T00:32:39+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support/",
+        "path": "/support/",
+        "referrer": "http://gotta.fish/support/index.php",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-06T01:50:43+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "https://gotta.fish/stickers",
+        "path": "/stickers",
+        "referrer": "",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate, br, zstd",
+        "connection": "",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-06T01:50:45+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "https://gotta.fish/support/",
+        "path": "/support/",
+        "referrer": "https://gotta.fish/stickers",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate, br, zstd",
+        "connection": "",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-06T01:50:56+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "https://gotta.fish/support/",
+        "path": "/support/",
+        "referrer": "https://gotta.fish/stickers",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate, br, zstd",
+        "connection": "",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-06T01:51:05+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "https://gotta.fish/kb.php?slug=using-coupon-codes-successfully-kb035",
+        "path": "/kb.php",
+        "referrer": "https://gotta.fish/support/",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate, br, zstd",
+        "connection": "",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-06T01:51:25+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "https://gotta.fish/guides",
+        "path": "/guides",
+        "referrer": "https://gotta.fish/kb.php?slug=using-coupon-codes-successfully-kb035",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate, br, zstd",
+        "connection": "",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-06T01:51:27+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "https://gotta.fish/guides/snook-at-night-around-bridges",
+        "path": "/guides/snook-at-night-around-bridges",
+        "referrer": "https://gotta.fish/guides",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate, br, zstd",
+        "connection": "",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-06T01:51:31+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "https://gotta.fish/support/",
+        "path": "/support/",
+        "referrer": "https://gotta.fish/guides/snook-at-night-around-bridges",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate, br, zstd",
+        "connection": "",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-06T01:51:35+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "https://gotta.fish/kb.php?slug=can-i-choose-my-shipping-carrier--kb055",
+        "path": "/kb.php",
+        "referrer": "https://gotta.fish/support/",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate, br, zstd",
+        "connection": "",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-06T01:51:38+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "https://gotta.fish/support/",
+        "path": "/support/",
+        "referrer": "https://gotta.fish/kb.php?slug=can-i-choose-my-shipping-carrier--kb055",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate, br, zstd",
+        "connection": "",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-06T01:51:42+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "https://gotta.fish/kb.php?slug=can-i-choose-my-shipping-carrier--kb055",
+        "path": "/kb.php",
+        "referrer": "https://gotta.fish/support/",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate, br, zstd",
+        "connection": "",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-06T01:51:51+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "https://gotta.fish/kb.php?slug=can-i-choose-my-shipping-carrier--kb055",
+        "path": "/kb.php",
+        "referrer": "https://gotta.fish/support/",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate, br, zstd",
+        "connection": "",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-06T01:51:53+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "https://gotta.fish/support/",
+        "path": "/support/",
+        "referrer": "https://gotta.fish/kb.php?slug=can-i-choose-my-shipping-carrier--kb055",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate, br, zstd",
+        "connection": "",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-06T01:51:57+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "https://gotta.fish/kb.php?slug=do-you-ship-to-p-o-boxes--kb054",
+        "path": "/kb.php",
+        "referrer": "https://gotta.fish/support/",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate, br, zstd",
+        "connection": "",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-06T01:52:01+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "https://gotta.fish/support/",
+        "path": "/support/",
+        "referrer": "https://gotta.fish/kb.php?slug=do-you-ship-to-p-o-boxes--kb054",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate, br, zstd",
+        "connection": "",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-06T01:52:17+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "https://gotta.fish/kb.php?slug=payment-declined-next-steps-kb033",
+        "path": "/kb.php",
+        "referrer": "https://gotta.fish/support/",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate, br, zstd",
+        "connection": "",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-06T01:52:28+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "https://gotta.fish/support/",
+        "path": "/support/",
+        "referrer": "https://gotta.fish/kb.php?slug=payment-declined-next-steps-kb033",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate, br, zstd",
+        "connection": "",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-06T01:52:39+00:00",
+        "session_id": "0d38q32c6hjrld73h3tnvqhgn1",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "https://gotta.fish/kb.php?slug=wholesale-program-information-kb007",
+        "path": "/kb.php",
+        "referrer": "https://gotta.fish/support/",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate, br, zstd",
+        "connection": "",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-06T02:15:03+00:00",
+        "session_id": "5508k84qi4b5rqv728qe5okkso",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support/",
+        "path": "/support/",
+        "referrer": "",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-06T02:22:39+00:00",
+        "session_id": "5508k84qi4b5rqv728qe5okkso",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support/",
+        "path": "/support/",
+        "referrer": "",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-06T02:55:27+00:00",
+        "session_id": "5508k84qi4b5rqv728qe5okkso",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support/",
+        "path": "/support/",
+        "referrer": "",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-06T02:55:32+00:00",
+        "session_id": "5508k84qi4b5rqv728qe5okkso",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/support/",
+        "path": "/support/",
+        "referrer": "",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    },
+    {
+        "ts": "2025-09-06T03:51:46+00:00",
+        "session_id": "5508k84qi4b5rqv728qe5okkso",
+        "ip": "189.197.18.45",
+        "real_ip": "",
+        "forwarded_for": "",
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:142.0) Gecko/20100101 Firefox/142.0",
+        "href": "http://gotta.fish/kb.php?slug=payment-methods-accepted-kb003",
+        "path": "/kb.php",
+        "referrer": "http://gotta.fish/support/",
+        "host": "gotta.fish",
+        "accept_language": "en-US,en;q=0.5",
+        "accept_encoding": "gzip, deflate",
+        "connection": "keep-alive",
+        "device": {
+            "browser": "Firefox",
+            "browser_version": "142.0",
+            "os": "macOS",
+            "os_version": "10",
+            "device_type": "desktop",
+            "is_mobile": false,
+            "is_tablet": false,
+            "is_bot": false
+        },
+        "location": {
+            "country": "Mexico",
+            "region": "Yucat\u00e1n",
+            "city": "M\u00e9rida",
+            "timezone": "America/Merida",
+            "isp": "Mega Cable, S.A. de C.V."
+        },
+        "utm": {
+            "source": "",
+            "medium": "",
+            "campaign": "",
+            "term": "",
+            "content": ""
+        }
+    }
+]

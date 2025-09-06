@@ -1,0 +1,659 @@
+<div class="container">
+    <div class="content-generator-dashboard">
+        <div class="dashboard-header">
+            <h1>Content Scaling Dashboard</h1>
+            <p>Generate millions of wholesale content pages automatically</p>
+        </div>
+
+        <div class="dashboard-stats">
+            <div class="stat-card">
+                <div class="stat-icon">📄</div>
+                <div class="stat-content">
+                    <h3 id="total-pages">0</h3>
+                    <p>Total Pages</p>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">🏭</div>
+                <div class="stat-content">
+                    <h3 id="total-industries">6</h3>
+                    <p>Industries</p>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">📦</div>
+                <div class="stat-content">
+                    <h3 id="total-products">500+</h3>
+                    <p>Products</p>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">🌍</div>
+                <div class="stat-content">
+                    <h3 id="total-regions">30+</h3>
+                    <p>Regions</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-generation-panel">
+            <div class="panel-header">
+                <h2>Generate New Content</h2>
+                <p>Create thousands of wholesale pages automatically</p>
+            </div>
+
+            <div class="generation-options">
+                <div class="option-group">
+                    <label for="content-count">Number of Pages to Generate:</label>
+                    <select id="content-count" class="form-input">
+                        <option value="100">100 pages</option>
+                        <option value="500">500 pages</option>
+                        <option value="1000" selected>1,000 pages</option>
+                        <option value="5000">5,000 pages</option>
+                        <option value="10000">10,000 pages</option>
+                        <option value="50000">50,000 pages</option>
+                        <option value="100000">100,000 pages</option>
+                    </select>
+                </div>
+
+                <div class="option-group">
+                    <label for="content-type">Content Type:</label>
+                    <select id="content-type" class="form-input">
+                        <option value="all" selected>All Types</option>
+                        <option value="products">Product Pages</option>
+                        <option value="suppliers">Supplier Pages</option>
+                        <option value="industries">Industry Pages</option>
+                    </select>
+                </div>
+
+                <div class="option-group">
+                    <label for="industries">Industries:</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" value="electronics" checked> Electronics</label>
+                        <label><input type="checkbox" value="fashion" checked> Fashion</label>
+                        <label><input type="checkbox" value="food" checked> Food & Beverage</label>
+                        <label><input type="checkbox" value="beauty" checked> Health & Beauty</label>
+                        <label><input type="checkbox" value="home" checked> Home & Garden</label>
+                        <label><input type="checkbox" value="automotive" checked> Automotive</label>
+                    </div>
+                </div>
+
+                <div class="option-group">
+                    <label for="regions">Regions:</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" value="usa" checked> USA</label>
+                        <label><input type="checkbox" value="china" checked> China</label>
+                        <label><input type="checkbox" value="europe" checked> Europe</label>
+                        <label><input type="checkbox" value="asia" checked> Asia</label>
+                        <label><input type="checkbox" value="latin-america" checked> Latin America</label>
+                        <label><input type="checkbox" value="africa" checked> Africa</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="generation-actions">
+                <button id="generate-content" class="btn btn-primary btn-lg">
+                    <span class="btn-icon">🚀</span>
+                    Generate Content
+                </button>
+                <button id="preview-content" class="btn btn-secondary btn-lg">
+                    <span class="btn-icon">👁️</span>
+                    Preview Sample
+                </button>
+            </div>
+        </div>
+
+        <div class="content-preview-panel" id="preview-panel" style="display: none;">
+            <div class="panel-header">
+                <h2>Content Preview</h2>
+                <button id="close-preview" class="btn btn-outline">Close</button>
+            </div>
+            <div id="preview-content" class="preview-content"></div>
+        </div>
+
+        <div class="generation-progress" id="progress-panel" style="display: none;">
+            <div class="progress-header">
+                <h3>Generating Content...</h3>
+                <p id="progress-text">Initializing...</p>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill"></div>
+            </div>
+            <div class="progress-stats">
+                <div class="stat">
+                    <span class="label">Generated:</span>
+                    <span class="value" id="generated-count">0</span>
+                </div>
+                <div class="stat">
+                    <span class="label">Saved:</span>
+                    <span class="value" id="saved-count">0</span>
+                </div>
+                <div class="stat">
+                    <span class="label">Errors:</span>
+                    <span class="value" id="error-count">0</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-management">
+            <div class="management-header">
+                <h2>Content Management</h2>
+                <p>Manage and optimize your generated content</p>
+            </div>
+
+            <div class="management-actions">
+                <button id="optimize-seo" class="btn btn-success">
+                    <span class="btn-icon">🔍</span>
+                    Optimize SEO
+                </button>
+                <button id="update-content" class="btn btn-warning">
+                    <span class="btn-icon">🔄</span>
+                    Update Content
+                </button>
+                <button id="export-content" class="btn btn-info">
+                    <span class="btn-icon">📤</span>
+                    Export Data
+                </button>
+                <button id="cleanup-content" class="btn btn-danger">
+                    <span class="btn-icon">🗑️</span>
+                    Cleanup
+                </button>
+            </div>
+        </div>
+
+        <div class="content-analytics">
+            <div class="analytics-header">
+                <h2>Content Analytics</h2>
+                <p>Track performance of your generated content</p>
+            </div>
+
+            <div class="analytics-grid">
+                <div class="analytics-card">
+                    <h4>Top Performing Pages</h4>
+                    <div id="top-pages" class="analytics-list">
+                        <div class="list-item">
+                            <span class="title">Wholesale Coffee Beans by the Container</span>
+                            <span class="views">1,247 views</span>
+                        </div>
+                        <div class="list-item">
+                            <span class="title">Bulk Electronics Wholesale Guide</span>
+                            <span class="views">892 views</span>
+                        </div>
+                        <div class="list-item">
+                            <span class="title">Wholesale Fashion Apparel Sourcing</span>
+                            <span class="views">634 views</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="analytics-card">
+                    <h4>Content by Industry</h4>
+                    <div id="industry-stats" class="analytics-chart">
+                        <div class="chart-item">
+                            <span class="label">Electronics</span>
+                            <div class="chart-bar">
+                                <div class="bar-fill" style="width: 85%"></div>
+                            </div>
+                            <span class="value">85%</span>
+                        </div>
+                        <div class="chart-item">
+                            <span class="label">Fashion</span>
+                            <div class="chart-bar">
+                                <div class="bar-fill" style="width: 70%"></div>
+                            </div>
+                            <span class="value">70%</span>
+                        </div>
+                        <div class="chart-item">
+                            <span class="label">Food</span>
+                            <div class="chart-bar">
+                                <div class="bar-fill" style="width: 60%"></div>
+                            </div>
+                            <span class="value">60%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="analytics-card">
+                    <h4>SEO Performance</h4>
+                    <div id="seo-stats" class="seo-metrics">
+                        <div class="metric">
+                            <span class="label">Average Page Score</span>
+                            <span class="value">92/100</span>
+                        </div>
+                        <div class="metric">
+                            <span class="label">Indexed Pages</span>
+                            <span class="value">98.5%</span>
+                        </div>
+                        <div class="metric">
+                            <span class="label">Keyword Rankings</span>
+                            <span class="value">1,247</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.content-generator-dashboard {
+    padding: var(--space-2xl) 0;
+}
+
+.dashboard-header {
+    text-align: center;
+    margin-bottom: var(--space-3xl);
+}
+
+.dashboard-header h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--gray-900);
+    margin-bottom: var(--space-md);
+}
+
+.dashboard-header p {
+    font-size: 1.2rem;
+    color: var(--gray-600);
+}
+
+.dashboard-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--space-xl);
+    margin-bottom: var(--space-3xl);
+}
+
+.stat-card {
+    background: white;
+    padding: var(--space-xl);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-lg);
+    display: flex;
+    align-items: center;
+    gap: var(--space-lg);
+    border: 1px solid var(--gray-200);
+}
+
+.stat-icon {
+    font-size: 3rem;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, var(--primary-blue) 0%, var(--secondary-purple) 100%);
+    border-radius: var(--radius-xl);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.stat-content h3 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--gray-900);
+    margin: 0;
+}
+
+.stat-content p {
+    color: var(--gray-600);
+    margin: 0;
+    font-weight: 500;
+}
+
+.content-generation-panel {
+    background: white;
+    padding: var(--space-2xl);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-lg);
+    margin-bottom: var(--space-2xl);
+    border: 1px solid var(--gray-200);
+}
+
+.panel-header {
+    margin-bottom: var(--space-xl);
+}
+
+.panel-header h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--gray-900);
+    margin-bottom: var(--space-sm);
+}
+
+.panel-header p {
+    color: var(--gray-600);
+    margin: 0;
+}
+
+.generation-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--space-xl);
+    margin-bottom: var(--space-xl);
+}
+
+.option-group label {
+    display: block;
+    font-weight: 600;
+    color: var(--gray-700);
+    margin-bottom: var(--space-sm);
+}
+
+.checkbox-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: var(--space-sm);
+}
+
+.checkbox-group label {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    font-weight: 500;
+    color: var(--gray-600);
+    margin: 0;
+}
+
+.generation-actions {
+    display: flex;
+    gap: var(--space-lg);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn-icon {
+    margin-right: var(--space-sm);
+}
+
+.content-preview-panel {
+    background: white;
+    padding: var(--space-2xl);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-lg);
+    margin-bottom: var(--space-2xl);
+    border: 1px solid var(--gray-200);
+}
+
+.preview-content {
+    max-height: 500px;
+    overflow-y: auto;
+    padding: var(--space-lg);
+    background: var(--gray-50);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--gray-200);
+}
+
+.generation-progress {
+    background: white;
+    padding: var(--space-2xl);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-lg);
+    margin-bottom: var(--space-2xl);
+    border: 1px solid var(--gray-200);
+}
+
+.progress-header {
+    text-align: center;
+    margin-bottom: var(--space-xl);
+}
+
+.progress-header h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--gray-900);
+    margin-bottom: var(--space-sm);
+}
+
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background: var(--gray-200);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    margin-bottom: var(--space-lg);
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--primary-blue) 0%, var(--secondary-purple) 100%);
+    width: 0%;
+    transition: width 0.3s ease;
+}
+
+.progress-stats {
+    display: flex;
+    justify-content: space-around;
+    gap: var(--space-lg);
+}
+
+.progress-stats .stat {
+    text-align: center;
+}
+
+.progress-stats .label {
+    display: block;
+    font-weight: 600;
+    color: var(--gray-700);
+    margin-bottom: var(--space-xs);
+}
+
+.progress-stats .value {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--primary-blue);
+}
+
+.content-management {
+    background: white;
+    padding: var(--space-2xl);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-lg);
+    margin-bottom: var(--space-2xl);
+    border: 1px solid var(--gray-200);
+}
+
+.management-header {
+    margin-bottom: var(--space-xl);
+}
+
+.management-actions {
+    display: flex;
+    gap: var(--space-lg);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content-analytics {
+    background: white;
+    padding: var(--space-2xl);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-lg);
+    border: 1px solid var(--gray-200);
+}
+
+.analytics-header {
+    margin-bottom: var(--space-xl);
+}
+
+.analytics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--space-xl);
+}
+
+.analytics-card {
+    background: var(--gray-50);
+    padding: var(--space-xl);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--gray-200);
+}
+
+.analytics-card h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--gray-900);
+    margin-bottom: var(--space-lg);
+}
+
+.analytics-list .list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--space-md) 0;
+    border-bottom: 1px solid var(--gray-200);
+}
+
+.analytics-list .list-item:last-child {
+    border-bottom: none;
+}
+
+.analytics-list .title {
+    font-weight: 500;
+    color: var(--gray-700);
+}
+
+.analytics-list .views {
+    font-weight: 600;
+    color: var(--primary-blue);
+}
+
+.chart-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    margin-bottom: var(--space-md);
+}
+
+.chart-item .label {
+    min-width: 100px;
+    font-weight: 500;
+    color: var(--gray-700);
+}
+
+.chart-bar {
+    flex: 1;
+    height: 20px;
+    background: var(--gray-200);
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+}
+
+.bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--primary-blue) 0%, var(--secondary-purple) 100%);
+    transition: width 0.3s ease;
+}
+
+.chart-item .value {
+    min-width: 40px;
+    font-weight: 600;
+    color: var(--gray-900);
+    text-align: right;
+}
+
+.seo-metrics .metric {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--space-md) 0;
+    border-bottom: 1px solid var(--gray-200);
+}
+
+.seo-metrics .metric:last-child {
+    border-bottom: none;
+}
+
+.seo-metrics .label {
+    font-weight: 500;
+    color: var(--gray-700);
+}
+
+.seo-metrics .value {
+    font-weight: 700;
+    color: var(--accent-green);
+}
+
+@media (max-width: 768px) {
+    .dashboard-header h1 {
+        font-size: 2rem;
+    }
+    
+    .generation-options {
+        grid-template-columns: 1fr;
+    }
+    
+    .generation-actions,
+    .management-actions {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .analytics-grid {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Content generation functionality
+    const generateBtn = document.getElementById('generate-content');
+    const previewBtn = document.getElementById('preview-content');
+    const previewPanel = document.getElementById('preview-panel');
+    const progressPanel = document.getElementById('progress-panel');
+    
+    generateBtn.addEventListener('click', function() {
+        const count = document.getElementById('content-count').value;
+        const type = document.getElementById('content-type').value;
+        
+        // Show progress panel
+        progressPanel.style.display = 'block';
+        
+        // Simulate content generation
+        simulateContentGeneration(parseInt(count));
+    });
+    
+    previewBtn.addEventListener('click', function() {
+        previewPanel.style.display = 'block';
+        document.getElementById('preview-content').innerHTML = `
+            <h3>Sample Generated Content</h3>
+            <h4>Wholesale Coffee Beans by the Container - Colombia Suppliers & Pricing Guide</h4>
+            <p>Complete guide to buying coffee beans wholesale by the container in Colombia. Find verified suppliers, pricing, MOQ, and shipping info.</p>
+            <h5>Introduction to Wholesale Coffee Beans</h5>
+            <p>Wholesale coffee beans represents one of the most lucrative opportunities in the food sector. With growing demand and competitive pricing, buying coffee beans wholesale by the container can significantly reduce costs while maintaining quality standards.</p>
+        `;
+    });
+    
+    document.getElementById('close-preview').addEventListener('click', function() {
+        previewPanel.style.display = 'none';
+    });
+    
+    function simulateContentGeneration(count) {
+        let generated = 0;
+        let saved = 0;
+        let errors = 0;
+        
+        const interval = setInterval(() => {
+            generated += Math.floor(Math.random() * 10) + 1;
+            saved += Math.floor(Math.random() * 8) + 1;
+            if (Math.random() < 0.1) errors += 1;
+            
+            const progress = (generated / count) * 100;
+            
+            document.getElementById('progress-fill').style.width = progress + '%';
+            document.getElementById('generated-count').textContent = generated;
+            document.getElementById('saved-count').textContent = saved;
+            document.getElementById('error-count').textContent = errors;
+            document.getElementById('progress-text').textContent = `Generated ${generated} of ${count} pages...`;
+            
+            if (generated >= count) {
+                clearInterval(interval);
+                document.getElementById('progress-text').textContent = `✅ Successfully generated ${count} pages!`;
+                setTimeout(() => {
+                    progressPanel.style.display = 'none';
+                }, 3000);
+            }
+        }, 100);
+    }
+});
+</script>

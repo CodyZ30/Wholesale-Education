@@ -1,0 +1,1671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wholesale Education - Premium Learning Platform</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Custom Shadcn/ui inspired styles -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+        
+        :root {
+            --background: 0 0% 100%;
+            --foreground: 240 10% 3.9%;
+            --card: 0 0% 100%;
+            --card-foreground: 240 10% 3.9%;
+            --popover: 0 0% 100%;
+            --popover-foreground: 240 10% 3.9%;
+            --primary: 240 5.9% 10%;
+            --primary-foreground: 0 0% 98%;
+            --secondary: 240 4.8% 95.9%;
+            --secondary-foreground: 240 5.9% 10%;
+            --muted: 240 4.8% 95.9%;
+            --muted-foreground: 240 3.8% 46.1%;
+            --accent: 240 4.8% 95.9%;
+            --accent-foreground: 240 5.9% 10%;
+            --destructive: 0 72.22% 50.59%;
+            --destructive-foreground: 0 0% 98%;
+            --border: 240 5.9% 90%;
+            --input: 240 5.9% 90%;
+            --ring: 240 5% 64.9%;
+            --radius: 0.5rem;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: hsl(var(--background));
+            color: hsl(var(--foreground));
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(240 5.9% 20%) 100%);
+        }
+        
+        .card {
+            background-color: hsl(var(--card));
+            border: 1px solid hsl(var(--border));
+            border-radius: var(--radius);
+            box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+        }
+        
+        .btn-primary {
+            background-color: hsl(var(--primary));
+            color: hsl(var(--primary-foreground));
+            border-radius: var(--radius);
+            padding: 0.5rem 1rem;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+        
+        .btn-primary:hover {
+            background-color: hsl(240 5.9% 15%);
+        }
+        
+        .btn-secondary {
+            background-color: hsl(var(--secondary));
+            color: hsl(var(--secondary-foreground));
+            border-radius: var(--radius);
+            padding: 0.5rem 1rem;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+        
+        .btn-secondary:hover {
+            background-color: hsl(240 4.8% 90%);
+        }
+        
+        .text-muted {
+            color: hsl(var(--muted-foreground));
+        }
+        
+        .border-grid {
+            background-image: 
+                linear-gradient(hsl(var(--border)) 1px, transparent 1px),
+                linear-gradient(90deg, hsl(var(--border)) 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+        
+        .container-wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+        
+        .feature-card {
+            transition: all 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 25px -3px rgb(0 0 0 / 0.1), 0 4px 6px -2px rgb(0 0 0 / 0.05);
+        }
+        
+        .stats-card {
+            background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(240 5.9% 20%) 100%);
+            color: white;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(240 5.9% 20%) 50%, hsl(240 5.9% 10%) 100%);
+        }
+        
+        /* Enhanced Animation System */
+        .floating-animation {
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.8s ease-in-out;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        /* New Animation Classes */
+        .slide-in-left {
+            animation: slideInLeft 0.8s ease-out;
+        }
+        
+        @keyframes slideInLeft {
+            from { opacity: 0; transform: translateX(-50px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        
+        .slide-in-right {
+            animation: slideInRight 0.8s ease-out;
+        }
+        
+        @keyframes slideInRight {
+            from { opacity: 0; transform: translateX(50px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        
+        .scale-in {
+            animation: scaleIn 0.6s ease-out;
+        }
+        
+        @keyframes scaleIn {
+            from { opacity: 0; transform: scale(0.8); }
+            to { opacity: 1; transform: scale(1); }
+        }
+        
+        .bounce-in {
+            animation: bounceIn 1s ease-out;
+        }
+        
+        @keyframes bounceIn {
+            0% { opacity: 0; transform: scale(0.3); }
+            50% { opacity: 1; transform: scale(1.05); }
+            70% { transform: scale(0.9); }
+            100% { opacity: 1; transform: scale(1); }
+        }
+        
+        .pulse-glow {
+            animation: pulseGlow 2s ease-in-out infinite;
+        }
+        
+        @keyframes pulseGlow {
+            0%, 100% { box-shadow: 0 0 20px rgba(59, 130, 246, 0.3); }
+            50% { box-shadow: 0 0 40px rgba(59, 130, 246, 0.6); }
+        }
+        
+        .rotate-in {
+            animation: rotateIn 0.8s ease-out;
+        }
+        
+        @keyframes rotateIn {
+            from { opacity: 0; transform: rotate(-180deg) scale(0.5); }
+            to { opacity: 1; transform: rotate(0deg) scale(1); }
+        }
+        
+        .wiggle {
+            animation: wiggle 0.5s ease-in-out;
+        }
+        
+        @keyframes wiggle {
+            0%, 100% { transform: rotate(0deg); }
+            25% { transform: rotate(5deg); }
+            75% { transform: rotate(-5deg); }
+        }
+        
+        .gradient-shift {
+            animation: gradientShift 3s ease-in-out infinite;
+        }
+        
+        @keyframes gradientShift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+        
+        .text-reveal {
+            animation: textReveal 1.2s ease-out;
+        }
+        
+        @keyframes textReveal {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .stagger-1 { animation-delay: 0.1s; }
+        .stagger-2 { animation-delay: 0.2s; }
+        .stagger-3 { animation-delay: 0.3s; }
+        .stagger-4 { animation-delay: 0.4s; }
+        .stagger-5 { animation-delay: 0.5s; }
+        .stagger-6 { animation-delay: 0.6s; }
+        
+        /* Hover Animations */
+        .hover-lift {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .hover-lift:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        }
+        
+        .hover-glow:hover {
+            box-shadow: 0 0 30px rgba(59, 130, 246, 0.4);
+            transform: translateY(-2px);
+        }
+        
+        .hover-rotate:hover {
+            transform: rotate(5deg) scale(1.05);
+        }
+        
+        /* Loading Animations */
+        .loading-dots {
+            display: inline-block;
+        }
+        
+        .loading-dots::after {
+            content: '';
+            animation: loadingDots 1.5s infinite;
+        }
+        
+        @keyframes loadingDots {
+            0%, 20% { content: ''; }
+            40% { content: '.'; }
+            60% { content: '..'; }
+            80%, 100% { content: '...'; }
+        }
+        
+        /* Particle Animation */
+        .particle {
+            position: absolute;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            animation: particleFloat 8s linear infinite;
+        }
+        
+        @keyframes particleFloat {
+            0% { transform: translateY(100vh) rotate(0deg); opacity: 0; }
+            10% { opacity: 1; }
+            90% { opacity: 1; }
+            100% { transform: translateY(-100px) rotate(360deg); opacity: 0; }
+        }
+        
+        /* Typewriter Effect */
+        .typewriter {
+            overflow: hidden;
+            border-right: 2px solid;
+            white-space: nowrap;
+            animation: typewriter 3s steps(40, end), blink 0.75s step-end infinite;
+        }
+        
+        @keyframes typewriter {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+        
+        @keyframes blink {
+            from, to { border-color: transparent; }
+            50% { border-color: currentColor; }
+        }
+        
+        /* Additional Advanced Animations */
+        .morphing-shape {
+            animation: morphing 8s ease-in-out infinite;
+        }
+        
+        @keyframes morphing {
+            0%, 100% { border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; }
+            25% { border-radius: 58% 42% 75% 25% / 76% 46% 54% 24%; }
+            50% { border-radius: 50% 50% 33% 67% / 55% 27% 73% 45%; }
+            75% { border-radius: 33% 67% 58% 42% / 63% 68% 32% 37%; }
+        }
+        
+        .pulse-ring {
+            animation: pulseRing 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
+        }
+        
+        @keyframes pulseRing {
+            0% { transform: scale(0.33); }
+            40%, 50% { opacity: 1; }
+            100% { opacity: 0; transform: scale(1.2); }
+        }
+        
+        .flip-in {
+            animation: flipIn 0.8s ease-out;
+        }
+        
+        @keyframes flipIn {
+            from { transform: perspective(400px) rotateY(90deg); opacity: 0; }
+            to { transform: perspective(400px) rotateY(0deg); opacity: 1; }
+        }
+        
+        .slide-up-bounce {
+            animation: slideUpBounce 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
+        
+        @keyframes slideUpBounce {
+            from { transform: translateY(100px); opacity: 0; }
+            60% { transform: translateY(-10px); }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        
+        .glow-pulse {
+            animation: glowPulse 2s ease-in-out infinite alternate;
+        }
+        
+        @keyframes glowPulse {
+            from { box-shadow: 0 0 20px rgba(59, 130, 246, 0.4); }
+            to { box-shadow: 0 0 40px rgba(59, 130, 246, 0.8), 0 0 60px rgba(59, 130, 246, 0.4); }
+        }
+        
+        .rotate-3d {
+            animation: rotate3d 4s linear infinite;
+        }
+        
+        @keyframes rotate3d {
+            from { transform: rotateX(0deg) rotateY(0deg); }
+            to { transform: rotateX(360deg) rotateY(360deg); }
+        }
+        
+        .elastic-scale {
+            animation: elasticScale 1.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
+        
+        @keyframes elasticScale {
+            0% { transform: scale(0); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+        
+        .shimmer {
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+            background-size: 200% 100%;
+            animation: shimmer 2s infinite;
+        }
+        
+        @keyframes shimmer {
+            0% { background-position: -200% 0; }
+            100% { background-position: 200% 0; }
+        }
+        
+        .float-up-down {
+            animation: floatUpDown 3s ease-in-out infinite;
+        }
+        
+        @keyframes floatUpDown {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .zoom-in-out {
+            animation: zoomInOut 2s ease-in-out infinite;
+        }
+        
+        @keyframes zoomInOut {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        
+        /* Hero Section Styles */
+        .hero-section {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+        
+        .hero-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+        
+        .hero-bg-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.8) 100%);
+            z-index: 2;
+        }
+        
+        .floating-element {
+            position: absolute;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            animation: floatElement 6s ease-in-out infinite;
+        }
+        
+        .floating-element.element-1 {
+            top: 20%;
+            left: 10%;
+            width: 8px;
+            height: 8px;
+            animation-delay: 0s;
+        }
+        
+        .floating-element.element-2 {
+            top: 60%;
+            right: 15%;
+            width: 12px;
+            height: 12px;
+            animation-delay: 2s;
+        }
+        
+        .floating-element.element-3 {
+            top: 40%;
+            left: 70%;
+            width: 6px;
+            height: 6px;
+            animation-delay: 4s;
+        }
+        
+        @keyframes floatElement {
+            0%, 100% { transform: translateY(0px); opacity: 0.3; }
+            50% { transform: translateY(-20px); opacity: 0.8; }
+        }
+        
+        /* CTA Section Styles */
+        .cta-section {
+            position: relative;
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+        }
+        
+        .cta-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+        
+        .cta-bg-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .cta-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.9) 100%);
+            z-index: 2;
+        }
+        
+        .success-metrics-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 15;
+            pointer-events: none;
+        }
+        
+        .metric-card {
+            position: absolute;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            animation: floatMetric 8s ease-in-out infinite;
+        }
+        
+        .metric-card.metric-1 {
+            top: 20%;
+            left: 10%;
+            animation-delay: 0s;
+        }
+        
+        .metric-card.metric-2 {
+            top: 60%;
+            right: 15%;
+            animation-delay: 2s;
+        }
+        
+        .metric-card.metric-3 {
+            top: 40%;
+            left: 70%;
+            animation-delay: 4s;
+        }
+        
+        .metric-icon {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        
+        .metric-text {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: white;
+        }
+        
+        @keyframes floatMetric {
+            0%, 100% { transform: translateY(0px) scale(1); }
+            50% { transform: translateY(-15px) scale(1.05); }
+        }
+        
+        /* Wholesale.Education Animated Logo CSS */
+        .wholesale-logo {
+            display: inline-block;
+            text-align: center;
+            position: relative;
+            padding: 10px;
+        }
+
+        .wholesale-logo-text {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #1f2937;
+            text-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            margin-bottom: 8px;
+            position: relative;
+            animation: logoTextGlow 3s ease-in-out infinite alternate;
+        }
+
+        .wholesale-logo-text .wholesale {
+            display: inline-block;
+            animation: slideInLeft 1s ease-out;
+        }
+
+        .wholesale-logo-text .education {
+            display: inline-block;
+            animation: slideInRight 1s ease-out 0.3s both;
+        }
+
+        .wholesale-logo-line {
+            width: 120px;
+            height: 4px;
+            background: linear-gradient(90deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57);
+            border-radius: 6px;
+            margin: 0 auto;
+            position: relative;
+            animation: logoLineDraw 2s ease-out 0.8s both, logoLineGlow 3s ease-in-out infinite alternate 2.8s;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+        }
+
+        .wholesale-logo-line::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: linear-gradient(90deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57);
+            border-radius: 8px;
+            z-index: -1;
+            filter: blur(6px);
+            opacity: 0;
+            animation: logoPulseGlow 2s ease-in-out infinite alternate 2.8s;
+        }
+
+        /* Logo Keyframe Animations */
+        @keyframes logoTextGlow {
+            0% { text-shadow: 0 0 20px rgba(0, 0, 0, 0.1); }
+            100% { text-shadow: 0 0 30px rgba(59, 130, 246, 0.3), 0 0 40px rgba(147, 51, 234, 0.2); }
+        }
+
+        @keyframes logoLineDraw {
+            0% { width: 0; opacity: 0; }
+            100% { width: 120px; opacity: 1; }
+        }
+
+        @keyframes logoLineGlow {
+            0% { box-shadow: 0 0 15px rgba(59, 130, 246, 0.3); }
+            100% { box-shadow: 0 0 25px rgba(59, 130, 246, 0.6), 0 0 35px rgba(147, 51, 234, 0.3); }
+        }
+
+        @keyframes logoPulseGlow {
+            0% { opacity: 0; }
+            100% { opacity: 0.7; }
+        }
+
+        /* Footer Logo Styles */
+        footer .wholesale-logo-text {
+            color: #ffffff;
+            text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+        }
+
+        footer .wholesale-logo-line {
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .floating-element,
+            .metric-card {
+                display: none;
+            }
+            
+            .hero-section,
+            .cta-section {
+                min-height: 60vh;
+            }
+            
+            .wholesale-logo-text {
+                font-size: 1.5rem;
+            }
+            
+            .wholesale-logo-line {
+                width: 100px;
+                height: 3px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 w-full border-b border-gray-200 bg-white/80 backdrop-blur-md slide-in-left">
+        <div class="container mx-auto px-4">
+            <div class="flex h-16 items-center justify-between">
+                <div class="wholesale-logo bounce-in">
+                    <div class="wholesale-logo-text">
+                        <span class="wholesale">Wholesale</span>.<span class="education">Education</span>
+                    </div>
+                    <div class="wholesale-logo-line"></div>
+                </div>
+                
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="/guides" class="text-gray-600 hover:text-gray-900 transition-all duration-300 hover:scale-110 hover:text-blue-600">Learn Wholesale</a>
+                    <a href="/marketplace" class="text-gray-600 hover:text-gray-900 transition-all duration-300 hover:scale-110 hover:text-blue-600 font-bold text-blue-600">Marketplaces</a>
+                    <a href="/suppliers" class="text-gray-600 hover:text-gray-900 transition-all duration-300 hover:scale-110 hover:text-blue-600">Suppliers</a>
+                    <a href="/guides" class="text-gray-600 hover:text-gray-900 transition-all duration-300 hover:scale-110 hover:text-blue-600">Resources</a>
+                    <a href="/about" class="text-gray-600 hover:text-gray-900 transition-all duration-300 hover:scale-110 hover:text-blue-600">About</a>
+                </div>
+                
+                <div class="flex items-center space-x-4 slide-in-right">
+                    <button class="btn-secondary hover-lift">Sign In</button>
+                    <button class="btn-primary hover-glow">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-white py-20 relative overflow-hidden">
+        <!-- Business Growth Background -->
+        <div class="hero-background">
+            <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=1920&h=1080&fit=crop&crop=center" alt="Modern Business Analytics Dashboard" class="hero-bg-image">
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <!-- Subtle Animated Elements -->
+        <div class="absolute inset-0 z-10">
+            <div class="floating-element element-1"></div>
+            <div class="floating-element element-2"></div>
+            <div class="floating-element element-3"></div>
+        </div>
+        
+        <div class="container mx-auto px-4 text-center relative z-20">
+            <div class="max-w-4xl mx-auto">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 text-reveal">
+                    <span class="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent gradient-shift">
+                        Master Your Business
+                    </span>
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-200 mb-8 max-w-2xl mx-auto fade-in stagger-1">
+                    Unlock the secrets of wholesale success with our comprehensive education platform. 
+                    From sourcing to scaling, we've got you covered.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="guides.html" class="bg-white text-gray-900 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-all duration-300 hover:scale-105 hover:shadow-xl bounce-in stagger-2 glow-pulse">
+                        Start Learning Free
+                    </a>
+                    <a href="about.html" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-gray-900 transition-all duration-300 hover:scale-105 hover:shadow-xl bounce-in stagger-3 shimmer">
+                        Watch Demo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-16 bg-gray-50 relative overflow-hidden">
+        <!-- Animated Background Elements -->
+        <div class="absolute inset-0">
+            <div class="morphing-shape absolute top-10 left-10 w-20 h-20 bg-blue-200 opacity-20"></div>
+            <div class="morphing-shape absolute top-20 right-20 w-16 h-16 bg-purple-200 opacity-20" style="animation-delay: 2s;"></div>
+            <div class="morphing-shape absolute bottom-20 left-1/4 w-24 h-24 bg-green-200 opacity-20" style="animation-delay: 4s;"></div>
+        </div>
+        
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="text-center hover-lift scale-in stagger-1 pulse-ring">
+                    <div class="text-4xl font-bold text-gray-900 mb-2 counter float-up-down" data-target="1000000">0</div>
+                    <div class="text-gray-600">Product Pages</div>
+                </div>
+                <div class="text-center hover-lift scale-in stagger-2 pulse-ring" style="animation-delay: 0.5s;">
+                    <div class="text-4xl font-bold text-gray-900 mb-2 counter float-up-down" data-target="100">0</div>
+                    <div class="text-gray-600">Industries</div>
+                </div>
+                <div class="text-center hover-lift scale-in stagger-3 pulse-ring" style="animation-delay: 1s;">
+                    <div class="text-4xl font-bold text-gray-900 mb-2 counter float-up-down" data-target="50000">0</div>
+                    <div class="text-gray-600">Active Learners</div>
+                </div>
+                <div class="text-center hover-lift scale-in stagger-4 pulse-ring" style="animation-delay: 1.5s;">
+                    <div class="text-4xl font-bold text-gray-900 mb-2 pulse-glow zoom-in-out">∞</div>
+                    <div class="text-gray-600">Opportunities</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-20">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4 text-reveal">
+                    Everything You Need to Succeed
+                </h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto fade-in stagger-1">
+                    Our comprehensive platform provides all the tools and knowledge you need to build a successful wholesale business.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <a href="guides.html" class="feature-card card p-8 text-center hover-lift flip-in stagger-1 glow-pulse">
+                    <div class="w-20 h-20 rounded-full overflow-hidden mx-auto mb-6 hover-rotate shadow-lg elastic-scale">
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=200&h=200&fit=crop&crop=center" 
+                             alt="Professional Business Team Learning" 
+                             class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Comprehensive Learning</h3>
+                    <p class="text-gray-600">
+                        Access thousands of articles, guides, and tutorials covering every aspect of wholesale business.
+                    </p>
+                </a>
+                
+                <a href="suppliers.html" class="feature-card card p-8 text-center hover-lift flip-in stagger-2 glow-pulse">
+                    <div class="w-20 h-20 rounded-full overflow-hidden mx-auto mb-6 hover-rotate shadow-lg elastic-scale" style="animation-delay: 0.2s;">
+                        <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=200&h=200&fit=crop&crop=center" 
+                             alt="Global Supply Chain Network" 
+                             class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Supplier Network</h3>
+                    <p class="text-gray-600">
+                        Connect with verified suppliers and distributors from around the world.
+                    </p>
+                </a>
+                
+                <a href="about.html" class="feature-card card p-8 text-center hover-lift flip-in stagger-3 glow-pulse">
+                    <div class="w-20 h-20 rounded-full overflow-hidden mx-auto mb-6 hover-rotate shadow-lg elastic-scale" style="animation-delay: 0.4s;">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=200&h=200&fit=crop&crop=center" 
+                             alt="Business Analytics Dashboard" 
+                             class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Analytics & Insights</h3>
+                    <p class="text-gray-600">
+                        Track your progress and get insights to optimize your wholesale strategy.
+                    </p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marketplace Section -->
+    <section class="py-20 bg-gradient-to-br from-blue-50 to-purple-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-6 fade-in">Master Marketplace Selling</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto fade-in stagger-1">
+                    Learn how to dominate every major marketplace - from Amazon to TikTok Shop. 
+                    Get the attention of millions of buyers navigating different platforms worldwide.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <a href="marketplace.html" class="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 fade-in stagger-1 slide-up-bounce glow-pulse">
+                    <div class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mx-auto mb-4 rotate-3d">
+                        <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9v-9m0-9v9m0 9c-5 0-9-4-9-9s4-9 9-9"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Global Marketplaces</h3>
+                    <p class="text-gray-600 mb-4">Amazon, eBay, Walmart, Rakuten</p>
+                    <span class="text-blue-600 hover:text-blue-800 font-semibold">Learn More →</span>
+                </a>
+                
+                <a href="marketplace.html" class="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 fade-in stagger-2 slide-up-bounce glow-pulse">
+                    <div class="w-16 h-16 bg-pink-100 rounded-lg flex items-center justify-center mx-auto mb-4 rotate-3d" style="animation-delay: 0.5s;">
+                        <svg class="w-8 h-8 text-pink-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4h4a2 2 0 002-2V5z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Fashion Resale</h3>
+                    <p class="text-gray-600 mb-4">Poshmark, Depop, Vinted, Grailed</p>
+                    <span class="text-pink-600 hover:text-pink-800 font-semibold">Learn More →</span>
+                </a>
+                
+                <a href="marketplace.html" class="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 fade-in stagger-3 slide-up-bounce glow-pulse">
+                    <div class="w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center mx-auto mb-4 rotate-3d" style="animation-delay: 1s;">
+                        <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Social Commerce</h3>
+                    <p class="text-gray-600 mb-4">TikTok Shop, Instagram Shops</p>
+                    <span class="text-purple-600 hover:text-purple-800 font-semibold">Learn More →</span>
+                </a>
+                
+                <a href="marketplace.html" class="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 fade-in stagger-4 slide-up-bounce glow-pulse">
+                    <div class="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mx-auto mb-4 rotate-3d" style="animation-delay: 1.5s;">
+                        <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Local P2P</h3>
+                    <p class="text-gray-600 mb-4">Facebook Marketplace, OLX, Craigslist</p>
+                    <span class="text-green-600 hover:text-green-800 font-semibold">Learn More →</span>
+                </a>
+            </div>
+            
+            <div class="text-center">
+                <a href="marketplace.html" class="inline-flex items-center bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 hover:scale-105 hover:shadow-lg bounce-in elastic-scale glow-pulse">
+                    Explore All Marketplaces
+                    <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4 text-reveal">
+                    Explore Industries
+                </h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto fade-in stagger-1">
+                    Dive deep into specific industries and learn the ins and outs of wholesale in each sector.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="feature-card card p-6 hover-lift slide-in-left stagger-1">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-16 h-16 rounded-lg overflow-hidden hover-rotate shadow-md">
+                            <img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?w=100&h=100&fit=crop&crop=center" 
+                                 alt="Electronics and Technology" 
+                                 class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-lg">Electronics</h3>
+                            <p class="text-gray-600 text-sm">1,247 articles</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-card card p-6 hover-lift slide-in-left stagger-2">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-16 h-16 rounded-lg overflow-hidden hover-rotate shadow-md">
+                            <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=100&h=100&fit=crop&crop=center" 
+                                 alt="Fashion and Clothing" 
+                                 class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-lg">Fashion</h3>
+                            <p class="text-gray-600 text-sm">892 articles</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-card card p-6 hover-lift slide-in-left stagger-3">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-16 h-16 rounded-lg overflow-hidden hover-rotate shadow-md">
+                            <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=100&h=100&fit=crop&crop=center" 
+                                 alt="Home and Garden Products" 
+                                 class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-lg">Home & Garden</h3>
+                            <p class="text-gray-600 text-sm">654 articles</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-card card p-6 hover-lift slide-in-right stagger-4">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-16 h-16 rounded-lg overflow-hidden hover-rotate shadow-md">
+                            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=100&h=100&fit=crop&crop=center" 
+                                 alt="Automotive and Car Parts" 
+                                 class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-lg">Automotive</h3>
+                            <p class="text-gray-600 text-sm">543 articles</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-card card p-6 hover-lift slide-in-right stagger-5">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-16 h-16 rounded-lg overflow-hidden hover-rotate shadow-md">
+                            <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=100&h=100&fit=crop&crop=center" 
+                                 alt="Health and Beauty Products" 
+                                 class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-lg">Health & Beauty</h3>
+                            <p class="text-gray-600 text-sm">432 articles</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feature-card card p-6 hover-lift slide-in-right stagger-6">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-16 h-16 rounded-lg overflow-hidden hover-rotate shadow-md">
+                            <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=100&h=100&fit=crop&crop=center" 
+                                 alt="Industrial Manufacturing" 
+                                 class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-lg">Industrial</h3>
+                            <p class="text-gray-600 text-sm">321 articles</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Paths Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4 text-reveal">
+                    Your Learning Journey
+                </h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto fade-in stagger-1">
+                    Follow our structured learning paths from beginner to expert level.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="feature-card card p-8 text-center hover-lift slide-in-left stagger-1">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Beginner</h3>
+                    <p class="text-gray-600 mb-6">Start your wholesale journey with the basics</p>
+                    <ul class="text-left text-sm text-gray-600 space-y-2">
+                        <li>• What is wholesale business?</li>
+                        <li>• Finding your first suppliers</li>
+                        <li>• Basic pricing strategies</li>
+                        <li>• Legal requirements</li>
+                    </ul>
+                    <button class="mt-6 btn-primary w-full">Start Learning</button>
+                </div>
+                
+                <div class="feature-card card p-8 text-center hover-lift slide-in-left stagger-2">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Intermediate</h3>
+                    <p class="text-gray-600 mb-6">Scale your operations and optimize profits</p>
+                    <ul class="text-left text-sm text-gray-600 space-y-2">
+                        <li>• Advanced sourcing strategies</li>
+                        <li>• Inventory management</li>
+                        <li>• Marketing and sales</li>
+                        <li>• Financial planning</li>
+                    </ul>
+                    <button class="mt-6 btn-primary w-full">Continue Learning</button>
+                </div>
+                
+                <div class="feature-card card p-8 text-center hover-lift slide-in-left stagger-3">
+                    <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Expert</h3>
+                    <p class="text-gray-600 mb-6">Master advanced strategies and build empires</p>
+                    <ul class="text-left text-sm text-gray-600 space-y-2">
+                        <li>• International expansion</li>
+                        <li>• Private labeling</li>
+                        <li>• Supply chain optimization</li>
+                        <li>• Business automation</li>
+                    </ul>
+                    <button class="mt-6 btn-primary w-full">Master Level</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools & Calculators Section -->
+    <section class="py-20 bg-gradient-to-br from-blue-50 to-indigo-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-6 fade-in">Business Tools & Calculators</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto fade-in stagger-1">
+                    Use our professional tools to calculate profits, analyze markets, and make informed decisions.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 fade-in stagger-1">
+                    <div class="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Profit Calculator</h3>
+                    <p class="text-gray-600 mb-4">Calculate margins, ROI, and break-even points</p>
+                    <button class="w-full btn-primary">Calculate</button>
+                </div>
+                
+                <div class="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 fade-in stagger-2">
+                    <div class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Market Analyzer</h3>
+                    <p class="text-gray-600 mb-4">Analyze market trends and competition</p>
+                    <button class="w-full btn-primary">Analyze</button>
+                </div>
+                
+                <div class="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 fade-in stagger-3">
+                    <div class="w-16 h-16 bg-orange-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Inventory Planner</h3>
+                    <p class="text-gray-600 mb-4">Optimize stock levels and ordering</p>
+                    <button class="w-full btn-primary">Plan</button>
+                </div>
+                
+                <div class="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 fade-in stagger-4">
+                    <div class="w-16 h-16 bg-indigo-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Shipping Calculator</h3>
+                    <p class="text-gray-600 mb-4">Compare shipping costs worldwide</p>
+                    <button class="w-full btn-primary">Calculate</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Stories Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4 text-reveal">
+                    Success Stories
+                </h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto fade-in stagger-1">
+                    Real entrepreneurs who built successful wholesale businesses using our platform.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="feature-card card p-8 hover-lift rotate-in stagger-1 success-story">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+                            <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">Mike Chen</h4>
+                            <p class="text-gray-600 text-sm business-type">Electronics Wholesaler</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">
+                        "Started with $5,000 and now doing $2M+ annually. The supplier directory and pricing guides were game-changers."
+                    </p>
+                    <div class="text-sm text-blue-600 font-semibold revenue-metric">$2M+ Annual Revenue</div>
+                </div>
+                
+                <div class="feature-card card p-8 hover-lift rotate-in stagger-2 success-story">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mr-4">
+                            <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">Sarah Johnson</h4>
+                            <p class="text-gray-600 text-sm business-type">Fashion Distributor</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">
+                        "The marketplace guides helped me expand to 15+ platforms. My business grew 400% in the first year."
+                    </p>
+                    <div class="text-sm text-green-600 font-semibold revenue-metric">400% Growth</div>
+                </div>
+                
+                <div class="feature-card card p-8 hover-lift rotate-in stagger-3 success-story">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mr-4">
+                            <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">David Rodriguez</h4>
+                            <p class="text-gray-600 text-sm business-type">Health & Beauty</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">
+                        "From zero to 50,000 customers in 18 months. The automation tools and supplier network made it possible."
+                    </p>
+                    <div class="text-sm text-purple-600 font-semibold revenue-metric">50K Customers</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section py-20 text-white relative overflow-hidden">
+        <!-- Success & Growth Background -->
+        <div class="cta-background">
+            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1920&h=1080&fit=crop&crop=center" alt="Modern Business Success" class="cta-bg-image">
+            <div class="cta-overlay"></div>
+        </div>
+        
+        <!-- Success Metrics Overlay -->
+        <div class="success-metrics-overlay">
+            <div class="metric-card metric-1">
+                <div class="metric-icon">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+                    </svg>
+                </div>
+                <div class="metric-text">+300% Growth</div>
+            </div>
+            <div class="metric-card metric-2">
+                <div class="metric-icon">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"></path>
+                    </svg>
+                </div>
+                <div class="metric-text">$2M+ Revenue</div>
+            </div>
+            <div class="metric-card metric-3">
+                <div class="metric-icon">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                    </svg>
+                </div>
+                <div class="metric-text">Top 1%</div>
+            </div>
+        </div>
+        
+        <div class="container mx-auto px-4 text-center relative z-20">
+            <div class="max-w-3xl mx-auto">
+                <h2 class="text-4xl font-bold mb-6 text-reveal">
+                    Ready to Transform Your Business?
+                </h2>
+                <p class="text-xl text-gray-200 mb-8 fade-in stagger-1">
+                    Join thousands of successful entrepreneurs who have mastered the art of wholesale business.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <button class="bg-white text-gray-900 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-all duration-300 hover:scale-105 hover:shadow-xl bounce-in stagger-2">
+                        Start Your Journey
+                    </button>
+                    <button class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-gray-900 transition-all duration-300 hover:scale-105 hover:shadow-xl bounce-in stagger-3">
+                        View Pricing
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-20 relative overflow-hidden">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-5">
+            <div class="absolute top-0 left-0 w-full h-full" style="background-image: radial-gradient(circle at 25% 25%, #3b82f6 0%, transparent 50%), radial-gradient(circle at 75% 75%, #8b5cf6 0%, transparent 50%);"></div>
+        </div>
+        
+        <div class="container mx-auto px-4 relative z-10">
+            <!-- Logo Section -->
+            <div class="text-center mb-16">
+                <div class="wholesale-logo mx-auto">
+                    <div class="wholesale-logo-text">
+                        <span class="wholesale">Wholesale</span>.<span class="education">Education</span>
+                    </div>
+                    <div class="wholesale-logo-line"></div>
+                </div>
+                <p class="text-gray-300 mt-6 max-w-2xl mx-auto text-lg">
+                    Your comprehensive resource for mastering the wholesale business. 
+                    From sourcing to scaling, we provide the knowledge you need to succeed.
+                </p>
+            </div>
+            
+            <!-- Main Footer Content -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+                <!-- Company Info -->
+                <div class="lg:col-span-2">
+                    <h4 class="text-xl font-bold mb-6 text-white">About Wholesale.Education</h4>
+                    <p class="text-gray-300 mb-6 leading-relaxed">
+                        We're the leading platform for wholesale business education, helping entrepreneurs 
+                        and businesses scale their operations through comprehensive guides, supplier networks, 
+                        and industry insights.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-12 h-12 bg-gray-800 hover:bg-blue-600 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-lg">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="w-12 h-12 bg-gray-800 hover:bg-blue-600 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-lg">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="w-12 h-12 bg-gray-800 hover:bg-blue-600 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-lg">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.746-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24.009 12.017 24.009c6.624 0 11.99-5.367 11.99-11.988C24.007 5.367 18.641.001 12.017.001z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="w-12 h-12 bg-gray-800 hover:bg-blue-600 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-lg">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Learn Section -->
+                <div>
+                    <h4 class="text-xl font-bold mb-6 text-white">Learn</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-all duration-300 hover:translate-x-2 block">Getting Started</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-all duration-300 hover:translate-x-2 block">Sourcing Guide</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-all duration-300 hover:translate-x-2 block">Pricing Strategies</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-all duration-300 hover:translate-x-2 block">Legal Compliance</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-all duration-300 hover:translate-x-2 block">Success Stories</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-all duration-300 hover:translate-x-2 block">Case Studies</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Resources Section -->
+                <div>
+                    <h4 class="text-xl font-bold mb-6 text-white">Resources</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-all duration-300 hover:translate-x-2 block">Supplier Directory</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-all duration-300 hover:translate-x-2 block">Industry Reports</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-all duration-300 hover:translate-x-2 block">Tools & Calculators</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-all duration-300 hover:translate-x-2 block">Blog</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-all duration-300 hover:translate-x-2 block">Newsletter</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-all duration-300 hover:translate-x-2 block">Webinars</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Newsletter Signup -->
+            <div class="bg-gray-900 rounded-2xl p-8 mb-16 text-center">
+                <h3 class="text-2xl font-bold mb-4">Stay Updated</h3>
+                <p class="text-gray-300 mb-6">Get the latest wholesale insights and opportunities delivered to your inbox.</p>
+                <div class="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
+                    <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-lg bg-gray-800 border border-gray-700 text-white placeholder-gray-400 focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20">
+                    <button class="px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                        Subscribe
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Bottom Footer -->
+            <div class="border-t border-gray-800 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-gray-400 text-sm mb-4 md:mb-0">
+                        © 2025 Wholesale.Education. All rights reserved.
+                    </p>
+                    <div class="flex flex-wrap justify-center gap-6">
+                        <a href="#" class="text-gray-400 hover:text-white text-sm transition-colors hover:underline">Privacy Policy</a>
+                        <a href="#" class="text-gray-400 hover:text-white text-sm transition-colors hover:underline">Terms of Service</a>
+                        <a href="/contact" class="text-gray-400 hover:text-white text-sm transition-colors hover:underline">Contact</a>
+                        <a href="/contact" class="text-gray-400 hover:text-white text-sm transition-colors hover:underline">Support</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Automated Features and Enhanced Interactive Elements
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            // Automated Content Updates
+            function updateLiveStats() {
+                const stats = [
+                    { element: '.counter[data-target="1000000"]', value: Math.floor(Math.random() * 50000) + 1000000 },
+                    { element: '.counter[data-target="100"]', value: Math.floor(Math.random() * 20) + 100 },
+                    { element: '.counter[data-target="50000"]', value: Math.floor(Math.random() * 10000) + 50000 }
+                ];
+                
+                stats.forEach(stat => {
+                    const element = document.querySelector(stat.element);
+                    if (element) {
+                        element.textContent = stat.value.toLocaleString();
+                    }
+                });
+            }
+            
+            // Update stats every 30 seconds
+            setInterval(updateLiveStats, 30000);
+            
+            // Automated Newsletter Signup
+            function setupNewsletterAutomation() {
+                const newsletterForm = document.querySelector('input[type="email"]');
+                if (newsletterForm) {
+                    newsletterForm.addEventListener('blur', function() {
+                        if (this.value && this.value.includes('@')) {
+                            // Simulate automated email capture
+                            console.log('Email captured for automation:', this.value);
+                        }
+                    });
+                }
+            }
+            
+            // Automated Lead Scoring
+            function trackUserEngagement() {
+                let engagementScore = 0;
+                const engagementEvents = [
+                    'scroll', 'click', 'mousemove', 'keydown'
+                ];
+                
+                engagementEvents.forEach(event => {
+                    document.addEventListener(event, function() {
+                        engagementScore++;
+                        if (engagementScore > 50) {
+                            // Show automated CTA
+                            showAutomatedCTA();
+                        }
+                    });
+                });
+            }
+            
+            function showAutomatedCTA() {
+                if (!document.querySelector('.automated-cta')) {
+                    const cta = document.createElement('div');
+                    cta.className = 'automated-cta fixed bottom-4 right-4 bg-blue-600 text-white p-4 rounded-lg shadow-lg z-50';
+                    cta.innerHTML = `
+                        <p class="text-sm mb-2">🎯 You're engaged! Ready to start your wholesale journey?</p>
+                        <button class="bg-white text-blue-600 px-4 py-2 rounded text-sm font-semibold hover:bg-gray-100">
+                            Get Started Now
+                        </button>
+                        <button class="ml-2 text-white text-sm" onclick="this.parentElement.remove()">×</button>
+                    `;
+                    document.body.appendChild(cta);
+                    
+                    // Auto-remove after 10 seconds
+                    setTimeout(() => {
+                        if (cta.parentElement) {
+                            cta.remove();
+                        }
+                    }, 10000);
+                }
+            }
+            
+            // Automated Marketplace Data Updates
+            function updateMarketplaceData() {
+                const marketplaceCards = document.querySelectorAll('.marketplace-card');
+                marketplaceCards.forEach(card => {
+                    const trafficElement = card.querySelector('.traffic-count');
+                    if (trafficElement) {
+                        const currentTraffic = parseInt(trafficElement.textContent.replace(/[^\d]/g, ''));
+                        const newTraffic = currentTraffic + Math.floor(Math.random() * 1000);
+                        trafficElement.textContent = newTraffic.toLocaleString() + ' monthly visitors';
+                    }
+                });
+            }
+            
+            // Update marketplace data every 2 minutes
+            setInterval(updateMarketplaceData, 120000);
+            
+            // Automated Success Stories Rotation
+            function rotateSuccessStories() {
+                const stories = [
+                    {
+                        name: "Mike Chen",
+                        business: "Electronics Wholesaler",
+                        revenue: "$2M+ Annual Revenue",
+                        quote: "Started with $5,000 and now doing $2M+ annually. The supplier directory and pricing guides were game-changers."
+                    },
+                    {
+                        name: "Sarah Johnson", 
+                        business: "Fashion Distributor",
+                        revenue: "400% Growth",
+                        quote: "The marketplace guides helped me expand to 15+ platforms. My business grew 400% in the first year."
+                    },
+                    {
+                        name: "David Rodriguez",
+                        business: "Health & Beauty",
+                        revenue: "50K Customers", 
+                        quote: "From zero to 50,000 customers in 18 months. The automation tools and supplier network made it possible."
+                    },
+                    {
+                        name: "Lisa Wang",
+                        business: "Home & Garden",
+                        revenue: "$1.5M Revenue",
+                        quote: "The learning guides transformed my small business into a major distributor. Incredible results!"
+                    }
+                ];
+                
+                const storyElements = document.querySelectorAll('.success-story');
+                storyElements.forEach((element, index) => {
+                    const story = stories[index % stories.length];
+                    element.querySelector('h4').textContent = story.name;
+                    element.querySelector('.business-type').textContent = story.business;
+                    element.querySelector('.revenue-metric').textContent = story.revenue;
+                    element.querySelector('p').textContent = story.quote;
+                });
+            }
+            
+            // Rotate success stories every 5 minutes
+            setInterval(rotateSuccessStories, 300000);
+            
+            // Initialize automation
+            setupNewsletterAutomation();
+            trackUserEngagement();
+            updateMarketplaceData();
+            rotateSuccessStories();
+            // Add smooth scrolling to anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+            
+            // Enhanced intersection observer for all animations
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('fade-in');
+                        
+                        // Add wiggle animation to icons on hover
+                        if (entry.target.classList.contains('hover-rotate')) {
+                            entry.target.addEventListener('mouseenter', function() {
+                                this.classList.add('wiggle');
+                            });
+                            entry.target.addEventListener('animationend', function() {
+                                this.classList.remove('wiggle');
+                            });
+                        }
+                    }
+                });
+            }, observerOptions);
+            
+            // Observe all animated elements
+            document.querySelectorAll('.feature-card, .hover-lift, .scale-in, .slide-in-left, .slide-in-right, .rotate-in, .bounce-in').forEach(element => {
+                observer.observe(element);
+            });
+            
+            // Counter animation for stats
+            function animateCounter(element, target, duration = 2000) {
+                let start = 0;
+                const increment = target / (duration / 16);
+                
+                function updateCounter() {
+                    start += increment;
+                    if (start < target) {
+                        element.textContent = Math.floor(start).toLocaleString();
+                        requestAnimationFrame(updateCounter);
+                    } else {
+                        element.textContent = target.toLocaleString();
+                    }
+                }
+                updateCounter();
+            }
+            
+            // Trigger counter animations when stats section is visible
+            const statsObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const counters = entry.target.querySelectorAll('.counter');
+                        counters.forEach(counter => {
+                            const target = parseInt(counter.getAttribute('data-target'));
+                            animateCounter(counter, target);
+                        });
+                        statsObserver.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.5 });
+            
+            const statsSection = document.querySelector('.py-16.bg-gray-50');
+            if (statsSection) {
+                statsObserver.observe(statsSection);
+            }
+            
+            // Add click animations to buttons
+            document.querySelectorAll('button').forEach(button => {
+                button.addEventListener('click', function(e) {
+                    // Create ripple effect
+                    const ripple = document.createElement('span');
+                    const rect = this.getBoundingClientRect();
+                    const size = Math.max(rect.width, rect.height);
+                    const x = e.clientX - rect.left - size / 2;
+                    const y = e.clientY - rect.top - size / 2;
+                    
+                    ripple.style.width = ripple.style.height = size + 'px';
+                    ripple.style.left = x + 'px';
+                    ripple.style.top = y + 'px';
+                    ripple.classList.add('ripple');
+                    
+                    this.appendChild(ripple);
+                    
+                    setTimeout(() => {
+                        ripple.remove();
+                    }, 600);
+                });
+            });
+            
+            // Add parallax effect to hero section
+            window.addEventListener('scroll', function() {
+                const scrolled = window.pageYOffset;
+                const heroSection = document.querySelector('.hero-gradient');
+                if (heroSection) {
+                    heroSection.style.transform = `translateY(${scrolled * 0.5}px)`;
+                }
+            });
+            
+            // Add typing effect to hero title
+            const heroTitle = document.querySelector('.text-reveal');
+            if (heroTitle) {
+                const text = heroTitle.textContent;
+                heroTitle.textContent = '';
+                heroTitle.classList.add('typewriter');
+                
+                let i = 0;
+                function typeWriter() {
+                    if (i < text.length) {
+                        heroTitle.textContent += text.charAt(i);
+                        i++;
+                        setTimeout(typeWriter, 100);
+                    }
+                }
+                
+                setTimeout(typeWriter, 1000);
+            }
+            
+            // Add floating animation to logo
+            const logo = document.querySelector('.pulse-glow');
+            if (logo) {
+                setInterval(() => {
+                    logo.classList.add('floating-animation');
+                    setTimeout(() => {
+                        logo.classList.remove('floating-animation');
+                    }, 6000);
+                }, 10000);
+            }
+            
+            // Add hover effects to category cards
+            document.querySelectorAll('.feature-card').forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-8px) scale(1.02)';
+                    this.style.boxShadow = '0 20px 40px rgba(0, 0, 0, 0.15)';
+                });
+                
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0) scale(1)';
+                    this.style.boxShadow = '0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)';
+                });
+            });
+            
+            // Add loading animation
+            const loadingDots = document.querySelector('.loading-dots');
+            if (loadingDots) {
+                setInterval(() => {
+                    loadingDots.classList.add('loading-dots');
+                }, 1500);
+            }
+        });
+        
+        // Add CSS for ripple effect
+        const style = document.createElement('style');
+        style.textContent = `
+            .ripple {
+                position: absolute;
+                border-radius: 50%;
+                background: rgba(255, 255, 255, 0.3);
+                transform: scale(0);
+                animation: ripple-animation 0.6s linear;
+                pointer-events: none;
+            }
+            
+            @keyframes ripple-animation {
+                to {
+                    transform: scale(4);
+                    opacity: 0;
+                }
+            }
+            
+            button {
+                position: relative;
+                overflow: hidden;
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+</body>
+</html>
+  

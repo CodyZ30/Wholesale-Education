@@ -1,0 +1,29 @@
+{
+  "name": "wholesale-education-site",
+  "version": "1.0.0",
+  "description": "The world's largest wholesale education platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "setup": "node setup-database.js && node setup-wholesale-database.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ejs": "^3.1.9",
+    "sqlite3": "^5.1.6",
+    "path": "^0.12.7",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "compression": "^1.7.4",
+    "express-session": "^1.17.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["wholesale", "education", "business", "ecommerce"],
+  "author": "Wholesale Education",
+  "license": "MIT"
+
+}

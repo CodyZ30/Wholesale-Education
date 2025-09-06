@@ -1,0 +1,272 @@
+[
+  {
+    "id": "kb121",
+    "title": "How to Track Multiple Orders",
+    "category": "Orders",
+    "content": "To track multiple orders, log into your account and go to 'My Orders'. You'll see all your orders with their current status and tracking information. You can also use the order numbers to track on carrier websites.",
+    "tags": ["tracking", "multiple", "orders"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb122",
+    "title": "What If My Order Is Delayed?",
+    "category": "Orders",
+    "content": "If your order is delayed, check the tracking information first. Weather, holidays, or carrier issues can cause delays. Contact us if your order is more than 2 business days late and we'll investigate.",
+    "tags": ["delay", "shipping", "tracking"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb123",
+    "title": "How to Reorder Previous Purchases",
+    "category": "Orders",
+    "content": "Go to 'My Orders' in your account, find the order you want to reorder, and click 'Reorder'. This will add all items from that order to your cart. You can then modify quantities or remove items before checkout.",
+    "tags": ["reorder", "previous", "purchases"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb124",
+    "title": "Order Processing Times",
+    "category": "Orders",
+    "content": "Orders are processed within 1-2 business days. Custom or personalized items may take 3-5 business days. You'll receive an email when your order ships with tracking information.",
+    "tags": ["processing", "time", "orders"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb125",
+    "title": "How to Add Items to Existing Order",
+    "category": "Orders",
+    "content": "You cannot add items to an order once it's placed. You'll need to place a separate order for additional items. We can sometimes combine shipping if both orders haven't shipped yet - contact support.",
+    "tags": ["add items", "existing order", "combine"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb126",
+    "title": "Order Confirmation Numbers",
+    "category": "Orders",
+    "content": "Your order confirmation number is sent via email and can be found in your account under 'My Orders'. Use this number when contacting support about your order.",
+    "tags": ["confirmation", "number", "order"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb127",
+    "title": "How to Check Order Status Without Account",
+    "category": "Orders",
+    "content": "Use our 'Track Order' feature on the website. Enter your order number and email address to check status. You can also contact support with your order details.",
+    "tags": ["track", "guest", "status"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb128",
+    "title": "Order Modifications and Changes",
+    "category": "Orders",
+    "content": "Order modifications are only possible within 1 hour of placing the order. After that, you'll need to cancel and reorder. Contact support immediately if you need to make changes.",
+    "tags": ["modify", "change", "order"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb129",
+    "title": "How to Print Order Receipt",
+    "category": "Orders",
+    "content": "Log into your account, go to 'My Orders', find your order, and click 'Print Receipt'. You can also print the confirmation email you received when you placed the order.",
+    "tags": ["print", "receipt", "order"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb130",
+    "title": "Order History and Past Purchases",
+    "category": "Orders",
+    "content": "Your complete order history is available in your account under 'My Orders'. You can view orders from the past 2 years, reorder items, and track current orders.",
+    "tags": ["history", "past", "purchases"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb131",
+    "title": "Express Shipping Options",
+    "category": "Shipping & Delivery",
+    "content": "We offer 1-day and 2-day express shipping options. Express shipping is available for most items and includes weekend delivery. Check availability at checkout.",
+    "tags": ["express", "shipping", "fast"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb132",
+    "title": "Weekend and Holiday Shipping",
+    "category": "Shipping & Delivery",
+    "content": "We ship Monday through Friday. Orders placed on weekends ship the following Monday. Holiday shipping schedules are posted on our website and social media.",
+    "tags": ["weekend", "holiday", "shipping"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb133",
+    "title": "Signature Required Deliveries",
+    "category": "Shipping & Delivery",
+    "content": "High-value orders require signature confirmation. You'll receive tracking updates and can authorize delivery online or request delivery to a neighbor.",
+    "tags": ["signature", "delivery", "authorization"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb134",
+    "title": "Package Pickup and Hold Options",
+    "category": "Shipping & Delivery",
+    "content": "You can request package pickup at carrier locations or hold packages for pickup. Use the tracking number to access carrier options for delivery preferences.",
+    "tags": ["pickup", "hold", "carrier"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb135",
+    "title": "Shipping to Military Addresses",
+    "category": "Shipping & Delivery",
+    "content": "We ship to APO/FPO addresses. Military shipping may take longer and has restrictions on certain items. Contact us for specific military shipping information.",
+    "tags": ["military", "APO", "FPO"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb136",
+    "title": "Rural and Remote Area Shipping",
+    "category": "Shipping & Delivery",
+    "content": "Rural and remote areas may have extended delivery times. We work with carriers to ensure delivery, but some areas may require additional time or special arrangements.",
+    "tags": ["rural", "remote", "delivery"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb137",
+    "title": "Package Insurance and Protection",
+    "category": "Shipping & Delivery",
+    "content": "All packages are automatically insured up to $100. Higher value items may require additional insurance. Contact us for insurance options on valuable orders.",
+    "tags": ["insurance", "protection", "value"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb138",
+    "title": "Shipping Restrictions and Prohibited Items",
+    "category": "Shipping & Delivery",
+    "content": "Some items cannot be shipped to certain locations due to regulations. Check product pages for restrictions. International shipping has additional limitations.",
+    "tags": ["restrictions", "prohibited", "regulations"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb139",
+    "title": "How to Calculate Shipping Costs",
+    "category": "Shipping & Delivery",
+    "content": "Shipping costs are calculated based on package weight, dimensions, destination, and shipping method. Use our shipping calculator or add items to cart to see costs.",
+    "tags": ["calculate", "costs", "shipping"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb140",
+    "title": "Bulk Shipping and Volume Discounts",
+    "category": "Shipping & Delivery",
+    "content": "Large orders may qualify for bulk shipping rates. Contact our wholesale team for volume shipping discounts and custom shipping arrangements.",
+    "tags": ["bulk", "volume", "discounts"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb141",
+    "title": "Credit Card Security and Fraud Protection",
+    "category": "Payment & Billing",
+    "content": "We use advanced fraud detection and SSL encryption. Your card information is never stored on our servers. We may contact you to verify large or unusual orders.",
+    "tags": ["security", "fraud", "protection"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb142",
+    "title": "Payment Plan and Installment Options",
+    "category": "Payment & Billing",
+    "content": "We offer payment plans through Shop Pay and PayPal. Split your purchase into 4 interest-free payments. Available for orders over $50.",
+    "tags": ["payment plan", "installments", "split"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb143",
+    "title": "Gift Card Purchases and Redemption",
+    "category": "Payment & Billing",
+    "content": "Gift cards can be purchased online and are delivered via email. Use gift cards at checkout by entering the code. Gift cards never expire and can be used for any purchase.",
+    "tags": ["gift card", "purchase", "redemption"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb144",
+    "title": "Currency and International Payments",
+    "category": "Payment & Billing",
+    "content": "We accept payments in USD. International customers can pay with credit cards or PayPal. Currency conversion is handled by your bank or payment provider.",
+    "tags": ["currency", "international", "USD"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb145",
+    "title": "Payment Declined and Troubleshooting",
+    "category": "Payment & Billing",
+    "content": "If your payment is declined, check your card details, available balance, and billing address. Contact your bank if issues persist. Try a different payment method.",
+    "tags": ["declined", "troubleshooting", "payment"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb146",
+    "title": "Subscription Billing and Management",
+    "category": "Payment & Billing",
+    "content": "Subscription billing occurs monthly on your signup date. Manage billing in your account under 'Subscriptions'. Update payment methods or cancel anytime.",
+    "tags": ["subscription", "billing", "management"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb147",
+    "title": "Tax Calculation and Exemptions",
+    "category": "Payment & Billing",
+    "content": "Tax is calculated based on your shipping address and local tax rates. Tax-exempt organizations can contact us for exemption forms and special pricing.",
+    "tags": ["tax", "calculation", "exemption"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb148",
+    "title": "Payment Receipts and Invoices",
+    "category": "Payment & Billing",
+    "content": "Payment receipts are sent via email and available in your account. Download invoices for business purchases. All receipts include tax and payment details.",
+    "tags": ["receipts", "invoices", "download"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb149",
+    "title": "Refund Processing and Timeline",
+    "category": "Payment & Billing",
+    "content": "Refunds are processed within 5-7 business days after we receive your return. Credit card refunds may take 1-2 billing cycles. PayPal refunds are usually instant.",
+    "tags": ["refund", "processing", "timeline"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb150",
+    "title": "Payment Method Updates and Changes",
+    "category": "Payment & Billing",
+    "content": "Update payment methods in your account under 'Payment Methods'. Changes take effect immediately for new orders. Update subscription payment methods separately.",
+    "tags": ["update", "payment", "methods"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  }
+]
