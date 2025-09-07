@@ -31,7 +31,7 @@
         "source": "https://github.com/CodyZ30/Wholesale-Education"
     },
     "require": {
-        "php": ">=8.1",
+        "php": ">=8.2",
         "ext-pdo": "*",
         "ext-pdo_sqlite": "*",
         "ext-json": "*",
