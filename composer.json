@@ -1,0 +1,108 @@
+{
+    "name": "wholesale-education/platform",
+    "description": "Professional wholesale education platform with modern design and comprehensive features",
+    "type": "project",
+    "version": "0.1.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cody Z",
+            "email": "cody@wholesale-education.com",
+            "homepage": "https://github.com/CodyZ30",
+            "role": "Lead Developer"
+        }
+    ],
+    "keywords": [
+        "wholesale",
+        "education",
+        "learning",
+        "platform",
+        "business",
+        "ecommerce",
+        "supplier",
+        "marketplace",
+        "php",
+        "sqlite"
+    ],
+    "homepage": "https://github.com/CodyZ30/Wholesale-Education",
+    "support": {
+        "email": "support@wholesale-education.com",
+        "issues": "https://github.com/CodyZ30/Wholesale-Education/issues",
+        "source": "https://github.com/CodyZ30/Wholesale-Education"
+    },
+    "require": {
+        "php": ">=8.2",
+        "ext-pdo": "*",
+        "ext-pdo_sqlite": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-curl": "*",
+        "ext-openssl": "*",
+        "ext-fileinfo": "*",
+        "ext-gd": "*",
+        "ext-zip": "*",
+        "monolog/monolog": "^3.4",
+        "vlucas/phpdotenv": "^5.5",
+        "firebase/php-jwt": "^6.8",
+        "phpmailer/phpmailer": "^6.8",
+        "intervention/image": "^2.7",
+        "ramsey/uuid": "^4.7",
+        "respect/validation": "^2.2",
+        "league/csv": "^9.11",
+        "twig/twig": "^3.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.4",
+        "phpstan/phpstan": "^1.10",
+        "squizlabs/php_codesniffer": "^3.7",
+        "php-cs-fixer/shim": "^3.25",
+        "mockery/mockery": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "WholesaleEducation\\": "src/",
+            "WholesaleEducation\\Tests\\": "tests/"
+        },
+        "files": [
+            "includes/functions.php",
+            "includes/config.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WholesaleEducation\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "test-coverage": "phpunit --coverage-html coverage",
+        "cs-check": "phpcs --standard=PSR12 src/",
+        "cs-fix": "phpcbf --standard=PSR12 src/",
+        "stan": "phpstan analyse src/ --level=8",
+        "quality": [
+            "@cs-check",
+            "@stan",
+            "@test"
+        ],
+        "post-install-cmd": [
+            "php -r \"if (!file_exists('.env')) { copy('.env.example', '.env'); }\""
+        ],
+        "post-update-cmd": [
+            "php -r \"if (!file_exists('.env')) { copy('.env.example', '.env'); }\""
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true,
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-main": "0.1.x-dev"
+        }
+    }
+}

@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketplace Directory - Wholesale.Education</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Custom Styles -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        /* Animated Logo */
+        .wholesale-logo {
+            display: inline-block;
+            text-align: center;
+            position: relative;
+            padding: 10px;
+        }
+
+        .wholesale-logo-text {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #1f2937;
+            text-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            margin-bottom: 8px;
+            position: relative;
+            animation: logoTextGlow 3s ease-in-out infinite alternate;
+        }
+
+        .wholesale-logo-text .wholesale {
+            display: inline-block;
+            animation: slideInLeft 1s ease-out;
+        }
+
+        .wholesale-logo-text .education {
+            display: inline-block;
+            animation: slideInRight 1s ease-out 0.3s both;
+        }
+
+        .wholesale-logo-line {
+            width: 120px;
+            height: 4px;
+            background: linear-gradient(90deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57);
+            border-radius: 6px;
+            margin: 0 auto;
+            position: relative;
+            animation: logoLineDraw 2s ease-out 0.8s both, logoLineGlow 3s ease-in-out infinite alternate 2.8s;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+        }
+
+        @keyframes logoTextGlow {
+            0% { text-shadow: 0 0 20px rgba(0, 0, 0, 0.1); }
+            100% { text-shadow: 0 0 30px rgba(59, 130, 246, 0.3), 0 0 40px rgba(147, 51, 234, 0.2); }
+        }
+
+        @keyframes logoLineDraw {
+            0% { width: 0; opacity: 0; }
+            100% { width: 120px; opacity: 1; }
+        }
+
+        @keyframes logoLineGlow {
+            0% { box-shadow: 0 0 15px rgba(59, 130, 246, 0.3); }
+            100% { box-shadow: 0 0 25px rgba(59, 130, 246, 0.6), 0 0 35px rgba(147, 51, 234, 0.3); }
+        }
+
+        /* Animations */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.6s ease;
+        }
+        
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .slide-in-left {
+            opacity: 0;
+            transform: translateX(-30px);
+            transition: all 0.6s ease;
+        }
+        
+        .slide-in-left.visible {
+            opacity: 1;
+            transform: translateX(0);
+        }
+        
+        .slide-in-right {
+            opacity: 0;
+            transform: translateX(30px);
+            transition: all 0.6s ease;
+        }
+        
+        .slide-in-right.visible {
+            opacity: 1;
+            transform: translateX(0);
+        }
+        
+        .scale-in {
+            opacity: 0;
+            transform: scale(0.9);
+            transition: all 0.6s ease;
+        }
+        
+        .scale-in.visible {
+            opacity: 1;
+            transform: scale(1);
+        }
+        
+        .hover-lift {
+            transition: all 0.3s ease;
+        }
+        
+        .hover-lift:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.15);
+        }
+        
+        .stagger-1 { transition-delay: 0.1s; }
+        .stagger-2 { transition-delay: 0.2s; }
+        .stagger-3 { transition-delay: 0.3s; }
+        .stagger-4 { transition-delay: 0.4s; }
+        .stagger-5 { transition-delay: 0.5s; }
+        
+        /* Hero Section */
+        .hero-section {
+            position: relative;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            overflow: hidden;
+        }
+        
+        .hero-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url('https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            background-position: center;
+            opacity: 0.2;
+        }
+        
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.9) 0%, rgba(118, 75, 162, 0.9) 100%);
+        }
+        
+        /* Floating Elements */
+        .floating-element {
+            position: absolute;
+            opacity: 0.1;
+            animation: floatElement 6s ease-in-out infinite;
+        }
+        
+        .floating-element:nth-child(1) {
+            top: 20%;
+            left: 10%;
+            animation-delay: 0s;
+        }
+        
+        .floating-element:nth-child(2) {
+            top: 60%;
+            right: 15%;
+            animation-delay: 2s;
+        }
+        
+        .floating-element:nth-child(3) {
+            top: 40%;
+            left: 80%;
+            animation-delay: 4s;
+        }
+        
+        @keyframes floatElement {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(5deg); }
+        }
+        
+        /* Marketplace Cards */
+        .marketplace-card {
+            transition: all 0.3s ease;
+            border: 1px solid #e5e7eb;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        
+        .marketplace-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+            border-color: #3b82f6;
+        }
+        
+        .category-badge {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            background: rgba(59, 130, 246, 0.9);
+            color: white;
+            padding: 4px 8px;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        
+        .traffic-indicator {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+        
+        .traffic-high {
+            background: #dcfce7;
+            color: #166534;
+        }
+        
+        .traffic-medium {
+            background: #fef3c7;
+            color: #92400e;
+        }
+        
+        .traffic-low {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+        
+        /* Filter Buttons */
+        .filter-btn {
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+        
+        .filter-btn.active {
+            background: #3b82f6;
+            color: white;
+            border-color: #3b82f6;
+        }
+        
+        .filter-btn:hover {
+            border-color: #3b82f6;
+            color: #3b82f6;
+        }
+        
+        /* Search Bar */
+        .search-bar {
+            position: relative;
+        }
+        
+        .search-bar input {
+            padding-left: 3rem;
+        }
+        
+        .search-icon {
+            position: absolute;
+            left: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #6b7280;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .floating-element {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 w-full border-b border-gray-200 bg-white/80 backdrop-blur-md">
+        <div class="container mx-auto px-4">
+            <div class="flex h-16 items-center justify-between">
+                <div class="wholesale-logo">
+                    <div class="wholesale-logo-text">
+                        <span class="wholesale">Wholesale</span>.<span class="education">Education</span>
+                    </div>
+                    <div class="wholesale-logo-line"></div>
+                </div>
+                
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="/" class="text-gray-600 hover:text-gray-900 transition-colors">Home</a>
+                    <a href="/marketplace" class="text-blue-600 font-semibold">Marketplaces</a>
+                    <a href="/suppliers" class="text-gray-600 hover:text-gray-900 transition-colors">Suppliers</a>
+                    <a href="/advertising" class="text-gray-600 hover:text-gray-900 transition-colors">Advertising</a>
+                    <a href="/about" class="text-gray-600 hover:text-gray-900 transition-colors">About</a>
+                </div>
+                
+                <div class="flex items-center space-x-4">
+                    <button class="px-4 py-2 text-gray-600 hover:text-gray-900 transition-colors">Sign In</button>
+                    <button class="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section py-20 relative">
+        <div class="hero-background"></div>
+        <div class="hero-overlay"></div>
+        
+        <!-- Floating Elements -->
+        <div class="floating-element text-6xl">🌐</div>
+        <div class="floating-element text-4xl">📱</div>
+        <div class="floating-element text-5xl">🛒</div>
+        
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="max-w-4xl mx-auto text-center">
+                <h1 class="text-5xl md:text-6xl font-bold text-white mb-6 fade-in">
+                    Master Every Marketplace
+                </h1>
+                <p class="text-xl text-white/90 mb-8 fade-in stagger-1">
+                    Discover 160+ marketplaces worldwide. Learn how to dominate each platform and reach millions of buyers across different regions and niches.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center fade-in stagger-2">
+                    <button class="px-8 py-4 bg-white text-blue-600 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                        Start Learning
+                    </button>
+                    <button class="px-8 py-4 border-2 border-white text-white rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
+                        View Directory
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search and Filter Section -->
+    <section class="py-12 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <!-- Search Bar -->
+                <div class="search-bar mb-8">
+                    <div class="relative">
+                        <svg class="search-icon w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                        </svg>
+                        <input type="text" placeholder="Search marketplaces..." 
+                               class="w-full px-12 py-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                    </div>
+                </div>
+                
+                <!-- Filter Buttons -->
+                <div class="flex flex-wrap gap-3 justify-center">
+                    <button class="filter-btn active px-6 py-2 rounded-full bg-gray-100 text-gray-700 hover:bg-gray-200 transition-colors">
+                        All Marketplaces
+                    </button>
+                    <button class="filter-btn px-6 py-2 rounded-full bg-gray-100 text-gray-700 hover:bg-gray-200 transition-colors">
+                        Global
+                    </button>
+                    <button class="filter-btn px-6 py-2 rounded-full bg-gray-100 text-gray-700 hover:bg-gray-200 transition-colors">
+                        Fashion
+                    </button>
+                    <button class="filter-btn px-6 py-2 rounded-full bg-gray-100 text-gray-700 hover:bg-gray-200 transition-colors">
+                        Electronics
+                    </button>
+                    <button class="filter-btn px-6 py-2 rounded-full bg-gray-100 text-gray-700 hover:bg-gray-200 transition-colors">
+                        Social Commerce
+                    </button>
+                    <button class="filter-btn px-6 py-2 rounded-full bg-gray-100 text-gray-700 hover:bg-gray-200 transition-colors">
+                        Regional
+                    </button>
+                    <button class="filter-btn px-6 py-2 rounded-full bg-gray-100 text-gray-700 hover:bg-gray-200 transition-colors">
+                        B2B
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marketplace Categories Overview -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4 fade-in">Marketplace Categories</h2>
+                <p class="text-xl text-gray-600 fade-in stagger-1">Explore different types of marketplaces and find the perfect platform for your products</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Global Marketplaces -->
+                <div class="marketplace-card bg-white p-6 hover-lift slide-in-left stagger-1">
+                    <div class="text-center">
+                        <div class="text-5xl mb-4">🌐</div>
+                        <h3 class="text-xl font-bold mb-3">Global Marketplaces</h3>
+                        <p class="text-gray-600 mb-4">Worldwide platforms with massive reach</p>
+                        <div class="text-2xl font-bold text-blue-600 mb-2">50+</div>
+                        <div class="text-sm text-gray-500">Platforms</div>
+                    </div>
+                </div>
+                
+                <!-- Fashion Resale -->
+                <div class="marketplace-card bg-white p-6 hover-lift slide-in-left stagger-2">
+                    <div class="text-center">
+                        <div class="text-5xl mb-4">👗</div>
+                        <h3 class="text-xl font-bold mb-3">Fashion Resale</h3>
+                        <p class="text-gray-600 mb-4">Specialized fashion and clothing platforms</p>
+                        <div class="text-2xl font-bold text-pink-600 mb-2">25+</div>
+                        <div class="text-sm text-gray-500">Platforms</div>
+                    </div>
+                </div>
+                
+                <!-- Social Commerce -->
+                <div class="marketplace-card bg-white p-6 hover-lift slide-in-left stagger-3">
+                    <div class="text-center">
+                        <div class="text-5xl mb-4">🎥</div>
+                        <h3 class="text-xl font-bold mb-3">Social Commerce</h3>
+                        <p class="text-gray-600 mb-4">Social media integrated selling</p>
+                        <div class="text-2xl font-bold text-purple-600 mb-2">15+</div>
+                        <div class="text-sm text-gray-500">Platforms</div>
+                    </div>
+                </div>
+                
+                <!-- Regional Platforms -->
+                <div class="marketplace-card bg-white p-6 hover-lift slide-in-left stagger-4">
+                    <div class="text-center">
+                        <div class="text-5xl mb-4">🏪</div>
+                        <h3 class="text-xl font-bold mb-3">Regional Platforms</h3>
+                        <p class="text-gray-600 mb-4">Local and regional marketplaces</p>
+                        <div class="text-2xl font-bold text-green-600 mb-2">70+</div>
+                        <div class="text-sm text-gray-500">Platforms</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Marketplaces -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4 fade-in">Featured Marketplaces</h2>
+                <p class="text-xl text-gray-600 fade-in stagger-1">Top-performing platforms with detailed guides and strategies</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Amazon -->
+                <div class="marketplace-card bg-white hover-lift scale-in stagger-1">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1607082349566-187342175e2f?w=400&h=200&fit=crop&crop=center" 
+                             alt="Amazon Marketplace" class="w-full h-48 object-cover">
+                        <div class="category-badge">Global</div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Amazon</h3>
+                        <p class="text-gray-600 mb-4">The world's largest online marketplace with over 300 million active customers.</p>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="traffic-indicator traffic-high">
+                                <div class="w-2 h-2 bg-green-500 rounded-full"></div>
+                                High Traffic
+                            </div>
+                            <span class="text-sm text-gray-500">Global</span>
+                        </div>
+                        <div class="text-sm text-gray-600 mb-4">
+                            <strong>Fees:</strong> 6-15% referral fee<br>
+                            <strong>Best for:</strong> Electronics, Books, Home & Garden
+                        </div>
+                        <button class="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- eBay -->
+                <div class="marketplace-card bg-white hover-lift scale-in stagger-2">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=200&fit=crop&crop=center" 
+                             alt="eBay Marketplace" class="w-full h-48 object-cover">
+                        <div class="category-badge">Global</div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">eBay</h3>
+                        <p class="text-gray-600 mb-4">Global marketplace for new and used items with auction and fixed-price options.</p>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="traffic-indicator traffic-high">
+                                <div class="w-2 h-2 bg-green-500 rounded-full"></div>
+                                High Traffic
+                            </div>
+                            <span class="text-sm text-gray-500">Global</span>
+                        </div>
+                        <div class="text-sm text-gray-600 mb-4">
+                            <strong>Fees:</strong> 10-12% final value fee<br>
+                            <strong>Best for:</strong> Collectibles, Electronics, Fashion
+                        </div>
+                        <button class="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- TikTok Shop -->
+                <div class="marketplace-card bg-white hover-lift scale-in stagger-3">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1611162616475-46b635cb6868?w=400&h=200&fit=crop&crop=center" 
+                             alt="TikTok Shop" class="w-full h-48 object-cover">
+                        <div class="category-badge">Social</div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">TikTok Shop</h3>
+                        <p class="text-gray-600 mb-4">Social commerce platform integrated with TikTok's massive user base.</p>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="traffic-indicator traffic-high">
+                                <div class="w-2 h-2 bg-green-500 rounded-full"></div>
+                                High Traffic
+                            </div>
+                            <span class="text-sm text-gray-500">Global</span>
+                        </div>
+                        <div class="text-sm text-gray-600 mb-4">
+                            <strong>Fees:</strong> 2.9% + $0.30<br>
+                            <strong>Best for:</strong> Trendy Products, Beauty, Fashion
+                        </div>
+                        <button class="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Poshmark -->
+                <div class="marketplace-card bg-white hover-lift scale-in stagger-4">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400&h=200&fit=crop&crop=center" 
+                             alt="Poshmark Marketplace" class="w-full h-48 object-cover">
+                        <div class="category-badge">Fashion</div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Poshmark</h3>
+                        <p class="text-gray-600 mb-4">Social marketplace for fashion with a focus on community and discovery.</p>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="traffic-indicator traffic-medium">
+                                <div class="w-2 h-2 bg-yellow-500 rounded-full"></div>
+                                Medium Traffic
+                            </div>
+                            <span class="text-sm text-gray-500">US/Canada</span>
+                        </div>
+                        <div class="text-sm text-gray-600 mb-4">
+                            <strong>Fees:</strong> 20% commission<br>
+                            <strong>Best for:</strong> Designer Fashion, Accessories
+                        </div>
+                        <button class="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- MercadoLibre -->
+                <div class="marketplace-card bg-white hover-lift scale-in stagger-5">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=200&fit=crop&crop=center" 
+                             alt="MercadoLibre Marketplace" class="w-full h-48 object-cover">
+                        <div class="category-badge">Regional</div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">MercadoLibre</h3>
+                        <p class="text-gray-600 mb-4">Latin America's largest e-commerce platform with 18 countries.</p>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="traffic-indicator traffic-high">
+                                <div class="w-2 h-2 bg-green-500 rounded-full"></div>
+                                High Traffic
+                            </div>
+                            <span class="text-sm text-gray-500">Latin America</span>
+                        </div>
+                        <div class="text-sm text-gray-600 mb-4">
+                            <strong>Fees:</strong> 11-16% commission<br>
+                            <strong>Best for:</strong> Electronics, Fashion, Home
+                        </div>
+                        <button class="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Alibaba -->
+                <div class="marketplace-card bg-white hover-lift scale-in stagger-6">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&h=200&fit=crop&crop=center" 
+                             alt="Alibaba Marketplace" class="w-full h-48 object-cover">
+                        <div class="category-badge">B2B</div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Alibaba</h3>
+                        <p class="text-gray-600 mb-4">Global B2B marketplace connecting manufacturers with buyers worldwide.</p>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="traffic-indicator traffic-high">
+                                <div class="w-2 h-2 bg-green-500 rounded-full"></div>
+                                High Traffic
+                            </div>
+                            <span class="text-sm text-gray-500">Global</span>
+                        </div>
+                        <div class="text-sm text-gray-600 mb-4">
+                            <strong>Fees:</strong> $2,999+ membership<br>
+                            <strong>Best for:</strong> Wholesale, Manufacturing, B2B
+                        </div>
+                        <button class="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Stats -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="text-center hover-lift scale-in stagger-1">
+                    <div class="text-4xl font-bold text-blue-600 mb-2 counter" data-target="160">0</div>
+                    <div class="text-gray-600">Marketplaces</div>
+                </div>
+                <div class="text-center hover-lift scale-in stagger-2">
+                    <div class="text-4xl font-bold text-green-600 mb-2 counter" data-target="50">0</div>
+                    <div class="text-gray-600">Countries</div>
+                </div>
+                <div class="text-center hover-lift scale-in stagger-3">
+                    <div class="text-4xl font-bold text-purple-600 mb-2 counter" data-target="15">0</div>
+                    <div class="text-gray-600">Categories</div>
+                </div>
+                <div class="text-center hover-lift scale-in stagger-4">
+                    <div class="text-4xl font-bold text-orange-600 mb-2 counter" data-target="2">0</div>
+                    <div class="text-gray-600">Billion+ Users</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold mb-6 fade-in">Ready to Master Marketplaces?</h2>
+            <p class="text-xl mb-8 fade-in stagger-1">Get detailed guides, strategies, and insider tips for every major marketplace.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <button class="px-8 py-4 bg-white text-blue-600 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                    View Full Directory
+                </button>
+                <button class="px-8 py-4 border-2 border-white text-white rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
+                    Get Started Free
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-16">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="wholesale-logo mb-4">
+                        <div class="wholesale-logo-text text-white">
+                            <span class="wholesale">Wholesale</span>.<span class="education">Education</span>
+                        </div>
+                        <div class="wholesale-logo-line"></div>
+                    </div>
+                    <p class="text-gray-400">
+                        Master every marketplace with our comprehensive guides and strategies.
+                    </p>
+                </div>
+                
+                <div>
+                    <h3 class="font-semibold mb-4">Learn</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">Marketplace Guides</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Selling Strategies</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Success Stories</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Case Studies</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="font-semibold mb-4">Resources</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">Supplier Directory</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Tools & Calculators</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Blog</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Newsletter</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="font-semibold mb-4">Support</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">Help Center</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Contact Us</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 Wholesale.Education. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all animated elements
+        document.querySelectorAll('.fade-in, .slide-in-left, .slide-in-right, .scale-in').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Counter animation
+        function animateCounter(element, target, duration = 2000) {
+            let start = 0;
+            const increment = target / (duration / 16);
+            
+            function updateCounter() {
+                start += increment;
+                if (start < target) {
+                    element.textContent = Math.floor(start);
+                    requestAnimationFrame(updateCounter);
+                } else {
+                    element.textContent = target;
+                }
+            }
+            updateCounter();
+        }
+
+        // Trigger counter animations when visible
+        const statsObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const counters = entry.target.querySelectorAll('.counter');
+                    counters.forEach(counter => {
+                        const target = parseInt(counter.getAttribute('data-target'));
+                        animateCounter(counter, target);
+                    });
+                    statsObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.5 });
+
+        const statsSection = document.querySelector('.py-16');
+        if (statsSection) {
+            statsObserver.observe(statsSection);
+        }
+
+        // Filter functionality
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+
+        // Search functionality
+        const searchInput = document.querySelector('input[type="text"]');
+        searchInput.addEventListener('input', function() {
+            const searchTerm = this.value.toLowerCase();
+            // Add search logic here
+        });
+    </script>
+</body>
+</html>

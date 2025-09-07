@@ -1,0 +1,293 @@
+# Wholesale Education Platform - Dev V0.1
+# Professional .gitignore for clean repository management
+
+# ===========================================
+# DEVELOPMENT FILES
+# ===========================================
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+
+# PHP
+vendor/
+composer.lock
+composer.phar
+
+# ===========================================
+# SYSTEM FILES
+# ===========================================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# ===========================================
+# IDE & EDITOR FILES
+# ===========================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PhpStorm/IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# ===========================================
+# LOGS & TEMPORARY FILES
+# ===========================================
+
+# Logs
+*.log
+logs/
+error_log
+access_log
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Cache
+cache/
+.cache/
+
+# ===========================================
+# ENVIRONMENT & CONFIGURATION
+# ===========================================
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Configuration files with sensitive data
+config/database.php
+config/email.php
+config/payment.php
+
+# ===========================================
+# DATABASE & BACKUPS
+# ===========================================
+
+# Database files (keep structure, exclude data)
+*.db.backup
+*.sql.backup
+backup/
+backups/
+
+# ===========================================
+# UPLOADS & USER CONTENT
+# ===========================================
+
+# User uploads (keep structure, exclude content)
+uploads/profiles/*
+uploads/documents/*
+uploads/temp/*
+
+# Keep directory structure
+!uploads/profiles/.gitkeep
+!uploads/documents/.gitkeep
+!uploads/temp/.gitkeep
+
+# ===========================================
+# BUILD & DISTRIBUTION
+# ===========================================
+
+# Build outputs
+dist/
+build/
+public/build/
+public/dist/
+
+# Compiled assets
+*.min.css
+*.min.js
+*.map
+
+# ===========================================
+# ARCHIVE FILES
+# ===========================================
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ===========================================
+# TESTING
+# ===========================================
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Test databases
+test.db
+test.sqlite
+
+# ===========================================
+# DEPLOYMENT & SCRIPTS
+# ===========================================
+
+# Deployment scripts (keep templates)
+deploy.sh
+deploy-*.sh
+!deploy-template.sh
+
+# Auto-generated files
+auto-*.sh
+setup-*.sh
+!setup-template.sh
+
+# ===========================================
+# DOCUMENTATION (KEEP ESSENTIAL)
+# ===========================================
+
+# Keep essential docs, exclude development docs
+!README.md
+!LICENSE
+!CONTRIBUTING.md
+!CHANGELOG.md
+
+# Exclude development documentation
+DEPLOYMENT-GUIDE.md
+LOCALHOST-DEVELOPMENT-GUIDE.md
+PROJECT_STATUS.md
+manual-upload-guide.md
+
+# ===========================================
+# REDUNDANT STATIC PAGES
+# ===========================================
+
+# Exclude redundant HTML pages
+amazon-fba-guide.html
+ebay-selling-guide.html
+walmart-marketplace-guide.html
+blog-article-1.html
+testimonials.html
+pricing.html
+education-programs.html
+marketplace.html
+suppliers.html
+about.html
+contact.html
+blog.html
+privacy-policy.html
+terms-of-service.html
+services.html
+guides.html
+profit-calculator.html
+ecommerce-giants.html
+
+# ===========================================
+# DEVELOPMENT DIRECTORIES
+# ===========================================
+
+# Development and build directories
+temp-clone/
+frontend-kit/
+admin-theme/
+previews/
+test-*/
+
+# Allow essential static site files
+!static-site/index.html
+!static-site/public/
+
+# Allow essential site files from deployment directory
+!deployment/index.html
+!deployment/server.js
+!deployment/marketplace.html
+!deployment/marketplace-directory.html
+!deployment/guides.php
+!deployment/products.php
+!deployment/logo.html
+!deployment/logo.css
+!deployment/logo.svg
+!deployment/layout.ejs
+!deployment/page.ejs
+!deployment/category.ejs
+!deployment/suppliers.ejs
+!deployment/404.ejs
+!deployment/error.ejs
+!deployment/package.json
+!deployment/css/
+!deployment/js/
+!deployment/images/
+!deployment/admin/
+!deployment/auth/
+!deployment/dashboard/
+!deployment/marketplace/
+!deployment/tools/
+!deployment/*.json
+
+# ===========================================
+# PACKAGE MANAGERS
+# ===========================================
+
+# Package lock files (keep package.json)
+package-lock.json
+yarn.lock
+
+# ===========================================
+# SECURITY
+# ===========================================
+
+# Security keys and certificates
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+
+# ===========================================
+# CUSTOM EXCLUSIONS
+# ===========================================
+
+# Add any project-specific exclusions here
+# Example: custom-config.ini

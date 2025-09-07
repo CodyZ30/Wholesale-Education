@@ -1,0 +1,186 @@
+<div class="hero">
+    <div class="container">
+        <h2>Educating the World on Wholesale Business</h2>
+        <p>The world's largest wholesale education platform. Learn to buy, sell, and run wholesale businesses across every industry and product category.</p>
+        <div class="stats">
+            <div class="stat">
+                <span class="number">1M+</span>
+                <span class="label">Product Pages</span>
+            </div>
+            <div class="stat">
+                <span class="number">100+</span>
+                <span class="label">Industries</span>
+            </div>
+            <div class="stat">
+                <span class="number">∞</span>
+                <span class="label">Opportunities</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Premium Homepage Ad Banner -->
+<div class="premium-ad-banner">
+    <div class="container">
+        <div class="ad-content">
+            <h3>🚀 Scale Your Wholesale Business</h3>
+            <p>Join thousands of successful wholesalers using our proven strategies</p>
+            <a href="/suppliers" class="cta-button">Find Suppliers Now</a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <section class="recent-pages">
+        <h2>Latest Wholesale Guides</h2>
+        <div class="pages-grid">
+            <% pages.forEach((page, index) => { %>
+                <article class="page-card">
+                    <div class="page-meta">
+                        <span class="category"><%= page.category_name %></span>
+                        <span class="date"><%= new Date(page.created_at).toLocaleDateString() %></span>
+                    </div>
+                    <h3><a href="/page/<%= page.slug %>"><%= page.title %></a></h3>
+                    <p><%= page.content.substring(0, 150) %>...</p>
+                    <div class="page-stats">
+                        <span class="views"><%= page.views %> views</span>
+                    </div>
+                </article>
+                
+                <!-- Inline Ad Placement Every 3rd Article -->
+                <% if ((index + 1) % 3 === 0) { %>
+                <div class="inline-ad">
+                    <div class="ad-spotlight">
+                        <h4>💼 Featured Supplier</h4>
+                        <p>Connect with verified wholesale suppliers in your industry</p>
+                        <a href="/suppliers" class="ad-cta">Browse Suppliers</a>
+                    </div>
+                </div>
+                <% } %>
+            <% }); %>
+        </div>
+    </section>
+
+    <!-- Sponsored Content Section -->
+    <section class="sponsored-content">
+        <h2>🌟 Sponsored Insights</h2>
+        <div class="sponsored-grid">
+            <div class="sponsored-card">
+                <div class="sponsored-badge">Sponsored</div>
+                <h3>Top 10 Electronics Wholesalers in 2025</h3>
+                <p>Discover the most reliable electronics suppliers for your business</p>
+                <a href="#" class="sponsored-link">Read More →</a>
+            </div>
+            <div class="sponsored-card">
+                <div class="sponsored-badge">Sponsored</div>
+                <h3>How Global Logistics Helped Scale 500+ Businesses</h3>
+                <p>Learn from successful wholesale entrepreneurs</p>
+                <a href="#" class="sponsored-link">Read More →</a>
+            </div>
+            <div class="sponsored-card">
+                <div class="sponsored-badge">Sponsored</div>
+                <h3>Wholesale Payment Solutions That Work</h3>
+                <p>Secure payment processing for wholesale transactions</p>
+                <a href="#" class="sponsored-link">Read More →</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="categories">
+        <h2>Explore Wholesale Categories</h2>
+        <div class="categories-grid">
+            <a href="/category/learn-wholesale" class="category-card">
+                <h3>Learn Wholesale</h3>
+                <p>Beginner guides, advanced topics, business models, and compliance</p>
+            </a>
+            <a href="/category/industries" class="category-card">
+                <h3>Industries & Categories</h3>
+                <p>Food & Beverage, Fashion, Electronics, Health & Beauty, and more</p>
+            </a>
+            <a href="/category/buying-formats" class="category-card">
+                <h3>Buying Formats</h3>
+                <p>Dozen, Case, Pallet, Truckload, Container, Auctions, Closeouts</p>
+            </a>
+            <a href="/category/suppliers" class="category-card">
+                <h3>Suppliers & Sourcing</h3>
+                <p>Supplier directories, vetting guides, regional sourcing, trade shows</p>
+            </a>
+            <a href="/category/business" class="category-card">
+                <h3>Running Your Business</h3>
+                <p>Accounting, marketing, selling online/offline, scaling & expansion</p>
+            </a>
+            <a href="/category/tools" class="category-card">
+                <h3>Tools & Resources</h3>
+                <p>Calculators, templates, glossary, case studies, community forums</p>
+            </a>
+        </div>
+    </section>
+
+    <!-- Supplier Spotlight Section -->
+    <section class="supplier-spotlight">
+        <h2>🏆 Featured Suppliers</h2>
+        <div class="supplier-grid">
+            <div class="supplier-card premium">
+                <div class="supplier-badge">Premium Partner</div>
+                <h3>Global Electronics Hub</h3>
+                <p>Leading electronics wholesaler with 10,000+ products</p>
+                <div class="supplier-stats">
+                    <span>⭐ 4.9/5 Rating</span>
+                    <span>📦 50K+ Orders</span>
+                </div>
+                <a href="#" class="supplier-cta">View Products</a>
+            </div>
+            <div class="supplier-card">
+                <div class="supplier-badge">Verified</div>
+                <h3>Fashion Forward Wholesale</h3>
+                <p>Trendy fashion items at wholesale prices</p>
+                <div class="supplier-stats">
+                    <span>⭐ 4.7/5 Rating</span>
+                    <span>📦 25K+ Orders</span>
+                </div>
+                <a href="#" class="supplier-cta">View Products</a>
+            </div>
+            <div class="supplier-card">
+                <div class="supplier-badge">Verified</div>
+                <h3>Health & Beauty Central</h3>
+                <p>Premium health and beauty products wholesale</p>
+                <div class="supplier-stats">
+                    <span>⭐ 4.8/5 Rating</span>
+                    <span>📦 30K+ Orders</span>
+                </div>
+                <a href="#" class="supplier-cta">View Products</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Affiliate Marketing Section -->
+    <section class="affiliate-section">
+        <h2>🛠️ Recommended Tools & Platforms</h2>
+        <div class="affiliate-grid">
+            <div class="affiliate-card">
+                <div class="affiliate-logo">📦</div>
+                <h3>Alibaba Wholesale</h3>
+                <p>Connect with suppliers worldwide</p>
+                <a href="#" class="affiliate-link">Start Sourcing →</a>
+            </div>
+            <div class="affiliate-card">
+                <div class="affiliate-logo">🛒</div>
+                <h3>Shopify Business</h3>
+                <p>Build your wholesale e-commerce store</p>
+                <a href="#" class="affiliate-link">Start Store →</a>
+            </div>
+            <div class="affiliate-card">
+                <div class="affiliate-logo">🚚</div>
+                <h3>Flexport Logistics</h3>
+                <p>Global shipping and logistics solutions</p>
+                <a href="#" class="affiliate-link">Get Quote →</a>
+            </div>
+            <div class="affiliate-card">
+                <div class="affiliate-logo">💳</div>
+                <h3>Stripe Payments</h3>
+                <p>Secure payment processing for wholesale</p>
+                <a href="#" class="affiliate-link">Get Started →</a>
+            </div>
+        </div>
+    </section>
+</div>

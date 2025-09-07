@@ -1,0 +1,139 @@
+/* Wholesale.Education Animated Logo CSS */
+
+.wholesale-logo {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+}
+
+.wholesale-logo-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    margin-bottom: 15px;
+    position: relative;
+    animation: logoTextGlow 3s ease-in-out infinite alternate;
+}
+
+.wholesale-logo-text .wholesale {
+    display: inline-block;
+    animation: slideInLeft 1s ease-out;
+}
+
+.wholesale-logo-text .education {
+    display: inline-block;
+    animation: slideInRight 1s ease-out 0.3s both;
+}
+
+.wholesale-logo-line {
+    width: 150px;
+    height: 6px;
+    background: linear-gradient(90deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57);
+    border-radius: 8px;
+    margin: 0 auto;
+    position: relative;
+    animation: logoLineDraw 2s ease-out 0.8s both, logoLineGlow 3s ease-in-out infinite alternate 2.8s;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+.wholesale-logo-line::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(90deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57);
+    border-radius: 10px;
+    z-index: -1;
+    filter: blur(6px);
+    opacity: 0;
+    animation: logoPulseGlow 2s ease-in-out infinite alternate 2.8s;
+}
+
+/* Dark theme variant */
+.wholesale-logo.dark .wholesale-logo-text {
+    color: #333333;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.wholesale-logo.dark .wholesale-logo-line {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Compact variant */
+.wholesale-logo.compact .wholesale-logo-text {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.wholesale-logo.compact .wholesale-logo-line {
+    width: 120px;
+    height: 4px;
+}
+
+/* Keyframe Animations */
+@keyframes logoTextGlow {
+    0% { text-shadow: 0 0 20px rgba(255, 255, 255, 0.5); }
+    100% { text-shadow: 0 0 30px rgba(255, 255, 255, 0.8), 0 0 40px rgba(255, 255, 255, 0.3); }
+}
+
+@keyframes slideInLeft {
+    0% { transform: translateX(-50px); opacity: 0; }
+    100% { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideInRight {
+    0% { transform: translateX(50px); opacity: 0; }
+    100% { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes logoLineDraw {
+    0% { width: 0; opacity: 0; }
+    100% { width: 150px; opacity: 1; }
+}
+
+@keyframes logoLineGlow {
+    0% { box-shadow: 0 0 15px rgba(255, 255, 255, 0.3); }
+    100% { box-shadow: 0 0 25px rgba(255, 255, 255, 0.6), 0 0 35px rgba(255, 255, 255, 0.3); }
+}
+
+@keyframes logoPulseGlow {
+    0% { opacity: 0; }
+    100% { opacity: 0.7; }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .wholesale-logo-text {
+        font-size: 2rem;
+    }
+    
+    .wholesale-logo-line {
+        width: 120px;
+        height: 5px;
+    }
+    
+    .wholesale-logo.compact .wholesale-logo-text {
+        font-size: 1.5rem;
+    }
+    
+    .wholesale-logo.compact .wholesale-logo-line {
+        width: 100px;
+        height: 3px;
+    }
+}
+
+/* Usage Examples:
+   <div class="wholesale-logo">
+       <div class="wholesale-logo-text">
+           <span class="wholesale">Wholesale</span>.<span class="education">Education</span>
+       </div>
+       <div class="wholesale-logo-line"></div>
+   </div>
+   
+   For dark theme: <div class="wholesale-logo dark">
+   For compact: <div class="wholesale-logo compact">
+*/

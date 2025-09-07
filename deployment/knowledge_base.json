@@ -1,0 +1,588 @@
+[
+  {
+    "id": "kb001",
+    "title": "How to Track Your Order",
+    "category": "Shipping & Delivery",
+    "content": "Once your order has been processed and shipped, you will receive a tracking number via email. You can use this tracking number to monitor your package's progress on our website or the carrier's website. Simply go to the 'Track Order' section and enter your tracking number.",
+    "tags": ["tracking", "shipping", "order"],
+    "created_at": "2024-01-15",
+    "updated_at": "2024-01-15"
+  },
+  {
+    "id": "kb002",
+    "title": "Return Policy and Process",
+    "category": "Returns & Exchanges",
+    "content": "We offer a 30-day return policy for most items. To return an item: 1) Contact our support team to initiate the return, 2) Package the item in its original packaging, 3) Include the return authorization form, 4) Ship the item back to us. Refunds will be processed within 5-7 business days after we receive the returned item.",
+    "tags": ["returns", "refunds", "policy"],
+    "created_at": "2024-01-15",
+    "updated_at": "2024-01-15"
+  },
+  {
+    "id": "kb003",
+    "title": "Payment Methods Accepted",
+    "category": "Payment & Billing",
+    "content": "We accept all major credit cards (Visa, MasterCard, American Express), PayPal, Apple Pay, Google Pay, and bank transfers for wholesale orders. All payments are processed securely through our encrypted payment gateway to ensure your financial information is protected.",
+    "tags": ["payment", "credit cards", "paypal"],
+    "created_at": "2024-01-15",
+    "updated_at": "2024-01-15"
+  },
+  {
+    "id": "kb004",
+    "title": "Shipping Times and Costs",
+    "category": "Shipping & Delivery",
+    "content": "Standard shipping (3-5 business days): $5.99. Express shipping (1-2 business days): $12.99. Free shipping on orders over $50. International shipping available with rates calculated at checkout. Delivery times may vary during holidays and peak seasons.",
+    "tags": ["shipping", "delivery", "costs"],
+    "created_at": "2024-01-15",
+    "updated_at": "2024-01-15"
+  },
+  {
+    "id": "kb005",
+    "title": "Product Care Instructions",
+    "category": "Product Information",
+    "content": "To maintain the quality of your fishing gear: Clean equipment after each use with fresh water, store in a dry place away from direct sunlight, lubricate moving parts regularly, and inspect for damage before each use. For specific care instructions, refer to the product manual included with your purchase.",
+    "tags": ["care", "maintenance", "fishing gear"],
+    "created_at": "2024-01-15",
+    "updated_at": "2024-01-15"
+  },
+  {
+    "id": "kb006",
+    "title": "Account Registration and Management",
+    "category": "Account & Profile",
+    "content": "Creating an account allows you to track orders, save favorite items, and access exclusive deals. To register: Click 'Sign Up' in the top right corner, enter your email and create a password, verify your email address, and complete your profile. You can update your information anytime in your account settings.",
+    "tags": ["account", "registration", "profile"],
+    "created_at": "2024-01-15",
+    "updated_at": "2024-01-15"
+  },
+  {
+    "id": "kb007",
+    "title": "Wholesale Program Information",
+    "category": "Wholesale",
+    "content": "Our wholesale program offers discounted prices for bulk orders. To qualify: Minimum order of $500, valid business license required, and account approval process. Benefits include: Volume discounts, dedicated account manager, priority shipping, and custom packaging options. Contact our wholesale team for more information.",
+    "tags": ["wholesale", "bulk orders", "business"],
+    "created_at": "2024-01-15",
+    "updated_at": "2024-01-15"
+  },
+  {
+    "id": "kb008",
+    "title": "Technical Support for Products",
+    "category": "Technical Support",
+    "content": "If you're experiencing technical issues with your product: 1) Check the troubleshooting guide in your product manual, 2) Visit our technical support section for common solutions, 3) Contact our technical support team with your order number and detailed description of the issue. We'll work with you to resolve the problem quickly.",
+    "tags": ["technical", "troubleshooting", "support"],
+    "created_at": "2024-01-15",
+    "updated_at": "2024-01-15"
+  },
+  {
+    "id": "kb009",
+    "title": "Gift Cards and Vouchers",
+    "category": "Payment & Billing",
+    "content": "Gift cards are available in various denominations and can be purchased online or in-store. They never expire and can be used for any purchase on our website. To redeem: Enter the gift card code at checkout, and the amount will be applied to your order. Gift cards cannot be redeemed for cash or used to purchase other gift cards.",
+    "tags": ["gift cards", "vouchers", "payment"],
+    "created_at": "2024-01-15",
+    "updated_at": "2024-01-15"
+  },
+  {
+    "id": "kb010",
+    "title": "International Shipping Information",
+    "category": "Shipping & Delivery",
+    "content": "We ship to most countries worldwide. International shipping costs are calculated based on destination and package weight. Delivery times vary by country (typically 7-14 business days). Customers are responsible for any customs duties, taxes, or fees imposed by their country. We recommend checking with your local customs office for more information.",
+    "tags": ["international", "shipping", "customs"],
+    "created_at": "2024-01-15",
+    "updated_at": "2024-01-15"
+  },
+  {
+    "id": "kb011",
+    "title": "Product Warranty Information",
+    "category": "Product Information",
+    "content": "All products come with a manufacturer's warranty. Warranty terms vary by product and manufacturer. To make a warranty claim: Contact our support team with your order number and product issue, provide photos if applicable, and we'll guide you through the warranty process. Some items may need to be returned to the manufacturer directly.",
+    "tags": ["warranty", "claims", "manufacturer"],
+    "created_at": "2024-01-15",
+    "updated_at": "2024-01-15"
+  },
+  {
+    "id": "kb012",
+    "title": "Subscription and Auto-Ship Programs",
+    "category": "Subscriptions",
+    "content": "Our subscription programs offer convenience and savings. Available for select products like our monthly sticker program. Benefits include: Automatic delivery, discounted pricing, easy cancellation, and flexible delivery schedules. Manage your subscriptions in your account dashboard or contact support for assistance.",
+    "tags": ["subscription", "auto-ship", "monthly"],
+    "created_at": "2024-01-15",
+    "updated_at": "2024-01-15"
+  }
+,
+  {
+    "id": "kb013",
+    "title": "How to Change or Cancel a Subscription",
+    "category": "Subscriptions",
+    "content": "To change or cancel your subscription: 1) Log in to your account, 2) Go to Subscriptions, 3) Select the subscription, 4) Choose Change Plan or Cancel. Changes apply to the next billing cycle.",
+    "tags": ["subscription", "cancel", "manage"],
+    "created_at": "2024-02-01",
+    "updated_at": "2024-02-01"
+  },
+  {
+    "id": "kb014",
+    "title": "Sticker Subscription: Random vs Pick-Your-Own",
+    "category": "Stickers",
+    "content": "You can receive two random curated stickers monthly or log in to pick your own. Picks are open from the 1st to the 5th each month. If no selection is made, we'll send curated designs.",
+    "tags": ["stickers", "subscription", "pick"],
+    "created_at": "2024-02-01",
+    "updated_at": "2024-02-01"
+  },
+  {
+    "id": "kb015",
+    "title": "Where Can I Apply Stickers?",
+    "category": "Product Information",
+    "content": "Our vinyl stickers adhere best to clean, smooth surfaces such as coolers, tackle boxes, water bottles, laptops, vehicles, and buckets. Clean with isopropyl alcohol before application.",
+    "tags": ["stickers", "application", "surfaces"],
+    "created_at": "2024-02-01",
+    "updated_at": "2024-02-01"
+  },
+  {
+    "id": "kb016",
+    "title": "Sticker Durability & Care",
+    "category": "Product Information",
+    "content": "Our UV-laminated vinyl stickers are weatherproof and fade-resistant. To maximize life, avoid abrasive scrubbing and high-pressure washing directly on the sticker edges.",
+    "tags": ["stickers", "durability", "care"],
+    "created_at": "2024-02-01",
+    "updated_at": "2024-02-01"
+  },
+  {
+    "id": "kb017",
+    "title": "Missing or Damaged Package",
+    "category": "Shipping & Delivery",
+    "content": "If your order is missing or arrived damaged: 1) Photograph the packaging and contents, 2) Contact us with your order number, 3) We will investigate with the carrier and send a replacement when applicable.",
+    "tags": ["shipping", "damage", "missing"],
+    "created_at": "2024-02-01",
+    "updated_at": "2024-02-01"
+  },
+  {
+    "id": "kb018",
+    "title": "How to Redeem a Coupon",
+    "category": "Payment & Billing",
+    "content": "At checkout, enter your coupon code in the ‘Promo Code’ field and press Apply. If valid, your discount will be reflected. One coupon per order unless otherwise stated.",
+    "tags": ["coupon", "discount", "checkout"],
+    "created_at": "2024-02-01",
+    "updated_at": "2024-02-01"
+  },
+  {
+    "id": "kb019",
+    "title": "Order Changes After Placing",
+    "category": "Orders",
+    "content": "We can modify or cancel orders shortly after they are placed. Contact support immediately with your order number. Once shipped, changes aren’t possible.",
+    "tags": ["orders", "change", "cancel"],
+    "created_at": "2024-02-01",
+    "updated_at": "2024-02-01"
+  },
+  {
+    "id": "kb020",
+    "title": "Wholesale Sticker Orders",
+    "category": "Wholesale",
+    "content": "For bulk sticker pricing and custom packs, contact our wholesale team. Minimums apply. We offer volume discounts and custom packaging options.",
+    "tags": ["wholesale", "bulk", "stickers"],
+    "created_at": "2024-02-01",
+    "updated_at": "2024-02-01"
+  },
+  {
+    "id": "kb021",
+    "title": "Tax & Duties for International Orders",
+    "category": "Payment & Billing",
+    "content": "International customers may be responsible for import duties and taxes. These fees vary by destination and are not included at checkout unless specified.",
+    "tags": ["tax", "duty", "international"],
+    "created_at": "2024-02-01",
+    "updated_at": "2024-02-01"
+  },
+  {
+    "id": "kb022",
+    "title": "How to Contact Support",
+    "category": "Support",
+    "content": "Use Live Chat for quick questions, submit a Ticket for tracked issues, or email support@gotta.fish for detailed requests. Include your order number for faster help.",
+    "tags": ["support", "contact", "ticket"],
+    "created_at": "2024-02-01",
+    "updated_at": "2024-02-01"
+  },
+  {
+    "id": "kb023",
+    "title": "Shipping Delays: What to Do and Timelines",
+    "category": "Shipping & Delivery",
+    "content": "If your order is delayed beyond the estimated window, first check the tracking history for exceptions (weather holds, address issues). Contact the carrier with your tracking number for the most up-to-date ETA. If the package shows no movement for 5+ business days, reach out to our support with your order ID so we can open an investigation and, if necessary, arrange a replacement.",
+    "tags": ["shipping", "delays", "tracking"],
+    "created_at": "2024-02-02",
+    "updated_at": "2024-02-02"
+  },
+  {
+    "id": "kb024",
+    "title": "Address Changes After Ordering",
+    "category": "Orders",
+    "content": "We can update addresses within a short window after an order is placed. Contact support immediately with your order number and the correct address. Once an order enters the shipment queue, changes may not be possible. If the package is already with the carrier, you may request a delivery intercept (fees may apply).",
+    "tags": ["orders", "address", "shipping"],
+    "created_at": "2024-02-02",
+    "updated_at": "2024-02-02"
+  },
+  {
+    "id": "kb025",
+    "title": "Return Eligibility & Condition Guidelines",
+    "category": "Returns & Exchanges",
+    "content": "Items can be returned within 30 days in new, unused condition with original packaging. Exclusions: custom items and final sale. For faster processing, include your order number, reason for return, and clear photos if there is damage or a defect. Refunds are issued to the original payment method within 5–7 business days after inspection.",
+    "tags": ["returns", "eligibility", "refunds"],
+    "created_at": "2024-02-02",
+    "updated_at": "2024-02-02"
+  },
+  {
+    "id": "kb026",
+    "title": "Exchanges vs Refunds: Choosing the Best Option",
+    "category": "Returns & Exchanges",
+    "content": "If you want a different design or product, an exchange is often fastest. We’ll create a prepaid label (when applicable), and ship the replacement once the original is scanned by the carrier. If you prefer a refund, select that option during the return request; refunds are processed after the item is received and inspected.",
+    "tags": ["exchanges", "returns", "policy"],
+    "created_at": "2024-02-02",
+    "updated_at": "2024-02-02"
+  },
+  {
+    "id": "kb027",
+    "title": "Applying Stickers: Surface Prep & Technique",
+    "category": "Stickers",
+    "content": "Clean the surface with isopropyl alcohol and a lint-free cloth. Let it dry completely. Peel the backing carefully, avoid touching the adhesive. Align the sticker and apply from center outward, using a squeegee or credit card to push out air bubbles. For curved surfaces, apply slowly in small sections.",
+    "tags": ["stickers", "application", "prep"],
+    "created_at": "2024-02-03",
+    "updated_at": "2024-02-03"
+  },
+  {
+    "id": "kb028",
+    "title": "Sticker Removal Without Residue",
+    "category": "Stickers",
+    "content": "Gently heat the sticker with a hair dryer on low to soften the adhesive. Peel slowly at a 45° angle. Remove leftover residue with adhesive remover or isopropyl alcohol. Test solvents on a small area first to avoid surface damage.",
+    "tags": ["stickers", "removal", "adhesive"],
+    "created_at": "2024-02-03",
+    "updated_at": "2024-02-03"
+  },
+  {
+    "id": "kb029",
+    "title": "Sticker Durability: UV, Water, and Abrasion",
+    "category": "Product Information",
+    "content": "Our vinyl stickers are laminated for UV and water resistance. Under typical outdoor exposure, colors remain vibrant for 2–5 years. Avoid high-pressure washing directly on edges, and do not scrub with abrasive pads to maximize lifespan.",
+    "tags": ["stickers", "durability", "UV"],
+    "created_at": "2024-02-03",
+    "updated_at": "2024-02-03"
+  },
+  {
+    "id": "kb030",
+    "title": "Monthly Sticker Subscription: Billing & Schedule",
+    "category": "Subscriptions",
+    "content": "Billing occurs on the same day each month as your initial sign-up. Shipments typically leave our facility within 2–3 business days after billing. You’ll receive an email with tracking once your envelope is scanned by the carrier.",
+    "tags": ["subscription", "billing", "shipping"],
+    "created_at": "2024-02-03",
+    "updated_at": "2024-02-03"
+  },
+  {
+    "id": "kb031",
+    "title": "Pick-Your-Own Window: How and When to Choose",
+    "category": "Subscriptions",
+    "content": "If your plan includes choosing designs, you can select the month’s stickers in your account portal from the 1st to the 5th. If no selection is made by the deadline, we’ll send curated designs to avoid delays.",
+    "tags": ["subscription", "selection", "stickers"],
+    "created_at": "2024-02-03",
+    "updated_at": "2024-02-03"
+  },
+  {
+    "id": "kb032",
+    "title": "Pausing or Skipping a Subscription Month",
+    "category": "Subscriptions",
+    "content": "You can pause or skip a month before the billing date from your account dashboard. Skipped months won’t be charged. Paused plans remain inactive until you resume; no shipments are sent while paused.",
+    "tags": ["subscription", "pause", "skip"],
+    "created_at": "2024-02-03",
+    "updated_at": "2024-02-03"
+  },
+  {
+    "id": "kb033",
+    "title": "Payment Declined: Next Steps",
+    "category": "Payment & Billing",
+    "content": "If your payment is declined, verify card details, billing address, and available funds. Try another payment method or contact your bank. For recurring subscriptions, your account will retry billing automatically within 24–48 hours.",
+    "tags": ["payment", "declined", "billing"],
+    "created_at": "2024-02-04",
+    "updated_at": "2024-02-04"
+  },
+  {
+    "id": "kb034",
+    "title": "Sales Tax, VAT, and Duties Explained",
+    "category": "Payment & Billing",
+    "content": "Taxes are calculated based on your shipping address and applicable laws. International orders may incur VAT or import duties, which are the responsibility of the recipient unless stated otherwise at checkout.",
+    "tags": ["tax", "VAT", "duties"],
+    "created_at": "2024-02-04",
+    "updated_at": "2024-02-04"
+  },
+  {
+    "id": "kb035",
+    "title": "Using Coupon Codes Successfully",
+    "category": "Payment & Billing",
+    "content": "Enter your coupon in the Promo Code field during checkout and click Apply. Codes are case-sensitive and may exclude certain products. Only one code can be used per order unless specified.",
+    "tags": ["coupon", "discount", "checkout"],
+    "created_at": "2024-02-04",
+    "updated_at": "2024-02-04"
+  },
+  {
+    "id": "kb036",
+    "title": "Troubleshooting Checkout: Browser & Device",
+    "category": "Technical Support",
+    "content": "If you encounter errors at checkout, try: clearing cache and cookies, disabling extensions (especially ad blockers), switching browsers, or using a private window. If issues persist, share screenshots and your device/browser versions with support for faster resolution.",
+    "tags": ["checkout", "browser", "troubleshooting"],
+    "created_at": "2024-02-04",
+    "updated_at": "2024-02-04"
+  },
+  {
+    "id": "kb037",
+    "title": "Account Login & Two-Factor Tips",
+    "category": "Account & Profile",
+    "content": "Use a strong, unique password and consider enabling 2FA if available. If you forget your password, use the Reset Password link. Check your spam folder for emails and whitelist our domain for future messages.",
+    "tags": ["account", "login", "security"],
+    "created_at": "2024-02-04",
+    "updated_at": "2024-02-04"
+  },
+  {
+    "id": "kb038",
+    "title": "Updating Saved Addresses & Payment Methods",
+    "category": "Account & Profile",
+    "content": "In your account dashboard, you can update saved addresses and default payment methods. Changes apply to future orders and renewals. For in-flight orders, contact support immediately.",
+    "tags": ["account", "addresses", "payment"],
+    "created_at": "2024-02-04",
+    "updated_at": "2024-02-04"
+  },
+  {
+    "id": "kb039",
+    "title": "Order Statuses & What They Mean",
+    "category": "Orders",
+    "content": "Common statuses: Processing (received), Packed (label created), Shipped (in transit), Delivered (carrier marked delivered). If the carrier marks delivered but you don’t see it, check with neighbors, building office, or contact the carrier for GPS delivery confirmation.",
+    "tags": ["orders", "status", "delivered"],
+    "created_at": "2024-02-05",
+    "updated_at": "2024-02-05"
+  },
+  {
+    "id": "kb040",
+    "title": "Lost or Stolen Package Policy",
+    "category": "Shipping & Delivery",
+    "content": "If a package is marked delivered but cannot be found, wait 24 hours in case of carrier delay. Check all entrances and with neighbors. If still missing, contact us within 7 days; we will coordinate with the carrier and advise next steps.",
+    "tags": ["shipping", "lost", "policy"],
+    "created_at": "2024-02-05",
+    "updated_at": "2024-02-05"
+  },
+  {
+    "id": "kb041",
+    "title": "Wholesale: How to Apply & Requirements",
+    "category": "Wholesale",
+    "content": "To apply for wholesale, provide your business name, resale certificate or tax ID, and expected monthly volume. Minimum opening order may apply. Approved accounts receive tiered discounts and dedicated support.",
+    "tags": ["wholesale", "apply", "requirements"],
+    "created_at": "2024-02-05",
+    "updated_at": "2024-02-05"
+  },
+  {
+    "id": "kb042",
+    "title": "Custom Sticker Packs for Teams & Events",
+    "category": "Wholesale",
+    "content": "We can assemble custom assortments for tournaments, teams, and events. Share your theme, quantity, and deadline. Lead times vary by season; reach out early to secure your date.",
+    "tags": ["wholesale", "custom", "events"],
+    "created_at": "2024-02-05",
+    "updated_at": "2024-02-05"
+  },
+  {
+    "id": "kb043",
+    "title": "Materials & Printing: What We Use",
+    "category": "Product Information",
+    "content": "We use premium vinyl with protective lamination for durability and color fidelity. Our print process is optimized for fine lines and outdoor exposure, ensuring stickers look sharp on coolers, boats, and vehicles.",
+    "tags": ["materials", "printing", "quality"],
+    "created_at": "2024-02-05",
+    "updated_at": "2024-02-05"
+  },
+  {
+    "id": "kb044",
+    "title": "Gifts: Marking Orders and Including Notes",
+    "category": "Orders",
+    "content": "At checkout you can mark an order as a gift and include a message on the packing slip. Prices are hidden on gift slips. For special requests, contact support before ordering.",
+    "tags": ["gifts", "orders", "packing slip"],
+    "created_at": "2024-02-05",
+    "updated_at": "2024-02-05"
+  },
+  {
+    "id": "kb045",
+    "title": "Email Preferences & Notification Settings",
+    "category": "Support",
+    "content": "You can manage order, shipping, and news emails from your account settings. Important transactional emails (order confirmations, shipping notices) cannot be disabled for legal and service reasons.",
+    "tags": ["email", "notifications", "preferences"],
+    "created_at": "2024-02-06",
+    "updated_at": "2024-02-06"
+  },
+  {
+    "id": "kb046",
+    "title": "Privacy & Data Protection Overview",
+    "category": "Support",
+    "content": "We follow industry best practices to protect your data, including encryption-in-transit, limited data retention, and secure payment processors. For data access or deletion requests, contact support.",
+    "tags": ["privacy", "security", "GDPR"],
+    "created_at": "2024-02-06",
+    "updated_at": "2024-02-06"
+  },
+  {
+    "id": "kb047",
+    "title": "Sticker Packs vs Singles: Which to Choose?",
+    "category": "Stickers",
+    "content": "Singles are great for testing designs or gifting. Packs offer better value and coordinated sets. Subscribers often mix both: monthly surprises plus add-on singles of favorites.",
+    "tags": ["stickers", "packs", "singles"],
+    "created_at": "2024-02-06",
+    "updated_at": "2024-02-06"
+  },
+  {
+    "id": "kb048",
+    "title": "Boat & Vehicle Application Tips",
+    "category": "Stickers",
+    "content": "For fiberglass and painted surfaces, ensure the area is clean, dry, and above 55°F. Avoid waxing the area before application. Apply slowly and burnish edges to prevent water intrusion.",
+    "tags": ["stickers", "boats", "vehicles"],
+    "created_at": "2024-02-06",
+    "updated_at": "2024-02-06"
+  },
+  {
+    "id": "kb049",
+    "title": "Envelope Tracking & Delivery Windows",
+    "category": "Shipping & Delivery",
+    "content": "Sticker subscriptions ship in trackable envelopes or flats. Tracking may show limited scans until near delivery. Typical delivery windows: 3–7 business days domestic, 7–14 international.",
+    "tags": ["tracking", "envelopes", "delivery"],
+    "created_at": "2024-02-06",
+    "updated_at": "2024-02-06"
+  },
+  {
+    "id": "kb050",
+    "title": "Gift Subscriptions: How They Work",
+    "category": "Subscriptions",
+    "content": "Choose a duration (3, 6, 12 months) and enter the recipient’s address. Gifts do not auto-renew. We’ll send the first shipment after purchase and notify the recipient by email if you opt in.",
+    "tags": ["subscriptions", "gift", "billing"],
+    "created_at": "2024-02-06",
+    "updated_at": "2024-02-06"
+  },
+  {
+    "id": "kb051",
+    "title": "How to Place an Order",
+    "category": "Orders",
+    "content": "To place an order: 1) Browse products, 2) Add to cart, 3) Checkout, 4) Enter shipping and payment, 5) Confirm. You’ll receive a confirmation email after purchase.",
+    "tags": ["orders", "checkout", "shopping"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb052",
+    "title": "Do I Need an Account to Order?",
+    "category": "Account & Profile",
+    "content": "You can checkout as a guest. Creating an account enables order tracking, saved addresses, and exclusive offers.",
+    "tags": ["account", "guest checkout", "orders"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb053",
+    "title": "Order Confirmation Emails",
+    "category": "Orders",
+    "content": "You’ll receive an order confirmation within minutes. Check spam/promotions if missing. Contact support with your order number if you don’t receive it.",
+    "tags": ["orders", "confirmation", "email"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb054",
+    "title": "Do You Ship to P.O. Boxes?",
+    "category": "Shipping & Delivery",
+    "content": "Yes for most USPS deliveries. Oversized or express shipments may require a street address.",
+    "tags": ["shipping", "PO box", "delivery"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb055",
+    "title": "Can I Choose My Shipping Carrier?",
+    "category": "Shipping & Delivery",
+    "content": "Available carriers and speeds are shown at checkout. We partner with USPS/UPS/FedEx based on destination and package type.",
+    "tags": ["shipping", "carrier", "delivery"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb056",
+    "title": "Do Deliveries Require a Signature?",
+    "category": "Shipping & Delivery",
+    "content": "Most shipments do not require a signature. High‑value or bulk orders may require one for security.",
+    "tags": ["shipping", "signature", "delivery"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb057",
+    "title": "When Am I Charged for My Order?",
+    "category": "Payment & Billing",
+    "content": "You are charged at purchase. Subscriptions bill on their monthly renewal date.",
+    "tags": ["payment", "billing", "orders"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb058",
+    "title": "Do You Offer Payment Plans?",
+    "category": "Payment & Billing",
+    "content": "We do not offer installment plans. Orders must be paid in full at checkout.",
+    "tags": ["payment", "plans", "billing"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb059",
+    "title": "What Currency Are Orders Processed In?",
+    "category": "Payment & Billing",
+    "content": "All orders are processed in USD. Your bank may convert to local currency and apply fees.",
+    "tags": ["currency", "international", "payment"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb060",
+    "title": "Who Pays Return Shipping?",
+    "category": "Returns & Exchanges",
+    "content": "Defective/incorrect items: we cover return shipping. General returns: customer covers return shipping unless noted.",
+    "tags": ["returns", "shipping", "refunds"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb061",
+    "title": "How Do I Know What Size Gear I Need?",
+    "category": "Product Information",
+    "content": "See size guides on product pages. For recommendations (rods/reels/tackle), contact support with species and technique.",
+    "tags": ["fishing gear", "size", "guide"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb062",
+    "title": "Are Your Products Environmentally Friendly?",
+    "category": "Product Information",
+    "content": "We prioritize eco‑friendly materials (lead‑free where possible), recyclable packaging, and UV‑resistant vinyl.",
+    "tags": ["eco-friendly", "sustainability", "products"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb063",
+    "title": "Do Stickers Work on Wet or Outdoor Gear?",
+    "category": "Product Information",
+    "content": "Yes—waterproof and UV‑protected. Apply to a clean, dry surface for best adhesion.",
+    "tags": ["stickers", "outdoor", "durability"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb064",
+    "title": "Do You Offer Replacement Parts?",
+    "category": "Technical Support",
+    "content": "Some items (rods/reels) have replacement parts. Contact support with order number and details to check availability.",
+    "tags": ["replacement", "parts", "support"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb065",
+    "title": "How Long Does Wholesale Approval Take?",
+    "category": "Wholesale",
+    "content": "Wholesale applications are reviewed within 1–3 business days. We’ll email status or request more info.",
+    "tags": ["wholesale", "approval", "business"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  }
+]
