@@ -1,0 +1,544 @@
+{
+  "marketplaces": [
+    {
+      "platform": "Amazon Marketplace",
+      "category": "Global / Marketplace",
+      "region": "Global",
+      "description": "The world's largest online marketplace with over 300 million active customers",
+      "fees": "15% referral fee + FBA fees",
+      "traffic": "2.7 billion monthly visits",
+      "bestFor": "General products, electronics, books, home goods"
+    },
+    {
+      "platform": "eBay",
+      "category": "Global / Marketplace", 
+      "region": "Global",
+      "description": "Global auction and fixed-price marketplace with 187 million active buyers",
+      "fees": "10-15% final value fee + listing fees",
+      "traffic": "1.1 billion monthly visits",
+      "bestFor": "Used items, collectibles, electronics, fashion"
+    },
+    {
+      "platform": "Walmart Marketplace",
+      "category": "Global / Marketplace",
+      "region": "US",
+      "description": "Fast-growing marketplace with access to Walmart's customer base",
+      "fees": "6-15% referral fee",
+      "traffic": "410 million monthly visits",
+      "bestFor": "General merchandise, electronics, home goods"
+    },
+    {
+      "platform": "AliExpress",
+      "category": "Global / Marketplace",
+      "region": "Global",
+      "description": "Alibaba's global retail marketplace connecting buyers with Chinese suppliers",
+      "fees": "5-8% commission",
+      "traffic": "1.2 billion monthly visits",
+      "bestFor": "Electronics, fashion, home goods, accessories"
+    },
+    {
+      "platform": "Taobao",
+      "category": "Global / Marketplace",
+      "region": "China",
+      "description": "China's largest C2C marketplace with over 1 billion products",
+      "fees": "No listing fees, 0.6% transaction fee",
+      "traffic": "1.8 billion monthly visits",
+      "bestFor": "Everything - China's Amazon equivalent"
+    },
+    {
+      "platform": "Tmall",
+      "category": "Global / Marketplace",
+      "region": "China",
+      "description": "B2C marketplace for brands and authorized retailers in China",
+      "fees": "3-5% commission + annual fees",
+      "traffic": "1.2 billion monthly visits",
+      "bestFor": "Branded products, electronics, fashion"
+    },
+    {
+      "platform": "JD.com",
+      "category": "Global / Marketplace",
+      "region": "China",
+      "description": "China's second-largest e-commerce platform with focus on quality",
+      "fees": "3-8% commission",
+      "traffic": "800 million monthly visits",
+      "bestFor": "Electronics, appliances, branded goods"
+    },
+    {
+      "platform": "Rakuten",
+      "category": "Global / Marketplace",
+      "region": "Japan/Global",
+      "description": "Japanese e-commerce giant expanding globally",
+      "fees": "8-15% commission",
+      "traffic": "200 million monthly visits",
+      "bestFor": "Electronics, fashion, beauty, home goods"
+    },
+    {
+      "platform": "MercadoLibre",
+      "category": "Regional Marketplace",
+      "region": "LatAm",
+      "description": "Latin America's leading e-commerce platform",
+      "fees": "12-16% commission",
+      "traffic": "300 million monthly visits",
+      "bestFor": "General merchandise across Latin America"
+    },
+    {
+      "platform": "Shopee",
+      "category": "Regional Marketplace",
+      "region": "SEA",
+      "description": "Southeast Asia's leading e-commerce platform",
+      "fees": "2-6% commission",
+      "traffic": "400 million monthly visits",
+      "bestFor": "Electronics, fashion, home goods in SEA"
+    },
+    {
+      "platform": "Lazada",
+      "category": "Regional Marketplace",
+      "region": "SEA",
+      "description": "Alibaba-owned marketplace for Southeast Asia",
+      "fees": "2-4% commission",
+      "traffic": "200 million monthly visits",
+      "bestFor": "General merchandise in Southeast Asia"
+    },
+    {
+      "platform": "Flipkart",
+      "category": "Regional Marketplace",
+      "region": "India",
+      "description": "India's leading e-commerce marketplace",
+      "fees": "5-15% commission",
+      "traffic": "300 million monthly visits",
+      "bestFor": "Electronics, fashion, home goods in India"
+    },
+    {
+      "platform": "Etsy",
+      "category": "Specialty Marketplace",
+      "region": "Global",
+      "description": "Global marketplace for handmade, vintage, and unique items",
+      "fees": "6.5% transaction fee + payment processing",
+      "traffic": "400 million monthly visits",
+      "bestFor": "Handmade items, vintage goods, crafts, art"
+    },
+    {
+      "platform": "Facebook Marketplace",
+      "category": "Classifieds",
+      "region": "Global",
+      "description": "Social commerce platform integrated with Facebook",
+      "fees": "Free for local sales, 5% for shipping",
+      "traffic": "1 billion monthly users",
+      "bestFor": "Local sales, used items, vehicles, real estate"
+    },
+    {
+      "platform": "Craigslist",
+      "category": "Classifieds",
+      "region": "US",
+      "description": "Local classified advertisements website",
+      "fees": "Free for most categories",
+      "traffic": "50 million monthly visits",
+      "bestFor": "Local services, used items, jobs, housing"
+    },
+    {
+      "platform": "OLX",
+      "category": "Classifieds",
+      "region": "Global",
+      "description": "Global classifieds platform operating in 40+ countries",
+      "fees": "Free basic listings, paid premium features",
+      "traffic": "200 million monthly visits",
+      "bestFor": "Used cars, electronics, real estate, jobs"
+    },
+    {
+      "platform": "Gumtree",
+      "category": "Classifieds",
+      "region": "UK/AU",
+      "description": "UK and Australia's leading classifieds site",
+      "fees": "Free for most categories",
+      "traffic": "30 million monthly visits",
+      "bestFor": "Used items, cars, jobs, services in UK/AU"
+    },
+    {
+      "platform": "Poshmark",
+      "category": "Fashion Resale",
+      "region": "US",
+      "description": "Social marketplace for fashion and lifestyle items",
+      "fees": "20% commission on sales over $15",
+      "traffic": "80 million monthly visits",
+      "bestFor": "Women's fashion, accessories, beauty"
+    },
+    {
+      "platform": "Depop",
+      "category": "Fashion Resale",
+      "region": "Global",
+      "description": "Social marketplace for unique fashion and vintage items",
+      "fees": "10% commission",
+      "traffic": "30 million monthly visits",
+      "bestFor": "Vintage fashion, streetwear, unique pieces"
+    },
+    {
+      "platform": "Vinted",
+      "category": "Fashion Resale",
+      "region": "EU",
+      "description": "European marketplace for second-hand fashion",
+      "fees": "Free to list, buyer protection fee",
+      "traffic": "65 million monthly visits",
+      "bestFor": "Second-hand clothing, shoes, accessories"
+    },
+    {
+      "platform": "Mercari",
+      "category": "Fashion Resale",
+      "region": "US/JP",
+      "description": "Mobile-first marketplace for buying and selling",
+      "fees": "10% commission",
+      "traffic": "20 million monthly visits",
+      "bestFor": "Fashion, electronics, home goods, collectibles"
+    },
+    {
+      "platform": "TheRealReal",
+      "category": "Fashion Resale",
+      "region": "Luxury/US",
+      "description": "Luxury consignment marketplace for authenticated designer items",
+      "fees": "Commission varies by item value",
+      "traffic": "5 million monthly visits",
+      "bestFor": "Luxury handbags, jewelry, watches, designer clothing"
+    },
+    {
+      "platform": "Vestiaire Collective",
+      "category": "Fashion Resale",
+      "region": "Luxury/EU/US",
+      "description": "Global luxury fashion marketplace with authentication",
+      "fees": "Commission varies by item value",
+      "traffic": "15 million monthly visits",
+      "bestFor": "Luxury fashion, designer bags, shoes, accessories"
+    },
+    {
+      "platform": "Grailed",
+      "category": "Fashion Resale",
+      "region": "Men's fashion",
+      "description": "Marketplace for men's fashion and streetwear",
+      "fees": "9% commission + payment processing",
+      "traffic": "3 million monthly visits",
+      "bestFor": "Men's designer clothing, streetwear, sneakers"
+    },
+    {
+      "platform": "StockX",
+      "category": "Fashion Resale",
+      "region": "Sneakers/Streetwear",
+      "description": "Stock market for sneakers, streetwear, and collectibles",
+      "fees": "9.5% seller fee + 3% processing fee",
+      "traffic": "10 million monthly visits",
+      "bestFor": "Sneakers, streetwear, trading cards, collectibles"
+    },
+    {
+      "platform": "GOAT",
+      "category": "Fashion Resale",
+      "region": "Sneakers",
+      "description": "Global marketplace for authentic sneakers and apparel",
+      "fees": "9.5% seller fee + 2.9% processing fee",
+      "traffic": "8 million monthly visits",
+      "bestFor": "Authentic sneakers, streetwear, luxury items"
+    },
+    {
+      "platform": "Swappa",
+      "category": "Electronics",
+      "region": "US",
+      "description": "Marketplace for buying and selling used electronics",
+      "fees": "3% commission",
+      "traffic": "2 million monthly visits",
+      "bestFor": "Used phones, laptops, tablets, gaming devices"
+    },
+    {
+      "platform": "Decluttr",
+      "category": "Electronics",
+      "region": "US",
+      "description": "Buy-back service for electronics and media",
+      "fees": "No fees - instant buy-back",
+      "traffic": "1 million monthly visits",
+      "bestFor": "Electronics trade-in, instant cash"
+    },
+    {
+      "platform": "Reverb",
+      "category": "Electronics",
+      "region": "Global",
+      "description": "Marketplace for musical instruments and gear",
+      "fees": "3.5% commission",
+      "traffic": "5 million monthly visits",
+      "bestFor": "Musical instruments, audio equipment, gear"
+    },
+    {
+      "platform": "Back Market",
+      "category": "Electronics",
+      "region": "Global",
+      "description": "Marketplace for refurbished electronics",
+      "fees": "Commission varies",
+      "traffic": "10 million monthly visits",
+      "bestFor": "Refurbished phones, laptops, tablets"
+    },
+    {
+      "platform": "Ruby Lane",
+      "category": "Collectible",
+      "region": "Global",
+      "description": "Marketplace for antiques, collectibles, and vintage items",
+      "fees": "Monthly subscription + 6.5% commission",
+      "traffic": "500k monthly visits",
+      "bestFor": "Antiques, vintage jewelry, collectibles"
+    },
+    {
+      "platform": "1stDibs",
+      "category": "Collectible",
+      "region": "Global",
+      "description": "Luxury marketplace for antiques, art, and design",
+      "fees": "Commission varies by category",
+      "traffic": "2 million monthly visits",
+      "bestFor": "High-end antiques, art, designer furniture"
+    },
+    {
+      "platform": "Chairish",
+      "category": "Collectible",
+      "region": "Global",
+      "description": "Marketplace for vintage and designer furniture",
+      "fees": "20% commission",
+      "traffic": "1 million monthly visits",
+      "bestFor": "Vintage furniture, home decor, art"
+    },
+    {
+      "platform": "Discogs",
+      "category": "Collectible",
+      "region": "Global",
+      "description": "Database and marketplace for music collectors",
+      "fees": "8% commission",
+      "traffic": "3 million monthly visits",
+      "bestFor": "Vinyl records, CDs, music memorabilia"
+    },
+    {
+      "platform": "Catawiki",
+      "category": "Auctions",
+      "region": "EU",
+      "description": "Online auction platform for special objects",
+      "fees": "15% commission",
+      "traffic": "2 million monthly visits",
+      "bestFor": "Art, antiques, collectibles, jewelry"
+    },
+    {
+      "platform": "Heritage Auctions",
+      "category": "Auctions",
+      "region": "US",
+      "description": "Premier auction house for collectibles and art",
+      "fees": "Commission varies by category",
+      "traffic": "500k monthly visits",
+      "bestFor": "High-value collectibles, art, coins, comics"
+    },
+    {
+      "platform": "Liquidation.com",
+      "category": "Wholesale",
+      "region": "US",
+      "description": "B2B marketplace for liquidated and surplus inventory",
+      "fees": "Buyer premium varies",
+      "traffic": "1 million monthly visits",
+      "bestFor": "Bulk electronics, apparel, home goods"
+    },
+    {
+      "platform": "B-Stock Solutions",
+      "category": "Wholesale",
+      "region": "US",
+      "description": "B2B liquidation marketplace for retailers",
+      "fees": "Buyer premium varies",
+      "traffic": "500k monthly visits",
+      "bestFor": "Retail returns, overstock, liquidation"
+    },
+    {
+      "platform": "Alibaba",
+      "category": "B2B Sourcing",
+      "region": "Global",
+      "description": "Global B2B marketplace connecting manufacturers and buyers",
+      "fees": "Membership fees + transaction fees",
+      "traffic": "200 million monthly visits",
+      "bestFor": "Wholesale sourcing, manufacturing, B2B trade"
+    },
+    {
+      "platform": "DHgate",
+      "category": "B2B Sourcing",
+      "region": "Global",
+      "description": "B2B marketplace for small quantity wholesale",
+      "fees": "2.9% transaction fee",
+      "traffic": "50 million monthly visits",
+      "bestFor": "Small quantity wholesale, dropshipping"
+    },
+    {
+      "platform": "Global Sources",
+      "category": "B2B Sourcing",
+      "region": "Global",
+      "description": "B2B marketplace and trade show organizer",
+      "fees": "Membership and listing fees",
+      "traffic": "10 million monthly visits",
+      "bestFor": "Electronics sourcing, trade shows, B2B networking"
+    },
+    {
+      "platform": "Spocket",
+      "category": "Dropshipping",
+      "region": "Global",
+      "description": "Dropshipping platform connecting stores with suppliers",
+      "fees": "Monthly subscription + product markup",
+      "traffic": "1 million monthly visits",
+      "bestFor": "Dropshipping, e-commerce automation"
+    },
+    {
+      "platform": "Modalyst",
+      "category": "Dropshipping",
+      "region": "Global",
+      "description": "Dropshipping platform for fashion and lifestyle products",
+      "fees": "Monthly subscription + product markup",
+      "traffic": "500k monthly visits",
+      "bestFor": "Fashion dropshipping, lifestyle products"
+    },
+    {
+      "platform": "Printful",
+      "category": "Dropshipping",
+      "region": "Global",
+      "description": "Print-on-demand and dropshipping platform",
+      "fees": "Product cost + shipping",
+      "traffic": "2 million monthly visits",
+      "bestFor": "Print-on-demand, custom products, apparel"
+    },
+    {
+      "platform": "TikTok Shop",
+      "category": "Social Commerce",
+      "region": "Global",
+      "description": "Social commerce platform integrated with TikTok",
+      "fees": "2.9% + 30¢ per transaction",
+      "traffic": "1 billion monthly users",
+      "bestFor": "Trending products, viral items, Gen Z audience"
+    },
+    {
+      "platform": "Instagram Shopping",
+      "category": "Social Commerce",
+      "region": "Global",
+      "description": "Shopping features integrated with Instagram",
+      "fees": "2.9% + 30¢ per transaction",
+      "traffic": "2 billion monthly users",
+      "bestFor": "Visual products, lifestyle brands, influencer marketing"
+    },
+    {
+      "platform": "Facebook Shops",
+      "category": "Social Commerce",
+      "region": "Global",
+      "description": "E-commerce solution integrated with Facebook",
+      "fees": "2.9% + 30¢ per transaction",
+      "traffic": "3 billion monthly users",
+      "bestFor": "Social selling, community-driven commerce"
+    },
+    {
+      "platform": "Pinterest Shopping",
+      "category": "Social Commerce",
+      "region": "Global",
+      "description": "Shopping features integrated with Pinterest",
+      "fees": "Commission varies",
+      "traffic": "450 million monthly users",
+      "bestFor": "Home decor, fashion, lifestyle products"
+    },
+    {
+      "platform": "Popshop Live",
+      "category": "Social Commerce",
+      "region": "US",
+      "description": "Live shopping platform for interactive selling",
+      "fees": "Commission varies",
+      "traffic": "1 million monthly visits",
+      "bestFor": "Live selling, interactive commerce, entertainment"
+    },
+    {
+      "platform": "Whatnot",
+      "category": "Social Commerce",
+      "region": "US",
+      "description": "Live auction platform for collectibles and unique items",
+      "fees": "8% commission",
+      "traffic": "2 million monthly visits",
+      "bestFor": "Collectibles, trading cards, unique items"
+    },
+    {
+      "platform": "AutoTrader",
+      "category": "Specialty Marketplace",
+      "region": "US",
+      "description": "Leading automotive marketplace for buying and selling cars",
+      "fees": "Listing fees vary by package",
+      "traffic": "20 million monthly visits",
+      "bestFor": "Used cars, new cars, automotive services"
+    },
+    {
+      "platform": "Cars.com",
+      "category": "Specialty Marketplace",
+      "region": "US",
+      "description": "Automotive marketplace and research platform",
+      "fees": "Listing fees vary",
+      "traffic": "15 million monthly visits",
+      "bestFor": "Car sales, automotive research, dealer listings"
+    },
+    {
+      "platform": "CarGurus",
+      "category": "Specialty Marketplace",
+      "region": "US",
+      "description": "Automotive marketplace with price analysis",
+      "fees": "Listing fees vary",
+      "traffic": "10 million monthly visits",
+      "bestFor": "Car sales, price comparison, dealer reviews"
+    },
+    {
+      "platform": "Copart",
+      "category": "Specialty Marketplace",
+      "region": "US",
+      "description": "Online auto auction platform",
+      "fees": "Buyer fees vary by vehicle",
+      "traffic": "5 million monthly visits",
+      "bestFor": "Salvage vehicles, fleet sales, insurance auctions"
+    },
+    {
+      "platform": "Houzz Marketplace",
+      "category": "Specialty Marketplace",
+      "region": "Global",
+      "description": "Home improvement and design marketplace",
+      "fees": "Commission varies",
+      "traffic": "50 million monthly visits",
+      "bestFor": "Home decor, furniture, renovation services"
+    },
+    {
+      "platform": "Wayfair",
+      "category": "Specialty Marketplace",
+      "region": "Global",
+      "description": "Online marketplace for home goods and furniture",
+      "fees": "Commission varies",
+      "traffic": "100 million monthly visits",
+      "bestFor": "Furniture, home decor, appliances"
+    },
+    {
+      "platform": "AbeBooks",
+      "category": "Specialty Marketplace",
+      "region": "Global",
+      "description": "Online marketplace for books, art, and collectibles",
+      "fees": "Commission varies",
+      "traffic": "5 million monthly visits",
+      "bestFor": "Books, rare books, art, collectibles"
+    },
+    {
+      "platform": "ChannelAdvisor",
+      "category": "Aggregator",
+      "region": "Global",
+      "description": "E-commerce platform for managing multiple marketplaces",
+      "fees": "Monthly subscription + transaction fees",
+      "traffic": "N/A - B2B platform",
+      "bestFor": "Multi-channel selling, inventory management"
+    },
+    {
+      "platform": "Feedonomics",
+      "category": "Aggregator",
+      "region": "Global",
+      "description": "Product feed management and optimization platform",
+      "fees": "Monthly subscription",
+      "traffic": "N/A - B2B platform",
+      "bestFor": "Product feed optimization, marketplace management"
+    },
+    {
+      "platform": "Sellbrite",
+      "category": "Aggregator",
+      "region": "Global",
+      "description": "Multi-channel listing and inventory management platform",
+      "fees": "Monthly subscription",
+      "traffic": "N/A - B2B platform",
+      "bestFor": "Multi-channel selling, inventory sync"
+    }
+  ]
+}

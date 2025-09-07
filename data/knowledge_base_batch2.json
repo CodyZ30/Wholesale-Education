@@ -1,0 +1,272 @@
+[
+  {
+    "id": "kb151",
+    "title": "Return Shipping Labels and Process",
+    "category": "Returns & Exchanges",
+    "content": "Return labels are provided via email after initiating a return. Print the label and attach it to your package. Drop off at any carrier location or schedule a pickup.",
+    "tags": ["return label", "shipping", "process"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb152",
+    "title": "Return Condition Requirements",
+    "category": "Returns & Exchanges",
+    "content": "Items must be in original condition with tags attached and original packaging. Used items may be subject to restocking fees. Custom items cannot be returned.",
+    "tags": ["condition", "requirements", "original"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb153",
+    "title": "Return Authorization Numbers",
+    "category": "Returns & Exchanges",
+    "content": "Each return gets a unique authorization number. Include this number on your return package and keep it for tracking. Contact support if you need a new authorization number.",
+    "tags": ["authorization", "number", "tracking"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb154",
+    "title": "Return Processing Timeline",
+    "category": "Returns & Exchanges",
+    "content": "Returns are processed within 3-5 business days after we receive them. You'll receive an email confirmation when your return is processed and refund issued.",
+    "tags": ["processing", "timeline", "confirmation"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb155",
+    "title": "Restocking Fees and Charges",
+    "category": "Returns & Exchanges",
+    "content": "Restocking fees may apply to certain items or return reasons. Fees are clearly stated during the return process. No fees for defective items or our errors.",
+    "tags": ["restocking", "fees", "charges"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb156",
+    "title": "International Returns and Exchanges",
+    "category": "Returns & Exchanges",
+    "content": "International returns must be shipped back to us at customer expense. Refunds are processed in the original payment currency. Contact us for international return instructions.",
+    "tags": ["international", "returns", "currency"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb157",
+    "title": "Return Tracking and Status",
+    "category": "Returns & Exchanges",
+    "content": "Track your return using the tracking number on your return label. Check return status in your account or contact support for updates on return processing.",
+    "tags": ["tracking", "status", "return"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb158",
+    "title": "Exchange vs Return Process",
+    "category": "Returns & Exchanges",
+    "content": "Exchanges are processed as a return and new purchase. You'll receive the new item once we process your return. Exchanges may take longer than direct returns.",
+    "tags": ["exchange", "return", "process"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb159",
+    "title": "Return Policy Exceptions",
+    "category": "Returns & Exchanges",
+    "content": "Some items have different return policies. Check product pages for specific return terms. Final sale items, custom orders, and intimate items cannot be returned.",
+    "tags": ["exceptions", "policy", "final sale"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb160",
+    "title": "Return Refund Methods",
+    "category": "Returns & Exchanges",
+    "content": "Refunds are issued to the original payment method. Credit card refunds may take 1-2 billing cycles. PayPal refunds are usually instant. Gift card purchases are refunded as store credit.",
+    "tags": ["refund", "methods", "payment"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb161",
+    "title": "Account Security and Privacy",
+    "category": "Account & Profile",
+    "content": "Your account is protected with industry-standard security. We never share your personal information. Use strong passwords and enable two-factor authentication when available.",
+    "tags": ["security", "privacy", "protection"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb162",
+    "title": "Account Deletion and Data Removal",
+    "category": "Account & Profile",
+    "content": "You can delete your account in account settings. This removes your personal data but preserves order history for tax purposes. Contact support for complete data removal requests.",
+    "tags": ["delete", "account", "data"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb163",
+    "title": "Email Preferences and Notifications",
+    "category": "Account & Profile",
+    "content": "Manage email preferences in your account settings. Choose which notifications you want to receive. You can unsubscribe from marketing emails while keeping order notifications.",
+    "tags": ["email", "preferences", "notifications"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb164",
+    "title": "Account Verification and Identity",
+    "category": "Account & Profile",
+    "content": "We may request identity verification for high-value orders or security purposes. This helps protect your account and prevent fraud. Verification is quick and secure.",
+    "tags": ["verification", "identity", "security"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb165",
+    "title": "Multiple Account Management",
+    "category": "Account & Profile",
+    "content": "Each person should have their own account. Multiple accounts for the same person may be merged or suspended. Contact support if you have multiple accounts that need to be combined.",
+    "tags": ["multiple", "accounts", "management"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb166",
+    "title": "Account Recovery and Access",
+    "category": "Account & Profile",
+    "content": "If you can't access your account, use the 'Forgot Password' feature. If that doesn't work, contact support with your email address and we'll help you regain access.",
+    "tags": ["recovery", "access", "forgot"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb167",
+    "title": "Profile Information Updates",
+    "category": "Account & Profile",
+    "content": "Keep your profile information current for accurate shipping and billing. Update your name, address, and contact information as needed. Changes are saved immediately.",
+    "tags": ["profile", "updates", "information"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb168",
+    "title": "Account Activity and Login History",
+    "category": "Account & Profile",
+    "content": "View your account activity and login history in account settings. This helps you monitor account security and identify any unauthorized access.",
+    "tags": ["activity", "login", "history"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb169",
+    "title": "Sticker Design and Customization",
+    "category": "Stickers",
+    "content": "We offer custom sticker designs for bulk orders. Submit your design requirements and we'll create custom stickers for your business or organization.",
+    "tags": ["custom", "design", "bulk"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb170",
+    "title": "Sticker Material and Quality",
+    "category": "Stickers",
+    "content": "Our stickers are made from high-quality vinyl with UV protection and weather resistance. They're designed to last outdoors and maintain their color and adhesion.",
+    "tags": ["material", "quality", "vinyl"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb171",
+    "title": "Sticker Size Options and Specifications",
+    "category": "Stickers",
+    "content": "We offer various sticker sizes from small 1-inch designs to large 6-inch stickers. Custom sizes available for bulk orders. Check product pages for exact dimensions.",
+    "tags": ["sizes", "specifications", "dimensions"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "172",
+    "title": "Sticker Application Surfaces",
+    "category": "Stickers",
+    "content": "Our stickers work on most smooth surfaces including metal, plastic, glass, and painted surfaces. Avoid rough or porous surfaces for best results. Clean surfaces before application.",
+    "tags": ["surfaces", "application", "compatibility"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb173",
+    "title": "Sticker Care and Maintenance",
+    "category": "Stickers",
+    "content": "Clean stickers with mild soap and water. Avoid harsh chemicals or abrasive cleaners. Stickers are designed to be low-maintenance and long-lasting.",
+    "tags": ["care", "maintenance", "cleaning"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb174",
+    "title": "Sticker Storage and Handling",
+    "category": "Stickers",
+    "content": "Store stickers in a cool, dry place away from direct sunlight. Keep them flat to prevent curling. Handle with clean hands to avoid transferring oils.",
+    "tags": ["storage", "handling", "care"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb175",
+    "title": "Sticker Bulk Orders and Pricing",
+    "category": "Stickers",
+    "content": "Bulk sticker orders receive volume discounts. Contact us for custom pricing on orders over 100 stickers. We offer competitive rates for large quantities.",
+    "tags": ["bulk", "pricing", "volume"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb176",
+    "title": "Sticker Shipping and Packaging",
+    "category": "Stickers",
+    "content": "Stickers are shipped in protective packaging to prevent damage. Individual stickers come in backing sheets. Bulk orders are packaged securely for safe delivery.",
+    "tags": ["shipping", "packaging", "protection"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb177",
+    "title": "Sticker Artwork and File Requirements",
+    "category": "Stickers",
+    "content": "For custom stickers, submit artwork in high-resolution format (300 DPI minimum). We accept AI, EPS, PDF, and PNG files. Vector files preferred for best quality.",
+    "tags": ["artwork", "files", "requirements"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb178",
+    "title": "Wholesale Account Benefits",
+    "category": "Wholesale",
+    "content": "Wholesale accounts receive exclusive pricing, dedicated support, custom branding options, and priority processing. Volume discounts increase with order size.",
+    "tags": ["benefits", "pricing", "support"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb179",
+    "title": "Wholesale Application Requirements",
+    "category": "Wholesale",
+    "content": "Wholesale applications require business license, tax ID, and expected order volume. We review applications within 1-3 business days and may request additional documentation.",
+    "tags": ["requirements", "application", "documentation"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  },
+  {
+    "id": "kb180",
+    "title": "Wholesale Pricing Tiers and Discounts",
+    "category": "Wholesale",
+    "content": "Wholesale pricing has multiple tiers based on order volume. Discounts range from 10% to 40% off retail prices. Higher volumes receive better pricing.",
+    "tags": ["tiers", "discounts", "volume"],
+    "created_at": "2024-02-07",
+    "updated_at": "2024-02-07"
+  }
+]

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Wholesale Education</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .team-card {
+            transition: all 0.3s ease;
+        }
+        
+        .team-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 25px -3px rgb(0 0 0 / 0.1), 0 4px 6px -2px rgb(0 0 0 / 0.05);
+        }
+        
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        
+        .timeline-item {
+            position: relative;
+            padding-left: 2rem;
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 12px;
+            height: 12px;
+            background-color: #3b82f6;
+            border-radius: 50%;
+        }
+        
+        .timeline-item::after {
+            content: '';
+            position: absolute;
+            left: 5px;
+            top: 12px;
+            width: 2px;
+            height: calc(100% + 1rem);
+            background-color: #e5e7eb;
+        }
+        
+        .timeline-item:last-child::after {
+            display: none;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 w-full border-b border-gray-200 bg-white/80 backdrop-blur-md">
+        <div class="container mx-auto px-4">
+            <div class="flex h-16 items-center justify-between">
+                <div class="flex items-center space-x-2">
+                    <span class="text-2xl font-bold text-gray-900">Wholesale</span>
+                    <span class="text-2xl font-bold text-blue-600">.</span>
+                    <span class="text-2xl font-bold text-gray-900">Education</span>
+                </div>
+                
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-600 hover:text-gray-900 transition-all duration-300">Home</a>
+                    <a href="marketplace.html" class="text-gray-600 hover:text-gray-900 transition-all duration-300">Marketplaces</a>
+                    <a href="suppliers.html" class="text-gray-600 hover:text-gray-900 transition-all duration-300">Suppliers</a>
+                    <a href="guides.html" class="text-gray-600 hover:text-gray-900 transition-all duration-300">Guides</a>
+                    <a href="about.html" class="text-blue-600 font-semibold">About</a>
+                </div>
+                
+                <div class="flex items-center space-x-4">
+                    <button class="px-4 py-2 text-gray-600 hover:text-gray-900 transition-all duration-300">Sign In</button>
+                    <button class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all duration-300">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="py-20 bg-gradient-to-br from-blue-600 to-purple-600 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6">About Wholesale.Education</h1>
+            <p class="text-xl text-blue-100 max-w-3xl mx-auto">
+                We're on a mission to democratize wholesale business education and help entrepreneurs worldwide build successful, scalable businesses.
+            </p>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl font-bold text-gray-900 mb-8">Our Mission</h2>
+                <p class="text-xl text-gray-600 mb-8">
+                    To provide comprehensive, accessible, and practical education that empowers entrepreneurs to build successful wholesale businesses, regardless of their background or experience level.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-2xl">🎯</span>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Accessible Education</h3>
+                        <p class="text-gray-600">Making wholesale business knowledge available to everyone, everywhere.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-2xl">🚀</span>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Practical Learning</h3>
+                        <p class="text-gray-600">Real-world strategies and tools that actually work in today's market.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-2xl">🌍</span>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Global Community</h3>
+                        <p class="text-gray-600">Connecting entrepreneurs worldwide to share knowledge and opportunities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-20 bg-gray-900 text-white">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="stat-card rounded-lg p-8 text-center">
+                    <div class="text-4xl font-bold mb-2">50,000+</div>
+                    <div class="text-blue-100">Active Learners</div>
+                </div>
+                <div class="stat-card rounded-lg p-8 text-center">
+                    <div class="text-4xl font-bold mb-2">160+</div>
+                    <div class="text-blue-100">Marketplace Guides</div>
+                </div>
+                <div class="stat-card rounded-lg p-8 text-center">
+                    <div class="text-4xl font-bold mb-2">1M+</div>
+                    <div class="text-blue-100">Product Pages</div>
+                </div>
+                <div class="stat-card rounded-lg p-8 text-center">
+                    <div class="text-4xl font-bold mb-2">100+</div>
+                    <div class="text-blue-100">Industries Covered</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold text-gray-900 mb-12 text-center">Our Story</h2>
+                
+                <div class="space-y-8">
+                    <div class="timeline-item">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">2020 - The Beginning</h3>
+                        <p class="text-gray-600">
+                            Founded by a team of successful entrepreneurs who recognized the lack of comprehensive wholesale business education. We started with a simple goal: make wholesale business knowledge accessible to everyone.
+                        </p>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">2021 - First Milestone</h3>
+                        <p class="text-gray-600">
+                            Launched our first comprehensive guide series and reached 10,000 learners. We expanded our content to cover major marketplaces and supplier networks.
+                        </p>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">2022 - Global Expansion</h3>
+                        <p class="text-gray-600">
+                            Expanded internationally, adding support for multiple languages and regional marketplaces. Our community grew to 25,000 active learners across 50+ countries.
+                        </p>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">2023 - Platform Evolution</h3>
+                        <p class="text-gray-600">
+                            Launched our comprehensive platform with tools, calculators, and interactive learning paths. Introduced our supplier directory and marketplace guides.
+                        </p>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">2024 - AI Integration</h3>
+                        <p class="text-gray-600">
+                            Integrated AI-powered tools for market analysis, supplier matching, and personalized learning recommendations. Reached 50,000+ active learners.
+                        </p>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">2025 - The Future</h3>
+                        <p class="text-gray-600">
+                            Continuing to innovate with advanced automation tools, expanded marketplace coverage, and deeper industry partnerships. Our vision: 1 million successful entrepreneurs by 2030.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Meet Our Team</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    Experienced entrepreneurs and industry experts dedicated to your success.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="team-card bg-white rounded-lg p-8 text-center shadow-lg">
+                    <div class="w-24 h-24 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <span class="text-3xl">👨‍💼</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Alex Chen</h3>
+                    <p class="text-blue-600 font-semibold mb-4">Founder & CEO</p>
+                    <p class="text-gray-600 text-sm">
+                        Former Amazon seller who built a $10M wholesale business. 15+ years in e-commerce and supply chain management.
+                    </p>
+                </div>
+                
+                <div class="team-card bg-white rounded-lg p-8 text-center shadow-lg">
+                    <div class="w-24 h-24 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <span class="text-3xl">👩‍💼</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Sarah Johnson</h3>
+                    <p class="text-green-600 font-semibold mb-4">Head of Education</p>
+                    <p class="text-gray-600 text-sm">
+                        Former McKinsey consultant specializing in retail and wholesale operations. Expert in business strategy and scaling.
+                    </p>
+                </div>
+                
+                <div class="team-card bg-white rounded-lg p-8 text-center shadow-lg">
+                    <div class="w-24 h-24 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <span class="text-3xl">👨‍🔬</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">David Rodriguez</h3>
+                    <p class="text-purple-600 font-semibold mb-4">CTO</p>
+                    <p class="text-gray-600 text-sm">
+                        Former Google engineer with expertise in AI and machine learning. Building the future of wholesale business tools.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Our Values</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    The principles that guide everything we do.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl">🎯</span>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Excellence</h3>
+                    <p class="text-gray-600 text-sm">We strive for the highest quality in everything we create and deliver.</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl">🤝</span>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Integrity</h3>
+                    <p class="text-gray-600 text-sm">We operate with honesty, transparency, and ethical business practices.</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl">🚀</span>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Innovation</h3>
+                    <p class="text-gray-600 text-sm">We continuously evolve and improve to stay ahead of industry trends.</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl">❤️</span>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Empowerment</h3>
+                    <p class="text-gray-600 text-sm">We believe in empowering entrepreneurs to achieve their dreams.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gray-900 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6">Join Our Mission</h2>
+            <p class="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+                Be part of a community that's transforming how entrepreneurs learn and succeed in wholesale business.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <button class="px-8 py-4 bg-blue-600 text-white rounded-lg font-semibold text-lg hover:bg-blue-700 transition-all duration-300">
+                    Start Learning Today
+                </button>
+                <button class="px-8 py-4 border-2 border-white text-white rounded-lg font-semibold text-lg hover:bg-white hover:text-gray-900 transition-all duration-300">
+                    Contact Us
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-16">
+        <div class="container mx-auto px-4">
+            <div class="text-center">
+                <div class="flex items-center justify-center space-x-2 mb-6">
+                    <span class="text-2xl font-bold">Wholesale</span>
+                    <span class="text-2xl font-bold text-blue-600">.</span>
+                    <span class="text-2xl font-bold">Education</span>
+                </div>
+                <p class="text-gray-400 mb-8">Your comprehensive resource for mastering the wholesale business.</p>
+                <div class="flex justify-center space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">Privacy Policy</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">Terms of Service</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">Contact</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">Support</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

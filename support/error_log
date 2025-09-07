@@ -1,0 +1,40 @@
+[06-Sep-2025 00:06:24 UTC] PHP Warning:  include_once(/home/rb4fzp8zggib/public_html/gotta.fish/support/includes/config.php): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/support/index.php on line 3
+[06-Sep-2025 00:06:24 UTC] PHP Warning:  include_once(): Failed opening '/home/rb4fzp8zggib/public_html/gotta.fish/support/includes/config.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/support/index.php on line 3
+[06-Sep-2025 00:06:24 UTC] PHP Warning:  include_once(/home/rb4fzp8zggib/public_html/gotta.fish/support/check_blocked_ip.php): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/support/index.php on line 4
+[06-Sep-2025 00:06:24 UTC] PHP Warning:  include_once(): Failed opening '/home/rb4fzp8zggib/public_html/gotta.fish/support/check_blocked_ip.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/support/index.php on line 4
+[06-Sep-2025 00:06:24 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/support/index.php:81
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/support/index.php on line 81
+[06-Sep-2025 00:06:29 UTC] PHP Warning:  include_once(/home/rb4fzp8zggib/public_html/gotta.fish/support/includes/config.php): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/support/index.php on line 3
+[06-Sep-2025 00:06:29 UTC] PHP Warning:  include_once(): Failed opening '/home/rb4fzp8zggib/public_html/gotta.fish/support/includes/config.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/support/index.php on line 3
+[06-Sep-2025 00:06:29 UTC] PHP Warning:  include_once(/home/rb4fzp8zggib/public_html/gotta.fish/support/check_blocked_ip.php): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/support/index.php on line 4
+[06-Sep-2025 00:06:29 UTC] PHP Warning:  include_once(): Failed opening '/home/rb4fzp8zggib/public_html/gotta.fish/support/check_blocked_ip.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/support/index.php on line 4
+[06-Sep-2025 00:06:29 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/support/index.php:81
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/support/index.php on line 81
+[06-Sep-2025 00:06:32 UTC] PHP Warning:  include_once(/home/rb4fzp8zggib/public_html/gotta.fish/support/includes/config.php): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/support/index.php on line 3
+[06-Sep-2025 00:06:32 UTC] PHP Warning:  include_once(): Failed opening '/home/rb4fzp8zggib/public_html/gotta.fish/support/includes/config.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/support/index.php on line 3
+[06-Sep-2025 00:06:32 UTC] PHP Warning:  include_once(/home/rb4fzp8zggib/public_html/gotta.fish/support/check_blocked_ip.php): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/support/index.php on line 4
+[06-Sep-2025 00:06:32 UTC] PHP Warning:  include_once(): Failed opening '/home/rb4fzp8zggib/public_html/gotta.fish/support/check_blocked_ip.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/support/index.php on line 4
+[06-Sep-2025 00:06:32 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/support/index.php:81
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/support/index.php on line 81
+[06-Sep-2025 00:12:32 UTC] PHP Warning:  include_once(/home/rb4fzp8zggib/public_html/gotta.fish/support/includes/config.php): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/support/index.php on line 3
+[06-Sep-2025 00:12:32 UTC] PHP Warning:  include_once(): Failed opening '/home/rb4fzp8zggib/public_html/gotta.fish/support/includes/config.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/support/index.php on line 3
+[06-Sep-2025 00:12:32 UTC] PHP Warning:  include_once(/home/rb4fzp8zggib/public_html/gotta.fish/support/check_blocked_ip.php): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/support/index.php on line 4
+[06-Sep-2025 00:12:32 UTC] PHP Warning:  include_once(): Failed opening '/home/rb4fzp8zggib/public_html/gotta.fish/support/check_blocked_ip.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/support/index.php on line 4
+[06-Sep-2025 00:12:32 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/support/index.php:81
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/support/index.php on line 81
+[06-Sep-2025 00:12:36 UTC] PHP Warning:  include_once(/home/rb4fzp8zggib/public_html/gotta.fish/support/includes/config.php): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/support/index.php on line 3
+[06-Sep-2025 00:12:36 UTC] PHP Warning:  include_once(): Failed opening '/home/rb4fzp8zggib/public_html/gotta.fish/support/includes/config.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/support/index.php on line 3
+[06-Sep-2025 00:12:36 UTC] PHP Warning:  include_once(/home/rb4fzp8zggib/public_html/gotta.fish/support/check_blocked_ip.php): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/support/index.php on line 4
+[06-Sep-2025 00:12:36 UTC] PHP Warning:  include_once(): Failed opening '/home/rb4fzp8zggib/public_html/gotta.fish/support/check_blocked_ip.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/support/index.php on line 4
+[06-Sep-2025 00:12:36 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/support/index.php:81
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/support/index.php on line 81

@@ -1,0 +1,18 @@
+{
+    "enable_paypal": false,
+    "paypal_client_id": "",
+    "paypal_secret": "",
+    "enable_stripe": false,
+    "stripe_pk": "",
+    "stripe_sk": "",
+    "enable_square": false,
+    "square_token": "",
+    "enable_cash": false,
+    "enable_zelle": false,
+    "zelle_instructions": "",
+    "enable_cashapp": false,
+    "cashapp_handle": "",
+    "enable_apple_pay": false,
+    "enable_google_pay": false,
+    "tax_rate": 0.065
+}

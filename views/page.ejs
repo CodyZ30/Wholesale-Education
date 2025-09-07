@@ -1,0 +1,167 @@
+<div class="container">
+    <div class="page-content">
+        <div class="page-meta-info">
+            <span class="category-link">
+                <a href="/category/<%= page.category_slug %>"><%= page.category_name %></a>
+            </span>
+            <span class="date"><%= new Date(page.created_at).toLocaleDateString() %></span>
+            <span class="views"><%= page.views %> views</span>
+        </div>
+        
+        <h1><%= page.title %></h1>
+        
+        <div class="content">
+            <p><%= page.content %></p>
+            
+            <!-- Additional content sections for wholesale pages -->
+            <div class="wholesale-sections">
+                <div class="section">
+                    <h2>Buying Options</h2>
+                    <p>Learn about different wholesale formats including dozen, case, pallet, and container quantities. Each format offers different pricing structures and minimum order requirements.</p>
+                </div>
+                
+                <div class="section">
+                    <h2>Supplier Information</h2>
+                    <p>Discover trusted suppliers and sourcing strategies. Learn how to vet suppliers, negotiate terms, and build long-term relationships in the wholesale industry.</p>
+                </div>
+                
+                <div class="section">
+                    <h2>Costs & Pricing</h2>
+                    <p>Understand wholesale pricing structures, profit margins, and cost considerations. Learn how to calculate break-even points and maximize profitability.</p>
+                </div>
+                
+                <div class="section">
+                    <h2>Risks & Considerations</h2>
+                    <p>Identify potential risks in wholesale operations including quality control, shipping delays, market fluctuations, and regulatory compliance.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <% if (relatedPages && relatedPages.length > 0) { %>
+    <div class="related-pages">
+        <h3>Related Wholesale Guides</h3>
+        <ul>
+            <% relatedPages.forEach(relatedPage => { %>
+                <li><a href="/page/<%= relatedPage.slug %>"><%= relatedPage.title %></a></li>
+            <% }); %>
+        </ul>
+    </div>
+    <% } %>
+</div>
+
+<style>
+.page-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.page-meta-info {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+    font-size: 0.9rem;
+    color: #666;
+    flex-wrap: wrap;
+}
+
+.category-link a {
+    background: #3498db;
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.category-link a:hover {
+    background: #2980b9;
+}
+
+.page-content h1 {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+
+.content {
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+.content p {
+    margin-bottom: 1.5rem;
+}
+
+.wholesale-sections {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.wholesale-sections .section {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid #3498db;
+}
+
+.wholesale-sections h2 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.related-pages {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.related-pages h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.related-pages ul {
+    list-style: none;
+}
+
+.related-pages li {
+    margin-bottom: 0.5rem;
+}
+
+.related-pages a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.related-pages a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .page-content h1 {
+        font-size: 2rem;
+    }
+    
+    .wholesale-sections {
+        grid-template-columns: 1fr;
+    }
+    
+    .page-meta-info {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+</style>

@@ -1,0 +1,344 @@
+[05-Sep-2025 04:32:48 UTC] users.json file not found at: /home/rb4fzp8zggib/public_html/gotta.fish/admin/../../users.json
+[05-Sep-2025 04:32:48 UTC] Admin login failed for username: admin. Invalid username or password.
+[05-Sep-2025 04:35:15 UTC] users.json file not found at: /home/rb4fzp8zggib/public_html/gotta.fish/admin/../../users.json
+[05-Sep-2025 04:35:15 UTC] Admin login failed for username: admin. Invalid username or password.
+[05-Sep-2025 04:35:38 UTC] PHP Warning:  require(/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../data/products.php): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php on line 317
+[05-Sep-2025 04:35:38 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../data/products.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php:317
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php on line 317
+[05-Sep-2025 04:35:43 UTC] PHP Warning:  require(/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../data/products.php): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php on line 317
+[05-Sep-2025 04:35:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../data/products.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php:317
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php on line 317
+[05-Sep-2025 04:37:12 UTC] PHP Warning:  require(/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../data/products.php): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php on line 317
+[05-Sep-2025 04:37:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../data/products.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php:317
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php on line 317
+[05-Sep-2025 04:37:53 UTC] PHP Warning:  require(/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../data/products.php): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php on line 317
+[05-Sep-2025 04:37:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../data/products.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php:317
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php on line 317
+[05-Sep-2025 04:40:26 UTC] PHP Warning:  require(/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../data/products.php): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php on line 317
+[05-Sep-2025 04:40:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../data/products.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php:317
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php on line 317
+[05-Sep-2025 04:40:29 UTC] PHP Warning:  require(/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../data/products.php): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php on line 317
+[05-Sep-2025 04:40:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../data/products.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php:317
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php on line 317
+[05-Sep-2025 04:40:31 UTC] PHP Warning:  require(/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../data/products.php): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php on line 317
+[05-Sep-2025 04:40:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../data/products.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php:317
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php on line 317
+[05-Sep-2025 04:40:34 UTC] PHP Warning:  require(/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../data/products.php): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php on line 317
+[05-Sep-2025 04:40:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../data/products.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php:317
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php on line 317
+[05-Sep-2025 04:51:53 UTC] PHP Warning:  Undefined variable $reviewsFile in /home/rb4fzp8zggib/public_html/gotta.fish/admin/reviews.php on line 125
+[05-Sep-2025 04:51:56 UTC] PHP Warning:  Undefined variable $reviewsFile in /home/rb4fzp8zggib/public_html/gotta.fish/admin/reviews.php on line 125
+[05-Sep-2025 04:52:01 UTC] PHP Warning:  require(/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../data/products.php): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php on line 319
+[05-Sep-2025 04:52:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../data/products.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php:319
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php on line 319
+[05-Sep-2025 04:52:17 UTC] PHP Warning:  Undefined variable $reviewsFile in /home/rb4fzp8zggib/public_html/gotta.fish/admin/reviews.php on line 125
+[05-Sep-2025 04:52:19 UTC] PHP Warning:  Undefined variable $reviewsFile in /home/rb4fzp8zggib/public_html/gotta.fish/admin/reviews.php on line 125
+[05-Sep-2025 04:52:22 UTC] PHP Warning:  include_once(/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../includes/config.php): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 3
+[05-Sep-2025 04:52:22 UTC] PHP Warning:  include_once(): Failed opening '/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../includes/config.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 3
+[05-Sep-2025 04:52:22 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php:68
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 68
+[05-Sep-2025 04:52:25 UTC] PHP Warning:  include_once(/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../includes/config.php): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 3
+[05-Sep-2025 04:52:25 UTC] PHP Warning:  include_once(): Failed opening '/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../includes/config.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 3
+[05-Sep-2025 04:52:25 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php:68
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 68
+[05-Sep-2025 05:19:47 UTC] PHP Warning:  include_once(/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../includes/config.php): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 3
+[05-Sep-2025 05:19:47 UTC] PHP Warning:  include_once(): Failed opening '/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../includes/config.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 3
+[05-Sep-2025 05:19:47 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php:68
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 68
+[05-Sep-2025 05:20:07 UTC] PHP Warning:  include_once(/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../includes/config.php): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 3
+[05-Sep-2025 05:20:07 UTC] PHP Warning:  include_once(): Failed opening '/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../includes/config.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 3
+[05-Sep-2025 05:20:07 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php:68
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 68
+[05-Sep-2025 05:20:18 UTC] PHP Warning:  include_once(/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../includes/config.php): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 3
+[05-Sep-2025 05:20:18 UTC] PHP Warning:  include_once(): Failed opening '/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../includes/config.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 3
+[05-Sep-2025 05:20:18 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php:68
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 68
+[05-Sep-2025 05:20:29 UTC] PHP Warning:  require(/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../data/products.php): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php on line 319
+[05-Sep-2025 05:20:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../data/products.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php:319
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php on line 319
+[05-Sep-2025 06:20:20 UTC] PHP Warning:  include_once(/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../includes/config.php): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 3
+[05-Sep-2025 06:20:20 UTC] PHP Warning:  include_once(): Failed opening '/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../includes/config.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 3
+[05-Sep-2025 06:20:20 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php:68
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 68
+[05-Sep-2025 06:20:22 UTC] PHP Warning:  include_once(/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../includes/config.php): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 3
+[05-Sep-2025 06:20:22 UTC] PHP Warning:  include_once(): Failed opening '/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../includes/config.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 3
+[05-Sep-2025 06:20:22 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php:68
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 68
+[05-Sep-2025 06:28:26 UTC] PHP Warning:  include_once(/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../includes/config.php): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 3
+[05-Sep-2025 06:28:26 UTC] PHP Warning:  include_once(): Failed opening '/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../includes/config.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 3
+[05-Sep-2025 06:28:26 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php:68
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 68
+[05-Sep-2025 06:28:28 UTC] PHP Warning:  include_once(/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../includes/config.php): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 3
+[05-Sep-2025 06:28:28 UTC] PHP Warning:  include_once(): Failed opening '/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../includes/config.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 3
+[05-Sep-2025 06:28:28 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php:68
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 68
+[05-Sep-2025 06:31:55 UTC] PHP Warning:  include_once(/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../includes/config.php): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 4
+[05-Sep-2025 06:31:55 UTC] PHP Warning:  include_once(): Failed opening '/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../includes/config.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 4
+[05-Sep-2025 06:31:55 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php:69
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 69
+[05-Sep-2025 06:33:00 UTC] PHP Warning:  require(/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../data/products.php): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php on line 319
+[05-Sep-2025 06:33:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../data/products.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php:319
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php on line 319
+[05-Sep-2025 06:33:04 UTC] PHP Warning:  Undefined variable $reviewsFile in /home/rb4fzp8zggib/public_html/gotta.fish/admin/reviews.php on line 125
+[05-Sep-2025 06:33:06 UTC] PHP Warning:  Undefined variable $reviewsFile in /home/rb4fzp8zggib/public_html/gotta.fish/admin/reviews.php on line 125
+[05-Sep-2025 06:33:18 UTC] PHP Warning:  Undefined variable $reviewsFile in /home/rb4fzp8zggib/public_html/gotta.fish/admin/reviews.php on line 125
+[05-Sep-2025 06:33:22 UTC] PHP Warning:  Undefined variable $reviewsFile in /home/rb4fzp8zggib/public_html/gotta.fish/admin/reviews.php on line 125
+[05-Sep-2025 06:33:23 UTC] PHP Warning:  require(/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../data/products.php): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php on line 319
+[05-Sep-2025 06:33:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../data/products.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php:319
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/products.php on line 319
+[05-Sep-2025 06:35:20 UTC] PHP Warning:  require(/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../users.json): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php on line 67
+[05-Sep-2025 06:35:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../users.json' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php:67
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php on line 67
+[05-Sep-2025 06:35:22 UTC] PHP Warning:  require(/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../users.json): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php on line 67
+[05-Sep-2025 06:35:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../users.json' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php:67
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php on line 67
+[05-Sep-2025 06:52:10 UTC] PHP Warning:  require(/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../users.json): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php on line 67
+[05-Sep-2025 06:52:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../users.json' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php:67
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php on line 67
+[05-Sep-2025 06:52:13 UTC] PHP Warning:  require(/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../users.json): Failed to open stream: No such file or directory in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php on line 67
+[05-Sep-2025 06:52:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/rb4fzp8zggib/public_html/gotta.fish/admin/../../users.json' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php:67
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php on line 67
+[05-Sep-2025 08:19:20 UTC] PHP Warning:  Undefined variable $reviewsFile in /home/rb4fzp8zggib/public_html/gotta.fish/admin/reviews.php on line 125
+[05-Sep-2025 08:27:08 UTC] PHP Warning:  Undefined variable $reviewsFile in /home/rb4fzp8zggib/public_html/gotta.fish/admin/reviews.php on line 125
+[05-Sep-2025 08:51:16 UTC] PHP Warning:  Undefined variable $reviewsFile in /home/rb4fzp8zggib/public_html/gotta.fish/admin/reviews.php on line 125
+[05-Sep-2025 08:54:54 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php:241
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php on line 241
+[05-Sep-2025 08:54:57 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php:241
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php on line 241
+[05-Sep-2025 08:54:59 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php:241
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php on line 241
+[05-Sep-2025 08:55:25 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/admin/settings.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/settings.php on line 49
+[05-Sep-2025 08:55:34 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php:241
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php on line 241
+[05-Sep-2025 08:57:51 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php:241
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php on line 241
+[05-Sep-2025 08:57:53 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php:241
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php on line 241
+[05-Sep-2025 08:58:20 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php:241
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php on line 241
+[05-Sep-2025 09:00:31 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php:241
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php on line 241
+[05-Sep-2025 09:13:46 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php:241
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php on line 241
+[05-Sep-2025 09:13:58 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php:241
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php on line 241
+[05-Sep-2025 09:14:09 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php:241
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php on line 241
+[05-Sep-2025 09:14:18 UTC] PHP Warning:  Undefined variable $reviewsFile in /home/rb4fzp8zggib/public_html/gotta.fish/admin/reviews.php on line 125
+[05-Sep-2025 09:14:22 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php:241
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/users.php on line 241
+[05-Sep-2025 09:16:56 UTC] PHP Warning:  Undefined variable $reviewsFile in /home/rb4fzp8zggib/public_html/gotta.fish/admin/reviews.php on line 125
+[05-Sep-2025 09:17:09 UTC] PHP Warning:  Undefined variable $reviewsFile in /home/rb4fzp8zggib/public_html/gotta.fish/admin/reviews.php on line 125
+[05-Sep-2025 14:21:25 UTC] PHP Warning:  Undefined variable $reviewsFile in /home/rb4fzp8zggib/public_html/gotta.fish/admin/reviews.php on line 125
+[05-Sep-2025 14:28:53 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/admin/sales.php:95
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/sales.php on line 95
+[05-Sep-2025 14:30:09 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/admin/sales.php:95
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/sales.php on line 95
+[05-Sep-2025 14:30:35 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/admin/sales.php:95
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/sales.php on line 95
+[05-Sep-2025 14:30:39 UTC] PHP Warning:  Undefined variable $reviewsFile in /home/rb4fzp8zggib/public_html/gotta.fish/admin/reviews.php on line 126
+[05-Sep-2025 14:30:39 UTC] PHP Deprecated:  file_exists(): Passing null to parameter #1 ($filename) of type string is deprecated in /home/rb4fzp8zggib/public_html/gotta.fish/admin/reviews.php on line 126
+[05-Sep-2025 14:33:14 UTC] PHP Warning:  Undefined variable $reviewsFile in /home/rb4fzp8zggib/public_html/gotta.fish/admin/reviews.php on line 126
+[05-Sep-2025 14:33:14 UTC] PHP Deprecated:  file_exists(): Passing null to parameter #1 ($filename) of type string is deprecated in /home/rb4fzp8zggib/public_html/gotta.fish/admin/reviews.php on line 126
+[05-Sep-2025 15:04:44 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/admin/sales.php:95
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/sales.php on line 95
+[05-Sep-2025 15:04:48 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/admin/sales.php:95
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/sales.php on line 95
+[05-Sep-2025 15:08:52 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/admin/sales.php:95
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/sales.php on line 95
+[05-Sep-2025 15:13:25 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/admin/sales.php:95
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/sales.php on line 95
+[05-Sep-2025 15:13:52 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/admin/sales.php:95
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/sales.php on line 95
+[05-Sep-2025 15:14:01 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/admin/sales.php:95
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/sales.php on line 95
+[05-Sep-2025 15:27:41 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SITE_NAME" in /home/rb4fzp8zggib/public_html/gotta.fish/admin/sales.php:95
+Stack trace:
+#0 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/sales.php on line 95
+[05-Sep-2025 15:40:05 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:40:05 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:40:05 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:40:05 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:40:05 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:40:05 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:40:05 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:40:05 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:40:05 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:40:30 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:40:30 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:40:30 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:40:30 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:40:30 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:40:30 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:40:30 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:40:30 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:40:30 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:43:39 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:43:39 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:43:39 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:43:39 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:43:39 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:43:39 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:43:39 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:43:39 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:43:39 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:43:39 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:48:53 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:48:53 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:48:53 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:48:53 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:48:53 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:48:53 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:48:53 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:48:53 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:48:53 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:48:53 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:48:53 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:48:53 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:48:53 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:48:53 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 15:48:53 UTC] PHP Warning:  Undefined variable $i in /home/rb4fzp8zggib/public_html/gotta.fish/admin/cart_log.php on line 89
+[05-Sep-2025 18:22:10 UTC] PHP Warning:  Undefined variable $traffic in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 182
+[05-Sep-2025 18:22:10 UTC] PHP Fatal error:  Uncaught TypeError: array_reverse(): Argument #1 ($array) must be of type array, null given in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php:182
+Stack trace:
+#0 /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php(182): array_reverse()
+#1 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 182
+[05-Sep-2025 18:27:02 UTC] PHP Warning:  Undefined variable $traffic in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 182
+[05-Sep-2025 18:27:02 UTC] PHP Fatal error:  Uncaught TypeError: array_reverse(): Argument #1 ($array) must be of type array, null given in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php:182
+Stack trace:
+#0 /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php(182): array_reverse()
+#1 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 182
+[05-Sep-2025 18:28:34 UTC] PHP Warning:  Undefined variable $traffic in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 182
+[05-Sep-2025 18:28:34 UTC] PHP Fatal error:  Uncaught TypeError: array_reverse(): Argument #1 ($array) must be of type array, null given in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php:182
+Stack trace:
+#0 /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php(182): array_reverse()
+#1 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 182
+[05-Sep-2025 18:30:33 UTC] PHP Warning:  Undefined variable $traffic in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 182
+[05-Sep-2025 18:30:33 UTC] PHP Fatal error:  Uncaught TypeError: array_reverse(): Argument #1 ($array) must be of type array, null given in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php:182
+Stack trace:
+#0 /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php(182): array_reverse()
+#1 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 182
+[05-Sep-2025 18:31:57 UTC] PHP Warning:  Undefined variable $traffic in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 182
+[05-Sep-2025 18:31:57 UTC] PHP Fatal error:  Uncaught TypeError: array_reverse(): Argument #1 ($array) must be of type array, null given in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php:182
+Stack trace:
+#0 /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php(182): array_reverse()
+#1 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 182
+[05-Sep-2025 18:35:52 UTC] PHP Warning:  Undefined variable $traffic in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 182
+[05-Sep-2025 18:35:52 UTC] PHP Fatal error:  Uncaught TypeError: array_reverse(): Argument #1 ($array) must be of type array, null given in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php:182
+Stack trace:
+#0 /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php(182): array_reverse()
+#1 {main}
+  thrown in /home/rb4fzp8zggib/public_html/gotta.fish/admin/dashboard.php on line 182
+[05-Sep-2025 20:59:49 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/rb4fzp8zggib/public_html/gotta.fish/admin/guides.php on line 53
+[05-Sep-2025 20:59:51 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/rb4fzp8zggib/public_html/gotta.fish/admin/guides.php on line 53
+[05-Sep-2025 21:00:01 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/rb4fzp8zggib/public_html/gotta.fish/admin/guides.php on line 53
+[05-Sep-2025 21:00:02 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/rb4fzp8zggib/public_html/gotta.fish/admin/guides.php on line 53
+[05-Sep-2025 21:07:54 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/rb4fzp8zggib/public_html/gotta.fish/admin/guides.php on line 55
+[05-Sep-2025 21:07:56 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/rb4fzp8zggib/public_html/gotta.fish/admin/guides.php on line 55
+[05-Sep-2025 21:07:59 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/rb4fzp8zggib/public_html/gotta.fish/admin/guides.php on line 55
+[05-Sep-2025 21:08:09 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/rb4fzp8zggib/public_html/gotta.fish/admin/guides.php on line 55
+[05-Sep-2025 23:10:26 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/rb4fzp8zggib/public_html/gotta.fish/admin/guides.php on line 55
+[05-Sep-2025 23:10:31 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/rb4fzp8zggib/public_html/gotta.fish/admin/guides.php on line 55

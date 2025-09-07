@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Tools & Calculators - Wholesale Education</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .calculator-card { transition: all 0.3s ease; }
+        .calculator-card:hover { transform: translateY(-4px); box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
+        .result-card { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="/" class="flex items-center">
+                        <div class="text-xl font-bold text-gray-900">Wholesale.Education</div>
+                    </a>
+                </div>
+                <div class="flex items-center space-x-8">
+                    <a href="/" class="text-gray-600 hover:text-gray-900">Home</a>
+                    <a href="/tools" class="text-blue-600 font-semibold">Tools</a>
+                    <a href="/dashboard" class="text-gray-600 hover:text-gray-900">Dashboard</a>
+                    <a href="/auth/login" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">Sign In</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl font-bold mb-4">Business Tools & Calculators</h1>
+            <p class="text-xl text-blue-100 max-w-3xl mx-auto">
+                Make informed decisions with our professional business tools. Calculate profits, analyze markets, 
+                and optimize your wholesale operations.
+            </p>
+        </div>
+    </div>
+
+    <!-- Tools Grid -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Profit Calculator -->
+            <div class="calculator-card bg-white rounded-xl shadow-lg p-6 border border-gray-200">
+                <div class="flex items-center mb-6">
+                    <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mr-4">
+                        <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"></path>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-900">Profit Calculator</h3>
+                        <p class="text-sm text-gray-600">Calculate margins and ROI</p>
+                    </div>
+                </div>
+                
+                <form id="profitCalculator" class="space-y-4">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Cost Price ($)</label>
+                        <input type="number" id="costPrice" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="0.00">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Selling Price ($)</label>
+                        <input type="number" id="sellingPrice" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="0.00">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Quantity</label>
+                        <input type="number" id="quantity" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="1">
+                    </div>
+                    <button type="submit" class="w-full bg-green-600 text-white py-2 rounded-lg hover:bg-green-700 transition-colors">
+                        Calculate Profit
+                    </button>
+                </form>
+                
+                <div id="profitResult" class="mt-4 p-4 bg-green-50 rounded-lg hidden">
+                    <div class="text-sm text-green-800">
+                        <div class="flex justify-between"><span>Profit per unit:</span> <span id="profitPerUnit">$0.00</span></div>
+                        <div class="flex justify-between"><span>Total profit:</span> <span id="totalProfit">$0.00</span></div>
+                        <div class="flex justify-between"><span>Profit margin:</span> <span id="profitMargin">0%</span></div>
+                        <div class="flex justify-between"><span>ROI:</span> <span id="roi">0%</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Market Analyzer -->
+            <div class="calculator-card bg-white rounded-xl shadow-lg p-6 border border-gray-200">
+                <div class="flex items-center mb-6">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mr-4">
+                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-900">Market Analyzer</h3>
+                        <p class="text-sm text-gray-600">Analyze market trends</p>
+                    </div>
+                </div>
+                
+                <form id="marketAnalyzer" class="space-y-4">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Product Category</label>
+                        <select id="productCategory" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            <option value="">Select category</option>
+                            <option value="electronics">Electronics</option>
+                            <option value="fashion">Fashion</option>
+                            <option value="home">Home & Garden</option>
+                            <option value="beauty">Health & Beauty</option>
+                            <option value="automotive">Automotive</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Target Market</label>
+                        <select id="targetMarket" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            <option value="">Select market</option>
+                            <option value="us">United States</option>
+                            <option value="eu">European Union</option>
+                            <option value="asia">Asia Pacific</option>
+                            <option value="global">Global</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Competition Level</label>
+                        <select id="competitionLevel" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            <option value="">Select level</option>
+                            <option value="low">Low</option>
+                            <option value="medium">Medium</option>
+                            <option value="high">High</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors">
+                        Analyze Market
+                    </button>
+                </form>
+                
+                <div id="marketResult" class="mt-4 p-4 bg-blue-50 rounded-lg hidden">
+                    <div class="text-sm text-blue-800">
+                        <div class="flex justify-between"><span>Market size:</span> <span id="marketSize">$0B</span></div>
+                        <div class="flex justify-between"><span>Growth rate:</span> <span id="growthRate">0%</span></div>
+                        <div class="flex justify-between"><span>Competition:</span> <span id="competition">Low</span></div>
+                        <div class="flex justify-between"><span>Opportunity:</span> <span id="opportunity">High</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Inventory Planner -->
+            <div class="calculator-card bg-white rounded-xl shadow-lg p-6 border border-gray-200">
+                <div class="flex items-center mb-6">
+                    <div class="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mr-4">
+                        <svg class="w-6 h-6 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-900">Inventory Planner</h3>
+                        <p class="text-sm text-gray-600">Optimize stock levels</p>
+                    </div>
+                </div>
+                
+                <form id="inventoryPlanner" class="space-y-4">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Monthly Sales</label>
+                        <input type="number" id="monthlySales" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="100">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Lead Time (days)</label>
+                        <input type="number" id="leadTime" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="30">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Safety Stock (%)</label>
+                        <input type="number" id="safetyStock" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="20">
+                    </div>
+                    <button type="submit" class="w-full bg-orange-600 text-white py-2 rounded-lg hover:bg-orange-700 transition-colors">
+                        Plan Inventory
+                    </button>
+                </form>
+                
+                <div id="inventoryResult" class="mt-4 p-4 bg-orange-50 rounded-lg hidden">
+                    <div class="text-sm text-orange-800">
+                        <div class="flex justify-between"><span>Reorder point:</span> <span id="reorderPoint">0</span></div>
+                        <div class="flex justify-between"><span>Optimal order:</span> <span id="optimalOrder">0</span></div>
+                        <div class="flex justify-between"><span>Safety stock:</span> <span id="safetyStockResult">0</span></div>
+                        <div class="flex justify-between"><span>Max inventory:</span> <span id="maxInventory">0</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Shipping Calculator -->
+            <div class="calculator-card bg-white rounded-xl shadow-lg p-6 border border-gray-200">
+                <div class="flex items-center mb-6">
+                    <div class="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mr-4">
+                        <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-900">Shipping Calculator</h3>
+                        <p class="text-sm text-gray-600">Compare shipping costs</p>
+                    </div>
+                </div>
+                
+                <form id="shippingCalculator" class="space-y-4">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">From Country</label>
+                        <select id="fromCountry" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            <option value="">Select country</option>
+                            <option value="us">United States</option>
+                            <option value="cn">China</option>
+                            <option value="de">Germany</option>
+                            <option value="uk">United Kingdom</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">To Country</label>
+                        <select id="toCountry" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            <option value="">Select country</option>
+                            <option value="us">United States</option>
+                            <option value="cn">China</option>
+                            <option value="de">Germany</option>
+                            <option value="uk">United Kingdom</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Weight (kg)</label>
+                        <input type="number" id="weight" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="1.0">
+                    </div>
+                    <button type="submit" class="w-full bg-indigo-600 text-white py-2 rounded-lg hover:bg-indigo-700 transition-colors">
+                        Calculate Shipping
+                    </button>
+                </form>
+                
+                <div id="shippingResult" class="mt-4 p-4 bg-indigo-50 rounded-lg hidden">
+                    <div class="text-sm text-indigo-800">
+                        <div class="flex justify-between"><span>DHL Express:</span> <span id="dhlCost">$0.00</span></div>
+                        <div class="flex justify-between"><span>FedEx:</span> <span id="fedexCost">$0.00</span></div>
+                        <div class="flex justify-between"><span>UPS:</span> <span id="upsCost">$0.00</span></div>
+                        <div class="flex justify-between"><span>Best option:</span> <span id="bestOption">-</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Break-Even Calculator -->
+            <div class="calculator-card bg-white rounded-xl shadow-lg p-6 border border-gray-200">
+                <div class="flex items-center mb-6">
+                    <div class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mr-4">
+                        <svg class="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-900">Break-Even Calculator</h3>
+                        <p class="text-sm text-gray-600">Find your break-even point</p>
+                    </div>
+                </div>
+                
+                <form id="breakEvenCalculator" class="space-y-4">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Fixed Costs ($)</label>
+                        <input type="number" id="fixedCosts" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="1000">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Variable Cost per Unit ($)</label>
+                        <input type="number" id="variableCost" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="10">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Selling Price per Unit ($)</label>
+                        <input type="number" id="sellingPriceBE" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="25">
+                    </div>
+                    <button type="submit" class="w-full bg-red-600 text-white py-2 rounded-lg hover:bg-red-700 transition-colors">
+                        Calculate Break-Even
+                    </button>
+                </form>
+                
+                <div id="breakEvenResult" class="mt-4 p-4 bg-red-50 rounded-lg hidden">
+                    <div class="text-sm text-red-800">
+                        <div class="flex justify-between"><span>Break-even units:</span> <span id="breakEvenUnits">0</span></div>
+                        <div class="flex justify-between"><span>Break-even revenue:</span> <span id="breakEvenRevenue">$0.00</span></div>
+                        <div class="flex justify-between"><span>Contribution margin:</span> <span id="contributionMargin">$0.00</span></div>
+                        <div class="flex justify-between"><span>Margin ratio:</span> <span id="marginRatio">0%</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ROI Calculator -->
+            <div class="calculator-card bg-white rounded-xl shadow-lg p-6 border border-gray-200">
+                <div class="flex items-center mb-6">
+                    <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mr-4">
+                        <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-900">ROI Calculator</h3>
+                        <p class="text-sm text-gray-600">Calculate return on investment</p>
+                    </div>
+                </div>
+                
+                <form id="roiCalculator" class="space-y-4">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Initial Investment ($)</label>
+                        <input type="number" id="initialInvestment" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="10000">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Final Value ($)</label>
+                        <input type="number" id="finalValue" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="15000">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Time Period (years)</label>
+                        <input type="number" id="timePeriod" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="1">
+                    </div>
+                    <button type="submit" class="w-full bg-purple-600 text-white py-2 rounded-lg hover:bg-purple-700 transition-colors">
+                        Calculate ROI
+                    </button>
+                </form>
+                
+                <div id="roiResult" class="mt-4 p-4 bg-purple-50 rounded-lg hidden">
+                    <div class="text-sm text-purple-800">
+                        <div class="flex justify-between"><span>Total return:</span> <span id="totalReturn">$0.00</span></div>
+                        <div class="flex justify-between"><span>ROI:</span> <span id="roiPercentage">0%</span></div>
+                        <div class="flex justify-between"><span>Annual ROI:</span> <span id="annualROI">0%</span></div>
+                        <div class="flex justify-between"><span>Investment grade:</span> <span id="investmentGrade">-</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Profit Calculator
+        document.getElementById('profitCalculator').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const costPrice = parseFloat(document.getElementById('costPrice').value) || 0;
+            const sellingPrice = parseFloat(document.getElementById('sellingPrice').value) || 0;
+            const quantity = parseFloat(document.getElementById('quantity').value) || 1;
+            
+            const profitPerUnit = sellingPrice - costPrice;
+            const totalProfit = profitPerUnit * quantity;
+            const profitMargin = costPrice > 0 ? ((profitPerUnit / sellingPrice) * 100) : 0;
+            const roi = costPrice > 0 ? ((profitPerUnit / costPrice) * 100) : 0;
+            
+            document.getElementById('profitPerUnit').textContent = '$' + profitPerUnit.toFixed(2);
+            document.getElementById('totalProfit').textContent = '$' + totalProfit.toFixed(2);
+            document.getElementById('profitMargin').textContent = profitMargin.toFixed(1) + '%';
+            document.getElementById('roi').textContent = roi.toFixed(1) + '%';
+            document.getElementById('profitResult').classList.remove('hidden');
+        });
+
+        // Market Analyzer
+        document.getElementById('marketAnalyzer').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const category = document.getElementById('productCategory').value;
+            const market = document.getElementById('targetMarket').value;
+            const competition = document.getElementById('competitionLevel').value;
+            
+            if (!category || !market || !competition) return;
+            
+            const marketSizes = { electronics: '$1.2T', fashion: '$800B', home: '$600B', beauty: '$400B', automotive: '$1.5T' };
+            const growthRates = { electronics: '8.5%', fashion: '5.2%', home: '6.8%', beauty: '7.1%', automotive: '4.3%' };
+            const opportunities = { low: 'High', medium: 'Medium', high: 'Low' };
+            
+            document.getElementById('marketSize').textContent = marketSizes[category] || '$0B';
+            document.getElementById('growthRate').textContent = growthRates[category] || '0%';
+            document.getElementById('competition').textContent = competition.charAt(0).toUpperCase() + competition.slice(1);
+            document.getElementById('opportunity').textContent = opportunities[competition] || 'Medium';
+            document.getElementById('marketResult').classList.remove('hidden');
+        });
+
+        // Inventory Planner
+        document.getElementById('inventoryPlanner').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const monthlySales = parseFloat(document.getElementById('monthlySales').value) || 0;
+            const leadTime = parseFloat(document.getElementById('leadTime').value) || 0;
+            const safetyStockPercent = parseFloat(document.getElementById('safetyStock').value) || 0;
+            
+            const dailySales = monthlySales / 30;
+            const reorderPoint = (dailySales * leadTime) + (monthlySales * safetyStockPercent / 100);
+            const optimalOrder = monthlySales * 2;
+            const safetyStock = monthlySales * safetyStockPercent / 100;
+            const maxInventory = optimalOrder + safetyStock;
+            
+            document.getElementById('reorderPoint').textContent = Math.ceil(reorderPoint);
+            document.getElementById('optimalOrder').textContent = Math.ceil(optimalOrder);
+            document.getElementById('safetyStockResult').textContent = Math.ceil(safetyStock);
+            document.getElementById('maxInventory').textContent = Math.ceil(maxInventory);
+            document.getElementById('inventoryResult').classList.remove('hidden');
+        });
+
+        // Shipping Calculator
+        document.getElementById('shippingCalculator').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const fromCountry = document.getElementById('fromCountry').value;
+            const toCountry = document.getElementById('toCountry').value;
+            const weight = parseFloat(document.getElementById('weight').value) || 0;
+            
+            if (!fromCountry || !toCountry || weight <= 0) return;
+            
+            const baseRate = 15;
+            const weightMultiplier = weight * 8;
+            const distanceMultiplier = fromCountry === toCountry ? 1 : 1.5;
+            
+            const dhlCost = (baseRate + weightMultiplier) * distanceMultiplier * 1.2;
+            const fedexCost = (baseRate + weightMultiplier) * distanceMultiplier * 1.1;
+            const upsCost = (baseRate + weightMultiplier) * distanceMultiplier * 1.15;
+            
+            const costs = [
+                { name: 'FedEx', cost: fedexCost },
+                { name: 'UPS', cost: upsCost },
+                { name: 'DHL', cost: dhlCost }
+            ];
+            
+            const best = costs.reduce((min, current) => current.cost < min.cost ? current : min);
+            
+            document.getElementById('dhlCost').textContent = '$' + dhlCost.toFixed(2);
+            document.getElementById('fedexCost').textContent = '$' + fedexCost.toFixed(2);
+            document.getElementById('upsCost').textContent = '$' + upsCost.toFixed(2);
+            document.getElementById('bestOption').textContent = best.name;
+            document.getElementById('shippingResult').classList.remove('hidden');
+        });
+
+        // Break-Even Calculator
+        document.getElementById('breakEvenCalculator').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const fixedCosts = parseFloat(document.getElementById('fixedCosts').value) || 0;
+            const variableCost = parseFloat(document.getElementById('variableCost').value) || 0;
+            const sellingPrice = parseFloat(document.getElementById('sellingPriceBE').value) || 0;
+            
+            if (sellingPrice <= variableCost) return;
+            
+            const contributionMargin = sellingPrice - variableCost;
+            const breakEvenUnits = Math.ceil(fixedCosts / contributionMargin);
+            const breakEvenRevenue = breakEvenUnits * sellingPrice;
+            const marginRatio = (contributionMargin / sellingPrice) * 100;
+            
+            document.getElementById('breakEvenUnits').textContent = breakEvenUnits;
+            document.getElementById('breakEvenRevenue').textContent = '$' + breakEvenRevenue.toFixed(2);
+            document.getElementById('contributionMargin').textContent = '$' + contributionMargin.toFixed(2);
+            document.getElementById('marginRatio').textContent = marginRatio.toFixed(1) + '%';
+            document.getElementById('breakEvenResult').classList.remove('hidden');
+        });
+
+        // ROI Calculator
+        document.getElementById('roiCalculator').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const initialInvestment = parseFloat(document.getElementById('initialInvestment').value) || 0;
+            const finalValue = parseFloat(document.getElementById('finalValue').value) || 0;
+            const timePeriod = parseFloat(document.getElementById('timePeriod').value) || 1;
+            
+            if (initialInvestment <= 0) return;
+            
+            const totalReturn = finalValue - initialInvestment;
+            const roiPercentage = (totalReturn / initialInvestment) * 100;
+            const annualROI = roiPercentage / timePeriod;
+            
+            let grade = 'Poor';
+            if (annualROI >= 20) grade = 'Excellent';
+            else if (annualROI >= 15) grade = 'Good';
+            else if (annualROI >= 10) grade = 'Average';
+            else if (annualROI >= 5) grade = 'Below Average';
+            
+            document.getElementById('totalReturn').textContent = '$' + totalReturn.toFixed(2);
+            document.getElementById('roiPercentage').textContent = roiPercentage.toFixed(1) + '%';
+            document.getElementById('annualROI').textContent = annualROI.toFixed(1) + '%';
+            document.getElementById('investmentGrade').textContent = grade;
+            document.getElementById('roiResult').classList.remove('hidden');
+        });
+    </script>
+</body>
+</html>
+
