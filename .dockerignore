@@ -1,0 +1,99 @@
+# Wholesale Education Platform - Docker Ignore
+# Dev V0.1
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Documentation
+README.md
+CHANGELOG.md
+CONTRIBUTING.md
+CLOUD-RUN-DEPLOYMENT.md
+DEPLOYMENT.md
+*.md
+
+# Development files
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+
+# IDE and editor files
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+error_log
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Test files
+coverage/
+.nyc_output/
+test/
+tests/
+__tests__/
+
+# Build files
+dist/
+build/
+public/build/
+public/dist/
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# Development directories
+frontend-kit/
+admin-theme/
+temp-clone/
+previews/
+deployment/node_modules/
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Database files (will be created at runtime)
+*.db
+*.sqlite
+
+# Cache
+.cache/
+cache/
+
+# Package lock files (already copied)
+package-lock.json
+yarn.lock
+
+# Docker files
+Dockerfile*
+docker-compose*
+.dockerignore
